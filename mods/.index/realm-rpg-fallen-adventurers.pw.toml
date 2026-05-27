@@ -1,0 +1,18 @@
+filename = 'realmrpg_skeletons-1.1.0-forge-1.20.1.jar'
+name = 'Realm RPG: Fallen Adventurers'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = 'e2b8a972460366f95df207f0534888426a28dd49ef237f34cc103ebe265e31882d86f6d88e8553527a512dfc91cafdd05ba27ed2e32dc13ae48f10bc535017c2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tu54PMAb/versions/7nBJQPCM/realmrpg_skeletons-1.1.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'tu54PMAb'
+version = '7nBJQPCM'

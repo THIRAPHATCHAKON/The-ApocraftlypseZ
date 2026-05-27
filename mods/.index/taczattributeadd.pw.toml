@@ -1,0 +1,18 @@
+filename = 'taa-1.3.2+1.20.1.jar'
+name = 'TaczAttributeAdd'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.2'
+
+[download]
+hash = '0afadad2a3883a0dbb2cba57857717971cae8c201f3c8015fcca2c4da96b65c647ddfaa45020f696edba4d063766621e48815b08ece6a86216fe7e29a32d7cc7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FL4iBpQn/versions/dhLc2o2r/taa-1.3.2%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'FL4iBpQn'
+version = 'dhLc2o2r'

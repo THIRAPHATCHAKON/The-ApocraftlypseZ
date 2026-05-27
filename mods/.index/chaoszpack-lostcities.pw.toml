@@ -1,0 +1,81 @@
+filename = 'chaoszpack v.1.4.1 TacZ.jar'
+name = 'ChaosZPack [Lost Cities] Better Cities / Zombie Apocalypse /  Abandoned Structures / TacZ'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ChaosZPack v.1.4.1 TacZ'
+
+[download]
+hash = 'b375934dcece17854bdbfa765bfdf36f08bd07e2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7801045
+project-id = 1222668
+
+[[x-prismlauncher-dependencies]]
+addonId = '1272684'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1366293'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1242915'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '311546'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '897116'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '269024'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1028108'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '496520'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1341107'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1325431'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1180487'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '592449'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '961053'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1061079'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '509285'
+type = 'REQUIRED'

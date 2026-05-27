@@ -1,0 +1,25 @@
+filename = 'Elite X Quality Guns Forge v5.1 - 1.20.1.jar'
+name = 'Elite X Quality Guns (TACZ)'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Elite X Quality Guns Forge v5.1 - 1.20.1.jar'
+
+[download]
+hash = 'c665367582e8729bd9735fd0816d08157ef57f9a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7952352
+project-id = 1084662
+
+[[x-prismlauncher-dependencies]]
+addonId = '1334246'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1028108'
+type = 'REQUIRED'

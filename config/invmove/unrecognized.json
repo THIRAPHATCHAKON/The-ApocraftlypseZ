@@ -1,0 +1,24 @@
+{
+  "allowMovement": {
+    "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
+    "xaero.map.gui.GuiMap": true,
+    "de.maxhenkel.corpse.gui.CorpseInventoryScreen": true,
+    "org.anti_ad.mc.ipnext.gui.ConfigScreen": true,
+    "sfiomn.legendarysurvivaloverhaul.client.screens.BodyHealthScreen": true,
+    "gg.essential.gui.emotes.EmoteWheel": true,
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "dev.latvian.mods.kubejs.client.KubeJSErrorScreen": true,
+    "nl.requios.effortlessbuilding.gui.buildmode.RadialMenu": true,
+    "su.uTa4u.specialforces.client.screens.SwatCorpseScreen": true
+  },
+  "hideBackground": {
+    "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
+    "de.maxhenkel.corpse.gui.CorpseInventoryScreen": true,
+    "ichttt.mods.firstaid.client.gui.GuiHealthScreen": true,
+    "sfiomn.legendarysurvivaloverhaul.client.screens.BodyHealthScreen": true,
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "su.uTa4u.specialforces.client.screens.SwatCorpseScreen": true
+  }
+}

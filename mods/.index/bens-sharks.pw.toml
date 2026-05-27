@@ -1,0 +1,18 @@
+filename = 'benssharks-1.3.0-forge-1.20.1.jar'
+name = "Ben's Sharks"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.0'
+
+[download]
+hash = '4383fd11bf0820d5c4c623a693aa2c410c8298ef643e8df059040862f10f798d1d67e9861c584408a7a1ccf063e939ad5e574a85e20ed15884cd1525ff182825'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kF6ZFH7j/versions/EthuEP76/benssharks-1.3.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'kF6ZFH7j'
+version = 'EthuEP76'

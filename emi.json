@@ -1,0 +1,33 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:minecraft:netherite_ingot",
+    "item:minecraft:diamond_sword{Damage:0}",
+    "item:minecraft:netherite_sword{Damage:0}",
+    "item:minecraft:string",
+    "item:immersiveengineering:stick_steel",
+    "item:immersiveengineering:stick_aluminum",
+    "item:immersiveengineering:stick_iron",
+    "item:minecraft:iron_sword{Damage:0}",
+    "item:minecraft:leather",
+    "item:minecraft:iron_ingot",
+    "#item:c:rods/wooden",
+    "item:minecraft:golden_sword{Damage:0}",
+    "item:immersiveengineering:ingot_aluminum",
+    "item:farmersdelight:rope",
+    "item:farmersdelight:safety_net",
+    "item:immersiveengineering:hemp_fiber",
+    "item:ae2:fluix_pickaxe{Damage:0}",
+    "item:lrtactical:melee{Damage:0,MeleeWeaponId:\"delta_wt:executor\"}",
+    "item:minecraft:leather_helmet{Damage:0}",
+    "item:immersive_weathering:ice_sickle{Damage:0}"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

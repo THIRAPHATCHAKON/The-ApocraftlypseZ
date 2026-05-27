@@ -1,0 +1,402 @@
+
+#TACZ Curios 饰品配置
+[tcc_curios]
+
+	#天火圣裁饰品配置
+	[tcc_curios.heaven_fire_judgment]
+		#通用枪械伤害加成 (默认: 3.25 = 325%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 3.25
+		#触发时扣除的当前生命值比例 (默认: -0.3 = -30%)
+		#Range: -1.0 ~ 1.0
+		healthCost = -0.3
+		#每秒消耗的最大生命值比例 (默认: -0.05 = -5%)
+		#Range: -1.0 ~ 1.0
+		healthDrain = -0.05
+		#生命值消耗持续时间(秒) (默认: 5)
+		#Range: -1 ~ 300
+		drainDuration = 5
+
+	#天火劫灭饰品配置
+	[tcc_curios.heaven_fire_apocalypse]
+		#通用枪械伤害加成 (默认: 10.0 = 1000%)
+		#Range: -1.0 ~ 1000.0
+		damageBoost = 10.0
+		#爆炸范围加成 (默认: 10)
+		#Range: -1.0 ~ 100.0
+		explosionRadius = 10.0
+		#爆炸伤害加成 (默认: 10.0 = 1000%)
+		#Range: -1.0 ~ 100.0
+		explosionDamage = 10.0
+		#爆炸启用属性 (默认: 2.0)
+		#Range: -1.0 ~ 100.0
+		explosionEnabled = 2.0
+		#触发时扣除的当前生命值比例 (默认: -1.0 = -100%)
+		#Range: -1.0 ~ 1.0
+		healthCost = -1.0
+		#附近玩家获得的伤害加成 (默认: 1.0 = 100%)
+		#Range: -1.0 ~ 100.0
+		nearbyPlayerDamageBoost = 1.0
+		#附近玩家获得伤害加成的持续时间(秒) (默认: 15)
+		#Range: -1 ~ 300
+		nearbyPlayerDuration = 15
+		#影响附近玩家的范围 (默认: 32)
+		#Range: -1.0 ~ 100.0
+		nearbyPlayerRadius = 32.0
+
+	#膛线饰品配置
+	[tcc_curios.rifling]
+		#特定枪械伤害加成 (默认: 1.65 = 165%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.65
+
+	#分裂膛室饰品配置
+	[tcc_curios.split_chamber]
+		#弹头数量加成 (默认: 0.9 = 90%)
+		#Range: -1.0 ~ 100.0
+		bulletCountBoost = 0.9
+
+	#卑劣加速饰品配置
+	[tcc_curios.despicable_acceleration]
+		#射击速度加成 (默认: +0.9 = +90%)
+		#Range: -1.0 ~ 100.0
+		fireRateBoost = 0.9
+		#伤害降低 (默认: -0.15 = -15%)
+		#Range: -1.0 ~ 0.0
+		damageReduction = -0.15
+
+	#并合膛线饰品配置
+	[tcc_curios.merged_rifling]
+		#特定枪械伤害加成 (默认: 1.55 = 155%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.55
+		#持枪移动速度加成 (默认: 0.25 = 25%)
+		#Range: -1.0 ~ 100.0
+		movementSpeedBoost = 0.25
+
+	#合金钻头饰品配置
+	[tcc_curios.alloy_drill]
+		#护甲穿透加成 (默认: 2.0 = 200%)
+		#Range: -1.0 ~ 100.0
+		armorPenetrationBoost = 2.0
+
+	#我小心海也绝非鳝类饰品配置
+	[tcc_curios.careful_heart]
+		#发射器伤害加成 (默认: 3.0 = 300%)
+		#Range: -1.0 ~ 100.0
+		launcherDamageBoost = 3.0
+		#爆炸伤害加成 (默认: 3.0 = 300%)
+		#Range: -1.0 ~ 100.0
+		explosionDamageBoost = 3.0
+		#爆炸范围加成 (默认: 3.0 = 300%)
+		#Range: -1.0 ~ 100.0
+		explosionRadiusBoost = 3.0
+		#爆炸启用属性 (默认: 2.0)
+		#Range: -1.0 ~ 100.0
+		explosionEnabled = 2.0
+
+	#烈焰风暴饰品配置
+	[tcc_curios.blaze_storm]
+		#爆炸范围加成 (默认: 0.24 = 24%)
+		#Range: -1.0 ~ 100.0
+		explosionRadiusBoost = 0.24
+		#爆炸伤害加成 (默认: 0.24 = 24%)
+		#Range: -1.0 ~ 100.0
+		explosionDamageBoost = 0.24
+		#爆炸启用属性 (默认: 2.0)
+		#Range: -1.0 ~ 100.0
+		explosionEnabled = 2.0
+
+	#烈焰风暴Prime饰品配置
+	[tcc_curios.blaze_storm_prime]
+		#爆炸范围加成 (默认: 0.66 = 66%)
+		#Range: -1.0 ~ 100.0
+		explosionRadiusBoost = 0.66
+		#爆炸伤害加成 (默认: 0.66 = 66%)
+		#Range: -1.0 ~ 100.0
+		explosionDamageBoost = 0.66
+		#爆炸启用属性 (默认: 2.0)
+		#Range: -1.0 ~ 100.0
+		explosionEnabled = 2.0
+
+	#撕裂Prime饰品配置
+	[tcc_curios.ripping_prime]
+		#射速加成 (默认: 0.55 = 55%)
+		#Range: -1.0 ~ 100.0
+		fireRateBoost = 0.55
+		#穿透加成 (默认: 2.2)
+		#Range: -1.0 ~ 100.0
+		penetrationBoost = 2.2
+
+	#抵近射击Prime饰品配置
+	[tcc_curios.close_combat_prime]
+		#霰弹枪伤害加成 (默认: 1.65 = 165%)
+		#Range: -1.0 ~ 100.0
+		shotgunDamageBoost = 1.65
+
+	#极恶精准饰品配置
+	[tcc_curios.evil_accuracy]
+		#后坐力降低 (默认: -0.9 = -90%)
+		#Range: -1.0 ~ 1.0
+		recoilReduction = -0.9
+		#射速降低 (默认: -0.36 = -36%)
+		#Range: -1.0 ~ 0.0
+		fireRateReduction = -0.36
+
+	#极限速度饰品配置
+	[tcc_curios.limit_speed]
+		#弹药速度加成 (默认: 0.6 = 60%)
+		#Range: -1.0 ~ 100.0
+		bulletSpeedBoost = 0.6
+
+	#凶恶延伸饰品配置
+	[tcc_curios.ferocious_extension]
+		#子弹射程加成 (默认: 1.2 = 120%)
+		#Range: -1.0 ~ 100.0
+		rangeBoost = 1.2
+
+	#抵近射击饰品配置
+	[tcc_curios.close_range_shot]
+		#霰弹枪伤害加成 (默认: 0.9 = 90%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 0.9
+
+	#重装火力饰品配置
+	[tcc_curios.heavy_firepower]
+		#手枪伤害加成 (默认: +1.65 = +165%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.65
+		#扩散程度增加 (默认: +0.55 = +55%)
+		#Range: -1.0 ~ 1.0
+		accuracyReduction = 0.55
+
+	#黄蜂蜇刺饰品配置
+	[tcc_curios.wasp_stinger]
+		#手枪伤害加成 (默认: 2.2 = 220%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 2.2
+
+	#预言契约饰品配置
+	[tcc_curios.prophecy_pact]
+		#手枪伤害加成 (默认: 0.9 = 90%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 0.9
+
+	#恶性扩散饰品配置
+	[tcc_curios.malignant_spread]
+		#霰弹枪伤害加成 (默认: +1.65 = +165%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.65
+		#扩散程度增加 (默认: +0.55 = +55%)
+		#Range: -1.0 ~ 1.0
+		accuracyReduction = 0.55
+
+	#膛室饰品配置
+	[tcc_curios.chamber]
+		#狙击枪伤害加成 (默认: 0.4 = 40%)
+		#Range: -1.0 ~ 100.0
+		sniperDamageBoost = 0.4
+
+	#膛室Prime饰品配置
+	[tcc_curios.chamber_prime]
+		#狙击枪伤害加成 (默认: 1.0 = 100%)
+		#Range: -1.0 ~ 100.0
+		sniperDamageBoost = 1.0
+
+	#战术上膛饰品配置
+	[tcc_curios.tactical_reload]
+		#霰弹枪装填时间加成 (默认: -0.6 = -60%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.6
+
+	#过载弹匣饰品配置
+	[tcc_curios.overloaded_magazine]
+		#霰弹枪弹匣容量加成 (默认: +0.6 = +60%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.6
+		#装填时间增加 (默认: +0.18 = +18%)
+		#Range: -1.0 ~ 1.0
+		reloadSpeedReduction = 0.18
+
+	#地狱弹膛饰品配置
+	[tcc_curios.infernal_chamber]
+		#霰弹枪弹头数量加成 (默认: 1.2 = 120%)
+		#Range: -1.0 ~ 100.0
+		bulletCountBoost = 1.2
+
+	#持续火力饰品配置
+	[tcc_curios.sustained_fire]
+		#手枪装填时间加成 (默认: -0.48 = -48%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.48
+
+	#感染弹匣饰品配置
+	[tcc_curios.infected_magazine]
+		#手枪弹匣容量加成 (默认: +0.6 = +60%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.6
+		#装填时间增加 (默认: +0.3 = +30%)
+		#Range: -1.0 ~ 1.0
+		reloadSpeedReduction = 0.3
+
+	#致命洪流饰品配置
+	[tcc_curios.deadly_surge]
+		#手枪射速加成 (默认: 0.6 = 60%)
+		#Range: -1.0 ~ 100.0
+		fireRateBoost = 0.6
+		#弹头数量加成 (默认: 0.6 = 60%)
+		#Range: -1.0 ~ 100.0
+		bulletCountBoost = 0.6
+
+	#弹头扩散饰品配置
+	[tcc_curios.bullet_spread]
+		#手枪弹头数量加成 (默认: 1.2 = 120%)
+		#Range: -1.0 ~ 100.0
+		bulletCountBoost = 1.2
+
+	#压迫点饰品配置
+	[tcc_curios.oppression_point]
+		#近战伤害加成 (默认: 1.2 = 120%)
+		#Range: -1.0 ~ 100.0
+		meleeDamageBoost = 1.2
+
+	#压迫点Prime饰品配置
+	[tcc_curios.oppression_point_prime]
+		#近战伤害加成 (默认: 1.65 = 165%)
+		#Range: -1.0 ~ 100.0
+		meleeDamageBoost = 1.65
+
+	#爆发装填饰品配置
+	[tcc_curios.burst_reload]
+		#装填时间加成 (默认: -0.3 = -30%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.3
+
+	#剑风饰品配置
+	[tcc_curios.sword_wind]
+		#近战距离加成 (默认: 1.1)
+		#Range: -1.0 ~ 100.0
+		meleeRangeBoost = 1.1
+
+	#剑风Prime饰品配置
+	[tcc_curios.sword_wind_prime]
+		#近战距离加成 (默认: 3)
+		#Range: -1.0 ~ 100.0
+		meleeRangeBoost = 3.0
+
+	#腐败弹匣饰品配置
+	[tcc_curios.corrupt_magazine]
+		#弹匣容量加成 (默认: +0.66 = +66%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.66
+		#装填时间增加 (默认: +0.33 = +33%)
+		#Range: -1.0 ~ 1.0
+		reloadSpeedReduction = 0.33
+
+	#重口径饰品配置
+	[tcc_curios.heavy_caliber_tag]
+		#特定枪械伤害加成 (默认: +1.65 = +165%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.65
+		#扩散程度加成 (默认: +0.55 = +55%)
+		#Range: -1.0 ~ 100.0
+		inaccuracyBoost = 0.55
+
+	#红-有-三饰品配置
+	[tcc_curios.red_movement_tag]
+		#移动速度加成 (默认: 1.5 = 150%)
+		#Range: -1.0 ~ 100.0
+		speedBoost = 1.5
+
+	#士兵基础挂牌饰品配置
+	[tcc_curios.soldier_basic_tag]
+		#通用枪械伤害加成 (默认: 0.3 = 30%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 0.3
+
+	#弹匣增幅饰品配置
+	[tcc_curios.magazine_boost]
+		#装填时间加成 (默认: -0.3 = -30%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.3
+		#弹匣容量加成 (默认: 0.3 = 30%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.3
+
+	#士兵特定挂牌饰品配置
+	[tcc_curios.soldier_specific_tag]
+		#通用枪械伤害加成 (默认: 0.55 = 55%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 0.55
+
+	#乌拉尔银狼饰品配置
+	[tcc_curios.ural_wolf_tag]
+		#爆头倍率加成 (默认: 1.5 = 150%)
+		#Range: -1.0 ~ 100.0
+		headshotMultiplierBoost = 1.5
+
+	#耗竭装填饰品配置
+	[tcc_curios.depleted_reload]
+		#弹匣容量减少 (默认: -0.6 = -60%)
+		#Range: -1.0 ~ 0.0
+		magazineCapacityPenalty = -0.6
+		#装填时间加成 (默认: -0.48 = -48%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.48
+
+	#爆发装填Prime饰品配置
+	[tcc_curios.burst_reload_prime]
+		#装填时间加成 (默认: -0.55 = -55%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.55
+
+	#战术上膛Prime饰品配置
+	[tcc_curios.tactical_reload_prime]
+		#装填时间加成 (默认: -0.99 = -100%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.99
+
+	#霰弹扩充Prime饰品配置
+	[tcc_curios.shotgun_expansion_prime]
+		#弹匣容量加成 (默认: 1.1 = 110%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 1.1
+
+	#弹匣增幅Prime饰品配置
+	[tcc_curios.magazine_boost_prime]
+		#弹匣容量加成 (默认: 0.55 = 55%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.55
+
+	#串联弹匣Prime饰品配置
+	[tcc_curios.tandem_magazine_prime]
+		#弹匣容量加成 (默认: 0.55 = 55%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.55
+
+	#霰弹扩充饰品配置
+	[tcc_curios.shotgun_expansion]
+		#弹匣容量加成 (默认: 0.6 = 60%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.6
+
+	#串联弹匣饰品配置
+	[tcc_curios.tandem_magazine]
+		#弹匣容量加成 (默认: 0.3 = 30%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.3
+
+	#裂隙碎银配置
+	[tcc_curios.rift_silver]
+		#裂隙碎银在箱子中的生成几率 (默认: 0.05 = 5%)
+		#Range: -1.0 ~ 1.0
+		chestSpawnChance = 0.05
+
+	#掎角一阵饰品配置
+	[tcc_curios.kikaku_ichijin]
+		#伤害倍率，基于祭品总血量的比例 (默认: 0.2 = 20%，范围: 0.2-1.0)
+		#Range: 0.2 ~ 1.0
+		healthMultiplier = 0.2
+		#是否破坏不可破坏方块（如基岩） (默认: false)
+		destroyUnbreakableBlocks = false
+

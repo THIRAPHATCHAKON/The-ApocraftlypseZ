@@ -1,0 +1,18 @@
+filename = 'chovys_apocalypse_mod-1.7.jar'
+name = "Chovy's Apocalypse"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.7'
+
+[download]
+hash = '8603dda8fcc7419feb1851355405d7b149de00f078de58e6912b43105639e82192c8c1556b734d12c7d095efe5883d78c642a1374a63b6bd1abdd58abe1a6066'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dBwrH6ur/versions/WlRYZgYI/chovys_apocalypse_mod-1.7.jar'
+
+[update.modrinth]
+mod-id = 'dBwrH6ur'
+version = 'WlRYZgYI'

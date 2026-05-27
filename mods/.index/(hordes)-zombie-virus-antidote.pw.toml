@@ -1,0 +1,18 @@
+filename = 'cure-1.2.1-forge-1.20.1.jar'
+name = '(Hordes) Zombie Virus Antidote'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '499611d09bda6373a74511e0a64df1f0a518bc5231620550acb2a20776e50640cc9d7ec3515bcd8dc0b0c21ef2f258b2dd463abeaebad9d77f1db96d2adb1cde'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lAg2vVGA/versions/chMzIdLl/cure-1.2.1-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'lAg2vVGA'
+version = 'chMzIdLl'

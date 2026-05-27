@@ -1,0 +1,18 @@
+filename = 'tcc-1.1.8.jar'
+name = 'TaczCurios'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.7'
+
+[download]
+hash = '931d935fd6ad0cd67b13a9a19c3736a7a61b6e53eb0e6a61c7633d8fabf43ffdf0af2a56f219baad6c2794a112746532e5e282388985d99f3830d2e20d668ceb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JrcfcN88/versions/HZ7ql7vF/tcc-1.1.8.jar'
+
+[update.modrinth]
+mod-id = 'JrcfcN88'
+version = 'HZ7ql7vF'

@@ -1,0 +1,21 @@
+filename = 'taczadditions-1.20.1-1.0.0-hotfix.jar'
+name = 'TaCZ Additions'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'taczadditions-1.20.1-1.0.0-hotfix.jar'
+
+[download]
+hash = '847828f864da715d83cbe7c08f56c2646c28899f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8061687
+project-id = 1356005
+
+[[x-prismlauncher-dependencies]]
+addonId = '1028108'
+type = 'REQUIRED'

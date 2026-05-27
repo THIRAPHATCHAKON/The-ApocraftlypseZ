@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "entries": {
+    "me.xjqsh.lradd.LesRaisinsAddon|/assets/lradd/custom/lradd_default_gun|lradd_default_gun": "2aa69ea4efee565bbfa8e5b0f77024a4",
+    "com.tacz.guns.GunMod|/assets/tacz/custom/tacz_default_gun|tacz_default_gun": "42dec82a13369ca15923d54fa5514615",
+    "me.xjqsh.gucci.AttachmentMod|/assets/guccivuitton/custom/gucci_vuitton_attachment|gucci_vuitton_attachment": "796009596d95f4f1a2ee40459fd8c324",
+    "com.corrinedev.addon.Gunpack|/addon/endlessammo|endlessammo": "df945fd63cd4443a19afe99b4c447888",
+    "com.argos_garcia.elitex.EliteXQualityGuns|/assets/elitex/custom/elitex_quality_guns|elitex_quality_guns": "efbe69a54a01381929d527b943ffc176",
+    "com.corrinedev.maxstuff.MaxStuff|/assets/maxstuff/gunpack/maxstuff|maxstuff": "1643c271c9c5166f9aad271957862777",
+    "com.daffatheone.daffas_arsenal.DaffasArsenalGuns|/addon/daffas|daffas": "913c3c3160694c9ca310b78f812d2ea5"
+  }
+}

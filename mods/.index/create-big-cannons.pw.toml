@@ -1,0 +1,25 @@
+filename = 'createbigcannons-5.11.3+mc.1.20.1-forge.jar'
+name = 'Create Big Cannons'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.11.3'
+
+[download]
+hash = '111b055595248e13c62575eee8dc8230f61d650da1596fbf20c2a1a059e4bfcf9e6fb75e3c12a8d435867dc6eff4241bee134381ca468247eef15657193b6023'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GWp4jCJj/versions/5pySFyJM/createbigcannons-5.11.3%2Bmc.1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'GWp4jCJj'
+version = '5pySFyJM'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'B3pb093D'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

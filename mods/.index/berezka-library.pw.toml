@@ -1,0 +1,18 @@
+filename = 'berezka_api-1.2.9-beta.11-forge-1.20.1.jar'
+name = "Berezka's library"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Berezka API 1.2.9 beta 11 for Forge 1.20.1'
+
+[download]
+hash = 'b6fd3985d4d2c686c3957c7e7ce1e14a6a235f05'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8089095
+project-id = 1160598

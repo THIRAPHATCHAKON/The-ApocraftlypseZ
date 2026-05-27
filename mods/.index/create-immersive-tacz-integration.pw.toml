@@ -1,0 +1,25 @@
+filename = 'createimmersivetacz-1.4-1.20.1.jar'
+name = 'Create: Immersive TaCZ Integration'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4-1.20.1'
+
+[download]
+hash = 'a379dc4adc392da9295cd40ec6e0d116d013d1dd86eb1839af8931701134eb3c31289afd7c84ce56710f7866f50c7a3e91439cdb00383e61775939244e125d3c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/X2ZdQA3m/versions/9S4zWnf0/createimmersivetacz-1.4-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'X2ZdQA3m'
+version = '9S4zWnf0'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SzzJttH8'
+type = 'REQUIRED'

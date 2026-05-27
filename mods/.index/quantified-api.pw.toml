@@ -1,0 +1,18 @@
+filename = 'quantified api-omni-1.4.4.jar'
+name = 'Quantified API'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'quantified api-omni-1.4.4.jar'
+
+[download]
+hash = '78a4a60732a37f9855c1dd698c522f171d077254'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8000832
+project-id = 1397967

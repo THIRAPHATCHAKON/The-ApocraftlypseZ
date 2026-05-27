@@ -1,0 +1,26 @@
+filename = 'inventory-tabs-1.4.3+1.20.jar'
+name = 'Inventory Tabs'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.3+1.20'
+
+[download]
+hash = '28e23c147bd1aff0721b34e0066f42890e6ee619d0309f6a623fb588b2dc7f2869dca84500099f5ed0e8bb5339be6c78be620c975bab7d4996e7e98076f09e61'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VD1aynYU/versions/dqYeBdnP/inventory-tabs-1.4.3%2B1.20.jar'
+
+[update.modrinth]
+mod-id = 'VD1aynYU'
+version = 'dqYeBdnP'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tNmWwdI2'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+version = 'rSrmGeeJ'

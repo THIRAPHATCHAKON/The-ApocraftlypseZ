@@ -1,0 +1,34 @@
+[Miscellaneous]
+	#
+	############################################
+	#Can the status book be crafted from a written book and a thermometer in this world?
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Status Book Crafting" = true
+	#
+	############################################
+	#Should Animal Fat drop from animals upon death?
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Animal Fat Drops" = true
+	#
+	############################################
+	#Should the purified water cauldron revert back to a water cauldron when no longer underneath a campfire?
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Should Purified Water Cauldron Revert" = false
+["Hunger & Thirst"]
+	#
+	############################################
+	#Should the player be allowed to eat or drink beyond the maximum capacity
+	#-------------------------------------------
+	#Default: LIMITED
+	#-------------------------------------------
+	#Allowed Values: DOUBLED, LIMITED, VANILLA
+	"Enum: Expanded Stomach Capacity" = "LIMITED"
+[Temperature]
+	"Dimensional Temperature Modifier" = ["minecraft:overworld,0.0", "minecraft:the_nether,0.0", "minecraft:the_end,0.0"]
+

@@ -1,0 +1,21 @@
+filename = 'ashvehicle-1.20.1-4.5-8.8.jar'
+name = '[SBW] AshVehicle'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ashvehicle-1.20.1-4.5-8.8.jar'
+
+[download]
+hash = '1124537fbe79f856d104e8d3c8280b978cdfe18a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7948580
+project-id = 1291715
+
+[[x-prismlauncher-dependencies]]
+addonId = '1218165'
+type = 'REQUIRED'

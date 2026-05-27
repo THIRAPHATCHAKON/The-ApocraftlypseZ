@@ -1,0 +1,21 @@
+filename = 'lostcities-1.20-7.4.13.jar'
+name = 'The Lost Cities'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'LostCities - 1.20-7.4.13'
+
+[download]
+hash = 'cdb4790307aa74d50013a47702f7a0a1a3e35279'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8132810
+project-id = 269024
+
+[[x-prismlauncher-dependencies]]
+addonId = '245211'
+type = 'OPTIONAL'
