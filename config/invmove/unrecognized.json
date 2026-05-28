@@ -11,7 +11,12 @@
     "dev.latvian.mods.kubejs.client.KubeJSErrorScreen": true,
     "nl.requios.effortlessbuilding.gui.buildmode.RadialMenu": true,
     "su.uTa4u.specialforces.client.screens.SwatCorpseScreen": true,
-    "nl.requios.effortlessbuilding.gui.GoldenRandomizerBagScreen": true
+    "nl.requios.effortlessbuilding.gui.GoldenRandomizerBagScreen": true,
+    "tech.vvp.vvp.client.gui.RadialSeatScreen": true,
+    "xaero.common.gui.GuiMinimapMain": true,
+    "xaero.common.gui.GuiWaypoints": true,
+    "xaero.map.gui.GuiWorldMapSettings": true,
+    "org.embeddedt.modernfix.screen.ModernFixConfigScreen": true
   },
   "hideBackground": {
     "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,

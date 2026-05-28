@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:brewing_stand' });
     event.remove({ output: 'minecraft:end_crystal' });
     event.remove({ output: 'minecraft:shulker_box' });
+    event.remove({ output: 'minecraft:turtle_helmet' });
 
     event.shaped(
         Item.of('minecraft:iron_sword'),
@@ -451,6 +452,23 @@ ServerEvents.recipes(event => {
             S: '#forge:chests/wooden',
             D: 'minecraft:diamond'
         });
+
+        // event.shaped(Item.of('minecraft:shulker_box'),
+        // [
+        //     'DDD',
+        //     'DID'
+        // ],
+        // {
+        //     I: 'L:chovys_apocalypse_mod:cloth',
+        //     D: 'minecraft:scute',
+        // });
+
+    event.smelting('1x minecraft:rotten_flesh', 'minecraft:leather')
+    event.smelting('1x minecraft:rabbit_hide', 'minecraft:leather')
+    event.smoking('1x minecraft:rotten_flesh', 'minecraft:leather');
+    event.smoking('1x minecraft:rabbit_hide', 'minecraft:leather');
+    event.campfireCooking('minecraft:leather', 'minecraft:rotten_flesh', 0.35, 600)
+    event.campfireCooking('minecraft:leather', 'minecraft:rabbit_hide', 0.35, 600)
 
 
 });

@@ -1128,3 +1128,19 @@
 [Quantified] [OpenCL] VRAM saturation context: monitor poll threshold | GPU NVIDIA GeForce RTX 3060 VRAM 1922/2047 MB (API 94% / system 45%) / Compute 42% / Temp 60.0C
 [Quantified] [OpenCL] VRAM spike - routing GPU work to CPU for ~1s
 [Quantified] [OpenCL] Already initialized
+[Quantified] [Vulkan] Vulkan probe scheduler armed (maxAttempts=3, initialDelayMs=0, retryDelayMs=60000)
+[Quantified] [Vulkan] Probe scheduled - attempt 1 (initial) in 0 ms
+[Quantified] [Vulkan] Probe scheduled - attempt 2 (server-start) in 0 ms
+[Quantified] [OpenCL] Acceleration ready - NVIDIA GeForce RTX 3060
+[Quantified] [OpenCL] Acceleration ready - attempt 2 (trigger: server-start)
+[Quantified] [OpenCL] Test SUCCEEDED
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060 (attempt 2, trigger: server-start)
+[Quantified] [Vulkan] Vulkan probe scheduler armed (maxAttempts=3, initialDelayMs=0, retryDelayMs=60000)
+[Quantified] [Vulkan] Probe scheduled - attempt 1 (initial) in 0 ms
+[Quantified] [Vulkan] Probe scheduled - attempt 2 (server-start) in 0 ms
+[Quantified] [OpenCL] Acceleration ready - NVIDIA GeForce RTX 3060
+[Quantified] [OpenCL] Acceleration ready - attempt 2 (trigger: server-start)
+[Quantified] [OpenCL] Test SUCCEEDED
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060 (attempt 2, trigger: server-start)
