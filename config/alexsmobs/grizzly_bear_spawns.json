@@ -25,7 +25,7 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:is_taiga"
       }
     ],
@@ -144,14 +144,14 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:snowy_maple_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:snowy_shield"
       }
     ],
@@ -207,7 +207,7 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "biomesoplenty:snowblossom_grove"
       }
     ]

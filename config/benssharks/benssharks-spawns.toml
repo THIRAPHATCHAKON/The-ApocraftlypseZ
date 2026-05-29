@@ -8,7 +8,7 @@
 		enable_spawning = true
 		#The weight (rarity) of this mob. Default: 1
 		#Range: 0 ~ 100
-		spawn_weight = 1
+		spawn_weight = 4
 		#Minimum group size. Default: 1
 		#Range: 1 ~ 20
 		min_group_size = 1
@@ -44,7 +44,7 @@
 		enable_spawning = true
 		#The weight (rarity) of this mob. Default: 1
 		#Range: 0 ~ 100
-		spawn_weight = 1
+		spawn_weight = 4
 		#Minimum group size. Default: 1
 		#Range: 1 ~ 20
 		min_group_size = 1
@@ -170,7 +170,7 @@
 		enable_spawning = true
 		#The weight (rarity) of this mob. Default: 1
 		#Range: 0 ~ 100
-		spawn_weight = 1
+		spawn_weight = 4
 		#Minimum group size. Default: 1
 		#Range: 1 ~ 20
 		min_group_size = 1
@@ -458,7 +458,7 @@
 		enable_spawning = true
 		#The weight (rarity) of this mob. Default: 2
 		#Range: 0 ~ 100
-		spawn_weight = 2
+		spawn_weight = 10
 		#Minimum group size. Default: 1
 		#Range: 1 ~ 20
 		min_group_size = 1
@@ -476,7 +476,7 @@
 		enable_spawning = true
 		#The weight (rarity) of this mob. Default: 1
 		#Range: 0 ~ 100
-		spawn_weight = 1
+		spawn_weight = 4
 		#Minimum group size. Default: 1
 		#Range: 1 ~ 20
 		min_group_size = 1
@@ -494,7 +494,7 @@
 		enable_spawning = true
 		#The weight (rarity) of this mob. Default: 2
 		#Range: 0 ~ 100
-		spawn_weight = 2
+		spawn_weight = 3
 		#Minimum group size. Default: 1
 		#Range: 1 ~ 20
 		min_group_size = 1
@@ -512,7 +512,7 @@
 		enable_spawning = true
 		#The weight (rarity) of this mob. Default: 1
 		#Range: 0 ~ 100
-		spawn_weight = 1
+		spawn_weight = 6
 		#Minimum group size. Default: 1
 		#Range: 1 ~ 20
 		min_group_size = 1

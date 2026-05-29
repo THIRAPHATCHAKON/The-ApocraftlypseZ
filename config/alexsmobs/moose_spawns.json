@@ -8,8 +8,13 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": true,
+        "negate": false,
         "value": "forge:is_snowy"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_wasteland"
       }
     ],
     [
@@ -20,28 +25,33 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": true,
+        "negate": false,
+        "value": "forge:is_snowy"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
         "value": "minecraft:is_taiga"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "biomesoplenty:snowy_coniferous_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "biomesoplenty:snowy_fir_clearing"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "snowy_maple_woods"
       }
     ],
@@ -62,14 +72,14 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:snowy_maple_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:snowy_shield"
       }
     ],

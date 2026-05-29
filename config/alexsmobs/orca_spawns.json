@@ -3,13 +3,18 @@
     [
       {
         "type": "BIOME_TAG",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:is_ocean"
       },
       {
         "type": "BIOME_TAG",
         "negate": false,
         "value": "forge:is_cold/overworld"
+      },
+            {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:deep_ocean"
       }
     ]
   ]

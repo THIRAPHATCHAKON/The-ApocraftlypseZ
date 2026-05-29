@@ -9,6 +9,11 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
+        "value": "minecraft:is_beach"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
         "value": "forge:is_hot/overworld"
       }
     ],
@@ -17,6 +22,11 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "minecraft:mangrove_swamp"
+      },
+            {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:deep_ocean"
       }
     ]
   ]

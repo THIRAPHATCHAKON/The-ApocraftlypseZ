@@ -238,7 +238,7 @@ ServerEvents.recipes(event => {
         {
             I: 'minecraft:netherite_scrap',
             L: 'minecraft:gold_ingot',
-            R: 'immersiveengineering:aluminum_ingot_aluminum',
+            R: '#forge:ingots/aluminum'
         });
 
     weapons.forEach(weapon => {

@@ -8,7 +8,7 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": true,
+        "negate": false,
         "value": "forge:is_swamp"
       },
       {
@@ -20,7 +20,7 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:orchid_swamp"
       }
     ],

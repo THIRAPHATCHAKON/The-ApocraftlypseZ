@@ -3,14 +3,14 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:flower_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:sunflower_plains"
       }
     ],
@@ -38,14 +38,14 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:lavender_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:lavender_valley"
       }
     ],

@@ -8,7 +8,7 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:is_forest"
       }
     ],
@@ -20,7 +20,7 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "minecraft:is_savanna"
       },
       {
@@ -37,7 +37,7 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:is_taiga"
       }
     ],

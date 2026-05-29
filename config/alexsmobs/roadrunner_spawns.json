@@ -10,7 +10,7 @@
     [
       {
         "type": "BIOME_TAG",
-        "negate": true,
+        "negate": false,
         "value": "forge:is_dry/overworld"
       },
       {
