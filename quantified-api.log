@@ -1413,3 +1413,106 @@
 [Quantified] [OpenCL] Test SUCCEEDED
 [Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060
 [Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060 (attempt 2, trigger: server-start)
+[Quantified] Quantified API starting
+[Quantified] Quantified Core Starting
+[Quantified] Quantified Async Pool Start
+[Quantified] Quantified GPU Acceleration Starting
+[Quantified] [OpenCL] Background probe scheduled
+[Quantified] OpenCL probe deferred (background)
+[Quantified] [Vulkan] Vulkan probe scheduler armed (maxAttempts=3, initialDelayMs=0, retryDelayMs=60000)
+[Quantified] [Vulkan] Probe scheduled - attempt 1 (initial) in 0 ms
+[Quantified] Vulkan probe deferred (background)
+[Quantified] [Vulkan] Probe scheduler armed
+[Quantified] Quantified API WebPanel starting
+[Quantified] Forcing API class initialization
+[Quantified] OpenCL core classes loaded
+[Quantified] Vulkan core classes loaded
+[Quantified] API classes initialized successfully
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060 (attempt 1, trigger: initial)
+[Quantified] [OpenCL] GPU - Temp: 47.0C | Util: 4% | VRAM cache: 0/2047 MB (system 13% used)
+[Quantified] [OpenCL] GPU - Temp: 47.0C | Util: 4% | VRAM cache: 0/2047 MB (system 13% used)
+[Quantified] [OpenCL] Acceleration ready - NVIDIA GeForce RTX 3060
+[Quantified] [OpenCL] Acceleration ready - attempt 1 (trigger: initial)
+[Quantified] [OpenCL] Test SUCCEEDED
+[Quantified] [OpenCL] GPU detected: NVIDIA GeForce RTX 3060/PCIe/SSE2
+[Quantified] [OpenCL] OpenCL probe triggered (OpenGL context ready)
+[Quantified] [Vulkan] Vulkan probe triggered (OpenGL context ready)
+[Quantified] [OpenCL] Already initialized
+[Quantified] Quantified API starting
+[Quantified] Quantified Core Starting
+[Quantified] Quantified Async Pool Start
+[Quantified] Quantified GPU Acceleration Starting
+[Quantified] [OpenCL] Background probe scheduled
+[Quantified] OpenCL probe deferred (background)
+[Quantified] [Vulkan] Vulkan probe scheduler armed (maxAttempts=3, initialDelayMs=0, retryDelayMs=60000)
+[Quantified] [Vulkan] Probe scheduled - attempt 1 (initial) in 0 ms
+[Quantified] Vulkan probe deferred (background)
+[Quantified] [Vulkan] Probe scheduler armed
+[Quantified] Quantified API WebPanel starting
+[Quantified] Forcing API class initialization
+[Quantified] OpenCL core classes loaded
+[Quantified] Vulkan core classes loaded
+[Quantified] API classes initialized successfully
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060 (attempt 1, trigger: initial)
+[Quantified] [OpenCL] GPU - Temp: 34.0C | Util: 2% | VRAM cache: 0/2047 MB (system 16% used)
+[Quantified] [OpenCL] GPU - Temp: 34.0C | Util: 2% | VRAM cache: 0/2047 MB (system 16% used)
+[Quantified] [OpenCL] Acceleration ready - NVIDIA GeForce RTX 3060
+[Quantified] [OpenCL] Acceleration ready - attempt 1 (trigger: initial)
+[Quantified] [OpenCL] Test SUCCEEDED
+[Quantified] [OpenCL] GPU detected: NVIDIA GeForce RTX 3060/PCIe/SSE2
+[Quantified] [OpenCL] OpenCL probe triggered (OpenGL context ready)
+[Quantified] [Vulkan] Vulkan probe triggered (OpenGL context ready)
+[Quantified] [OpenCL] Already initialized
+[Quantified] Quantified API starting
+[Quantified] Quantified Core Starting
+[Quantified] Quantified Async Pool Start
+[Quantified] Quantified GPU Acceleration Starting
+[Quantified] [OpenCL] Background probe scheduled
+[Quantified] OpenCL probe deferred (background)
+[Quantified] [Vulkan] Vulkan probe scheduler armed (maxAttempts=3, initialDelayMs=0, retryDelayMs=60000)
+[Quantified] [Vulkan] Probe scheduled - attempt 1 (initial) in 0 ms
+[Quantified] Vulkan probe deferred (background)
+[Quantified] [Vulkan] Probe scheduler armed
+[Quantified] Quantified API WebPanel starting
+[Quantified] Forcing API class initialization
+[Quantified] OpenCL core classes loaded
+[Quantified] Vulkan core classes loaded
+[Quantified] API classes initialized successfully
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060 (attempt 1, trigger: initial)
+[Quantified] [OpenCL] GPU - Temp: 49.0C | Util: 2% | VRAM cache: 0/2047 MB (system 16% used)
+[Quantified] [OpenCL] GPU - Temp: 49.0C | Util: 2% | VRAM cache: 0/2047 MB (system 16% used)
+[Quantified] [OpenCL] Acceleration ready - NVIDIA GeForce RTX 3060
+[Quantified] [OpenCL] Acceleration ready - attempt 1 (trigger: initial)
+[Quantified] [OpenCL] Test SUCCEEDED
+[Quantified] [OpenCL] GPU detected: NVIDIA GeForce RTX 3060/PCIe/SSE2
+[Quantified] [OpenCL] OpenCL probe triggered (OpenGL context ready)
+[Quantified] [Vulkan] Vulkan probe triggered (OpenGL context ready)
+[Quantified] Quantified API starting
+[Quantified] Quantified Core Starting
+[Quantified] Quantified Async Pool Start
+[Quantified] Quantified GPU Acceleration Starting
+[Quantified] [OpenCL] Background probe scheduled
+[Quantified] OpenCL probe deferred (background)
+[Quantified] [Vulkan] Vulkan probe scheduler armed (maxAttempts=3, initialDelayMs=0, retryDelayMs=60000)
+[Quantified] [Vulkan] Probe scheduled - attempt 1 (initial) in 0 ms
+[Quantified] Vulkan probe deferred (background)
+[Quantified] [Vulkan] Probe scheduler armed
+[Quantified] Quantified API WebPanel starting
+[Quantified] Forcing API class initialization
+[Quantified] OpenCL core classes loaded
+[Quantified] Vulkan core classes loaded
+[Quantified] API classes initialized successfully
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060
+[Quantified] [Vulkan] Probe succeeded - NVIDIA GeForce RTX 3060 (attempt 1, trigger: initial)
+[Quantified] [OpenCL] GPU - Temp: 51.0C | Util: 16% | VRAM cache: 0/2047 MB (system 17% used)
+[Quantified] [OpenCL] GPU - Temp: 51.0C | Util: 16% | VRAM cache: 0/2047 MB (system 17% used)
+[Quantified] [OpenCL] Acceleration ready - NVIDIA GeForce RTX 3060
+[Quantified] [OpenCL] Acceleration ready - attempt 1 (trigger: initial)
+[Quantified] [OpenCL] Test SUCCEEDED
+[Quantified] [OpenCL] GPU detected: NVIDIA GeForce RTX 3060/PCIe/SSE2
+[Quantified] [OpenCL] OpenCL probe triggered (OpenGL context ready)
+[Quantified] [Vulkan] Vulkan probe triggered (OpenGL context ready)
+[Quantified] [OpenCL] Already initialized

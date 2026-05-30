@@ -16,7 +16,8 @@
     "xaero.common.gui.GuiMinimapMain": true,
     "xaero.common.gui.GuiWaypoints": true,
     "xaero.map.gui.GuiWorldMapSettings": true,
-    "org.embeddedt.modernfix.screen.ModernFixConfigScreen": true
+    "org.embeddedt.modernfix.screen.ModernFixConfigScreen": true,
+    "com.atsuishio.superbwarfare.client.screens.VehicleAssemblingScreen": true
   },
   "hideBackground": {
     "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
@@ -26,6 +27,7 @@
     "sfiomn.legendarysurvivaloverhaul.client.screens.BodyHealthScreen": true,
     "dev.emi.emi.screen.RecipeScreen": true,
     "su.uTa4u.specialforces.client.screens.SwatCorpseScreen": true,
-    "nl.requios.effortlessbuilding.gui.GoldenRandomizerBagScreen": true
+    "nl.requios.effortlessbuilding.gui.GoldenRandomizerBagScreen": true,
+    "com.atsuishio.superbwarfare.client.screens.VehicleAssemblingScreen": true
   }
 }

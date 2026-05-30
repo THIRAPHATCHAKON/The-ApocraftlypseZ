@@ -1207,6 +1207,14 @@
     "curseForgeHash": 3369893679,
     "modrinthHash": "4067bebc0a1cb96113ea2a142e0aab145e60cebf"
   },
+  "mcore-1.20.1-1.0.3.0.jar": {
+    "jarName": "mcore-1.20.1-1.0.3.0.jar",
+    "modId": "mcore",
+    "name": "Marbled\u0027s Core",
+    "version": "1.0.3.0",
+    "curseForgeHash": 1327252485,
+    "modrinthHash": "9296ede0ee8e975cb7ded4a449d16b76eca8420b"
+  },
   "mcw-furniture-3.4.1-mc1.20.1forge.jar": {
     "jarName": "mcw-furniture-3.4.1-mc1.20.1forge.jar",
     "modId": "mcwfurnitures",
