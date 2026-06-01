@@ -122,13 +122,12 @@ ServerEvents.recipes(event => {
         inputs: [
             "2 superbwarfare:large_motor",
             "1 superbwarfare:medium_battery_pack",
-            "2 immersiveengineering:storage_steel",
+            "4 immersiveengineering:storage_steel",
             "2 superbwarfare:light_armament_module",
             "3 superbwarfare:wheel",
-            "6 minecraft:glass",
+            "16 minecraft:glass",
             "2 ashvehicle:enginefanitem",
-            "4 mcore:titanium_sheet",
-            "6 minecraft:gray_dye"
+            "12 mcore:titanium_sheet",
         ],
         result: {
             "entity": "ashvehicle:f-4"
