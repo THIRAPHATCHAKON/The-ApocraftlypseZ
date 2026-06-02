@@ -1,6 +1,18 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "superbwarfare:light_armament_module",
+      "amount": 2
+    },
+    "item:superbwarfare:container{BlockEntityTag:{EntityType:\"ashvehicle:pa_pantsir\",id:\"superbwarfare:container\"}}",
+    {
+      "type": "item",
+      "id": "superbwarfare:medium_armament_module",
+      "amount": 2
+    },
+    "item:superbwarfare:container{BlockEntityTag:{EntityType:\"ashvehicle:tos\",id:\"superbwarfare:container\"}}",
     "item:minecraft:birch_wood",
     "item:superbwarfare:large_propeller",
     "item:immersive_aircraft:propeller",
@@ -32,9 +44,7 @@
     "item:superbwarfare:container{BlockEntityTag:{EntityType:\"ashvehicle:t_90\",id:\"superbwarfare:container\"}}",
     "item:superbwarfare:container{BlockEntityTag:{EntityType:\"ashvehicle:gepard-1a2\",id:\"superbwarfare:container\"}}",
     "item:superbwarfare:container{BlockEntityTag:{EntityType:\"ashvehicle:m3a3-bradley\",id:\"superbwarfare:container\"}}",
-    "item:superbwarfare:container{BlockEntityTag:{EntityType:\"ashvehicle:tos\",id:\"superbwarfare:container\"}}",
     "item:superbwarfare:container{BlockEntityTag:{EntityType:\"ashvehicle:sapsan-grim2\",id:\"superbwarfare:container\"}}",
-    "item:superbwarfare:container{BlockEntityTag:{EntityType:\"ashvehicle:pa_pantsir\",id:\"superbwarfare:container\"}}",
     "item:ashvehicle:agm114item",
     "item:ashvehicle:nuclearbombitem",
     "item:ashvehicle:r60item",
@@ -126,11 +136,6 @@
     "item:survival_instinct:stellium_shovel{Damage:0}",
     "item:superbwarfare:steel_spring",
     "item:superbwarfare:rare_material_pack",
-    {
-      "type": "item",
-      "id": "superbwarfare:light_armament_module",
-      "amount": 2
-    },
     "item:superbwarfare:steel_block",
     "item:immersiveengineering:storage_steel",
     "#item:forge:ingots/steel",
