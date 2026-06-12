@@ -1,0 +1,20 @@
+{
+    "ModSettings": {
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "enable_profiles_announcement": false,
+        "show_continuous_crafting_checkbox": {
+            "value": false
+        },
+        "show_regular_sort_button": {
+            "value": false
+        },
+        "show_move_all_button": {
+            "value": false
+        }
+    }
+}

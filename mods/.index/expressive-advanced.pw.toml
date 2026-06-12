@@ -1,0 +1,18 @@
+filename = 'tacticalmovement-1.0.0.jar'
+name = 'Tactical Movement Renewed (Point Blank and TACZ)'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tacticalmovement[GENERIC].jar'
+
+[download]
+hash = 'b8b5bff66def433912d93ebfd0fcafc6d094abef'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5869027
+project-id = 1129993

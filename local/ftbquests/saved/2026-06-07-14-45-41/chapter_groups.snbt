@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "05C32418EEB9E39C", title: "Welcome" }
+		{ id: "6D4DC18BEBCCC304", title: "Other" }
+	]
+}

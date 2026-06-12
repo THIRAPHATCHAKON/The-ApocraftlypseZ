@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "temperature"
+	group: "05C32418EEB9E39C"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				temperature: 16.8f
+			}
+		}
+		id: "legendarysurvivaloverhaul:thermometer"
+	}
+	id: "5153B041F05DEF63"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Temperature"
+}

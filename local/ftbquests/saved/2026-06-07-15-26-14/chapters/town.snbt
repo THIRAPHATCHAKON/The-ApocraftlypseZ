@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "town"
+	group: "05C32418EEB9E39C"
+	icon: "minecraft:compass"
+	id: "5DF0CB5EDF61A629"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Town"
+}

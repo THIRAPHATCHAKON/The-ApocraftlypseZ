@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_diesel_generators"
+	group: "6D4DC18BEBCCC304"
+	icon: "createdieselgenerators:diesel_engine"
+	id: "5A65E664D7767029"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create: Diesel Generators"
+}

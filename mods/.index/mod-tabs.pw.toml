@@ -1,0 +1,21 @@
+filename = 'modtabs-1.20.1-2.5.7-Forge.jar'
+name = 'Mod Tabs'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'modtabs-1.20.1-2.5.7-Forge.jar'
+
+[download]
+hash = '3bb7793b4a6b58f0c32b9bb4a05621cae543bc1a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8144350
+project-id = 1313300
+
+[[x-prismlauncher-dependencies]]
+addonId = '488090'
+type = 'REQUIRED'

@@ -1,0 +1,122 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "diet"
+	group: "05C32418EEB9E39C"
+	icon: "createfood:fried_egg_hash_brown_sandwich"
+	id: "62754BE4EF0CF652"
+	images: [{
+		height: 7.0d
+		image: "kubejs:item/diet"
+		rotation: 0.0d
+		width: 10.71d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5FCE658BB036E772"
+			rewards: [{
+				id: "7E8F21E3E63C57F6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "This system requires you to maintain a balanced diet across five major food groups. Keeping these nutritional bars high rewards you with positive stat buffs, while neglecting them results in survival penalties."
+			tasks: [{
+				id: "6F436FB53B9AA655"
+				title: "Diet"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FCE658BB036E772"]
+			id: "196C9C50B90A4F6D"
+			rewards: [{
+				id: "54144F3B562A6623"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Maintained by eating apples, berries, melons, and sweet fruits. Keeping this high boosts your agility, increasing movement and sprint speed."
+			tasks: [{
+				id: "245F906175CD6E49"
+				title: "Fruits"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FCE658BB036E772"]
+			id: "6177004FA5E68ABC"
+			rewards: [{
+				id: "645BB41890A803F5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Maintained by eating bread, cookies, wheat products, and baked goods. This serves as your primary energy source, granting increased base stamina and hunger saturation."
+			tasks: [{
+				id: "0E814737ABC49B63"
+				title: "Grains"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FCE658BB036E772"]
+			id: "2FBB17AC54C768C2"
+			rewards: [{
+				id: "29E60FF0B10C3F1C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Maintained by eating cooked meats (beef, pork, chicken), fish, and eggs. Vital for physical strength, boosting your maximum health capacity and melee attack damage."
+			tasks: [{
+				id: "5E33646F34C7B8C8"
+				title: "Proteins"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FCE658BB036E772"]
+			id: "4F4F3409A467561A"
+			rewards: [{
+				id: "7B333E1E7A88E858"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Maintained by eating carrots, potatoes, beetroots, and various crops. Enhances your immune system, granting permanent resistance buffs and faster natural health regeneration."
+			tasks: [{
+				id: "4D3EB9F3B24020FF"
+				title: "Vegetables"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FCE658BB036E772"]
+			id: "1ACEA95F0BE8BAD7"
+			rewards: [{
+				id: "55F4AAD26A7C212B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Maintained by consuming honey, cake, pies, and sweet treats. Provides a quick, temporary burst of energy and attack speed, but must be balanced carefully to avoid sudden crashes."
+			tasks: [{
+				id: "6CE7F6CD3B2C7234"
+				title: "Sugars"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+	]
+	title: "Diet"
+}

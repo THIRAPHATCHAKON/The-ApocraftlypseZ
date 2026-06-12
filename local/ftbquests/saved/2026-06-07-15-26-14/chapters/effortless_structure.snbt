@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "effortless_structure"
+	group: "05C32418EEB9E39C"
+	icon: "minecraft:quartz_block"
+	id: "482DFAE791972C6E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Effortless Structure"
+}

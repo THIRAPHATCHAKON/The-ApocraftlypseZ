@@ -1,0 +1,341 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "alexsmobs:snow_leopard",
+    "alexsmobs:seal",
+    "alexsmobs:roadrunner",
+    "alexsmobs:laviathan",
+    "minecraft:trader_llama",
+    "alexsmobs:endergrade",
+    "minecraft:horse",
+    "undead_revamp2:thepregnant",
+    "undead_revamp2:weakspot",
+    "minecraft:llama",
+    "alexsmobs:maned_wolf",
+    "benssharks:land_shark",
+    "benssharks:whale_shark",
+    "alexsmobs:skreecher",
+    "minecraft:tadpole",
+    "minecraft:dolphin",
+    "alexsmobs:gelada_monkey",
+    "alexsmobs:hammerhead_shark",
+    "alexsmobs:dropbear",
+    "alexsmobs:tiger",
+    "naturalist:bear",
+    "benssharks:shark_minion",
+    "alexsmobs:grizzly_bear",
+    "naturalist:vulture",
+    "alexsmobs:murmur_head",
+    "naturalist:zebra",
+    "undead_revamp2:slaveman",
+    "undead_revamp2:invisiclogger",
+    "undead_revamp2:invisiimmortal",
+    "minecraft:bee",
+    "alexsmobs:devils_hole_pupfish",
+    "benssharks:greater_axodile",
+    "minecraft:illusioner",
+    "undead_revamp2:thebeartamer",
+    "minecraft:mooshroom",
+    "alexsmobs:bison",
+    "benssharks:angelshark",
+    "simpleenemymod:pmcunit",
+    "minecraft:drowned",
+    "minecraft:axolotl",
+    "alexsmobs:gorilla",
+    "naturalist:moose",
+    "alexsmobs:tusklin",
+    "undead_revamp2:thedungeon",
+    "naturalist:elephant",
+    "alexsmobs:cosmic_cod",
+    "alexsmobs:underminer",
+    "undead_revamp2:thespectre",
+    "benssharks:bonnethead_shark",
+    "minecraft:wandering_trader",
+    "benssharks:mako_shark",
+    "naturalist:cardinal",
+    "alexsmobs:kangaroo",
+    "undead_revamp2:propball_1",
+    "alexsmobs:hummingbird",
+    "undead_revamp2:therod",
+    "hordes:drowned_player",
+    "undead_revamp2:theordure",
+    "undead_revamp2:theheavy",
+    "alexsmobs:crow",
+    "alexsmobs:guster",
+    "benssharks:nurse_shark",
+    "minecraft:pufferfish",
+    "minecraft:fox",
+    "immersiveengineering:bulwark",
+    "undead_revamp2:clogger",
+    "alexsmobs:warped_toad",
+    "minecraft:chicken",
+    "alexsmobs:giant_squid",
+    "minecraft:zombie",
+    "immersiveengineering:fusilier",
+    "alexsmobs:emu",
+    "alexsmobs:cockroach",
+    "benssharks:barracuda",
+    "superbwarfare:senpai",
+    "undead_revamp2:coppertar",
+    "alexsmobs:flutter",
+    "minecraft:hoglin",
+    "naturalist:rhino",
+    "alexsmobs:capuchin_monkey",
+    "hordes:husk_player",
+    "minecraft:polar_bear",
+    "minecraft:zombified_piglin",
+    "benssharks:sardine",
+    "minecraft:turtle",
+    "naturalist:rattlesnake",
+    "minecraft:sheep",
+    "benssharks:axodile",
+    "alexsmobs:rattlesnake",
+    "naturalist:robin",
+    "naturalist:tortoise",
+    "alexsmobs:bone_serpent_part",
+    "alexsmobs:raccoon",
+    "minecraft:ravager",
+    "alexsmobs:bone_serpent",
+    "alexsmobs:potoo",
+    "alexsmobs:fly",
+    "alexsmobs:straddler",
+    "alexsmobs:sea_bear",
+    "undead_revamp2:thewolf",
+    "alexsmobs:mudskipper",
+    "undead_revamp2:therabidus",
+    "alexsmobs:sugar_glider",
+    "undead_revamp2:theposessive",
+    "benssharks:leopard_shark",
+    "undead_revamp2:thebidyupside",
+    "naturalist:bass",
+    "alexsmobs:crimson_mosquito",
+    "undead_revamp2:thebidy",
+    "alexsmobs:orca",
+    "undead_revamp2:the_moonflower",
+    "naturalist:dragonfly",
+    "benssharks:remora",
+    "alexsmobs:jerboa",
+    "minecraft:bat",
+    "naturalist:sparrow",
+    "alexsmobs:cosmaw",
+    "alexsmobs:comb_jelly",
+    "benssharks:megalodon",
+    "naturalist:hippo",
+    "naturalist:snake",
+    "railways:conductor",
+    "benssharks:basking_shark",
+    "naturalist:lizard_tail",
+    "undead_revamp2:thehorrors",
+    "naturalist:caterpillar",
+    "naturalist:catfish",
+    "alexsmobs:skunk",
+    "alexsmobs:enderiophage",
+    "alexsmobs:sunbird",
+    "undead_revamp2:bigsucker",
+    "alexsmobs:tasmanian_devil",
+    "minecraft:cat",
+    "alexsmobs:stradpole",
+    "naturalist:lizard",
+    "benssharks:sawshark",
+    "minecraft:tropical_fish",
+    "naturalist:snail",
+    "naturalist:finch",
+    "minecraft:panda",
+    "minecraft:zombie_villager",
+    "benssharks:shoal",
+    "alexsmobs:froststalker",
+    "minecraft:giant",
+    "alexsmobs:lobster",
+    "alexsmobs:seagull",
+    "undead_revamp2:theskeeper",
+    "alexsmobs:moose",
+    "alexsmobs:shoebill",
+    "alexsmobs:farseer",
+    "undead_revamp2:lechery",
+    "alexsmobs:warped_mosco",
+    "omegarecon:display_entity",
+    "benssharks:thresher_shark",
+    "immersiveengineering:commando",
+    "hordes:zombie_player",
+    "benssharks:lemon_shark",
+    "minecraft:husk",
+    "benssharks:sea_lion",
+    "undead_revamp2:axestrom",
+    "naturalist:firefly",
+    "alexsmobs:komodo_dragon",
+    "minecraft:donkey",
+    "minecraft:piglin_brute",
+    "superbwarfare:target",
+    "naturalist:giraffe",
+    "simpleenemymod:ruunit",
+    "alexsmobs:crocodile",
+    "alexsmobs:triops",
+    "alexsmobs:rhinoceros",
+    "alexsmobs:frilled_shark",
+    "alexsmobs:bald_eagle",
+    "undead_revamp2:neocrorines",
+    "alexsmobs:blobfish",
+    "naturalist:deer",
+    "benssharks:whitetip_shark",
+    "alexsmobs:mimicube",
+    "undead_revamp2:sucker",
+    "alexsmobs:void_worm",
+    "minecraft:parrot",
+    "alexsmobs:centipede_head",
+    "minecraft:frog",
+    "alexsmobs:banana_slug",
+    "naturalist:alligator",
+    "alexsmobs:mimic_octopus",
+    "alexsmobs:bunfungus",
+    "alexsmobs:void_worm_part",
+    "minecraft:mule",
+    "benssharks:blacktip_reef_shark",
+    "naturalist:boar",
+    "minecraft:vindicator",
+    "alexsmobs:flying_fish",
+    "minecraft:evoker",
+    "undead_revamp2:thelurker",
+    "alexsmobs:tarantula_hawk",
+    "alexsmobs:cachalot_whale",
+    "undead_revamp2:thespitter",
+    "benssharks:blue_shark",
+    "benssharks:bull_shark",
+    "alexsmobs:terrapin",
+    "undead_revamp2:invisilehcery",
+    "alexsmobs:anaconda",
+    "undead_revamp2:thesomnolence",
+    "benssharks:megamouth_shark",
+    "minecraft:pig",
+    "alexsmobs:alligator_snapping_turtle",
+    "minecraft:goat",
+    "minecraft:cod",
+    "undead_revamp2:theswarmer",
+    "alexsmobs:mantis_shrimp",
+    "undead_revamp2:theimmortal",
+    "alexsmobs:platypus",
+    "minecraft:cow",
+    "alexsmobs:rocky_roller",
+    "naturalist:duck",
+    "benssharks:tiger_shark",
+    "benssharks:thalassoger",
+    "alexsmobs:soul_vulture",
+    "benssharks:pilot_fish",
+    "alexsmobs:blue_jay",
+    "alexsmobs:toucan",
+    "minecraft:salmon",
+    "naturalist:bluejay",
+    "undead_revamp2:bomber",
+    "undead_revamp2:smokesmitter",
+    "alexsmobs:anteater",
+    "alexsmobs:rain_frog",
+    "minecraft:rabbit",
+    "tacz_npc:bandit",
+    "minecraft:pillager",
+    "alexsmobs:murmur",
+    "minecraft:zoglin",
+    "naturalist:butterfly",
+    "undead_revamp2:invisiblebidy",
+    "benssharks:greenland_shark",
+    "alexsmobs:leafcutter_ant",
+    "undead_revamp2:thehorrorsdecoys",
+    "alexsmobs:mungus",
+    "alexsmobs:caiman",
+    "alexsmobs:spectre",
+    "alexsmobs:catfish",
+    "benssharks:cookiecutter_shark",
+    "minecraft:piglin",
+    "alexsmobs:skelewag",
+    "undead_revamp2:thesmoker",
+    "naturalist:lion",
+    "undead_revamp2:flame",
+    "alexsmobs:elephant",
+    "undead_revamp2:thegliter",
+    "naturalist:canary",
+    "alexsmobs:gazelle",
+    "minecraft:sniffer",
+    "minecraft:zombie_horse",
+    "minecraft:camel",
+    "benssharks:goblin_shark",
+    "superbwarfare:dps_generator",
+    "taczsf:swat_entity",
+    "naturalist:coral_snake",
+    "benssharks:krill",
+    "minecraft:ocelot",
+    "undead_revamp2:crackleball",
+    "minecraft:wolf",
+    "undead_revamp2:thehunter",
+    "undead_revamp2:deadclogger",
+    "benssharks:greatwhite_shark"
+]

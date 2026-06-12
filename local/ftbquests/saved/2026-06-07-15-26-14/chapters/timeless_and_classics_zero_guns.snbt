@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "timeless_and_classics_zero_guns"
+	group: "6D4DC18BEBCCC304"
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			Durability: 2000
+			GunCurrentAmmoCount: 12
+			GunFireMode: "SEMI"
+			GunId: "tacz:hk_mk23"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "48940DD65DCE3ABA"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Timeless and Classics Zero Guns"
+}

@@ -1,0 +1,21 @@
+filename = 'enhancedai-3.3.7.1.jar'
+name = 'Enhanced AI'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.3.7.1'
+
+[download]
+hash = '55344151d1e08d27c2c5f28766fa908d3c82430f7a0bd71f4e97fa3a624600972f2b022f602701db72a4fca7644be4d1cd964be520e5f0f3257fc5c729a11c3f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TDdoftI1/versions/7SloJMw0/enhancedai-3.3.7.1.jar'
+
+[update.modrinth]
+mod-id = 'TDdoftI1'
+version = '7SloJMw0'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'USZyvOJq'
+type = 'REQUIRED'

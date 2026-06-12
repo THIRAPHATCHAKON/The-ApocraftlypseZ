@@ -1,0 +1,2268 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons"
+	group: "6D4DC18BEBCCC304"
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4B26077603A12BFF"
+	images: [
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: -24.5d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_1"
+			rotation: 0.0d
+			width: 2.380952380952381d
+			x: -24.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_2"
+			rotation: 0.0d
+			width: 2.7222222222222223d
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_3"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_4"
+			rotation: 0.0d
+			width: 2.8823529411764706d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_5"
+			rotation: 0.0d
+			width: 2.6842105263157894d
+			x: 25.5d
+			y: -5.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3CEB97B049BC0088"
+			rewards: [{
+				id: "4E8472761D18C59F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5241799F97A5BFE8"
+				item: {
+					Count: 1
+					id: "survival_instinct:plank_with_nails_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			id: "67F01E90C412826D"
+			rewards: [{
+				id: "1FBF76EFCEF5CEF4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13B9C64734FC770E"
+				item: {
+					Count: 1
+					id: "survival_instinct:steellium_pipe_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			id: "7A36A3FD6D74CE00"
+			rewards: [{
+				id: "42E90FBABB1D9D23"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "56DF75BCD82EB0AD"
+				item: {
+					Count: 1
+					id: "survival_instinct:nails_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: 2.5d
+		}
+		{
+			id: "57006712518B1601"
+			rewards: [{
+				id: "052889EF386B540B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "17DA109CB5E2D510"
+				item: {
+					Count: 1
+					id: "survival_instinct:wrench_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 2.5d
+		}
+		{
+			id: "0962478BDBD54A97"
+			rewards: [{
+				id: "1B972B0B1D9A2EA1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "188E217543031504"
+				item: {
+					Count: 1
+					id: "survival_instinct:screwdriver_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -28.5d
+			y: 0.5d
+		}
+		{
+			id: "6B477D9A98B7FBF1"
+			rewards: [{
+				id: "1078B0331B4DF37F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30CBB884D40D1CAD"
+				item: {
+					Count: 1
+					id: "survival_instinct:sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			id: "3D168F659A5DD841"
+			rewards: [{
+				id: "306A2AE93B634030"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A7B697D40EFF422"
+				item: {
+					Count: 1
+					id: "survival_instinct:lance_pitchfork"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			id: "0B9F8F76538D90EE"
+			rewards: [{
+				id: "03EE90F625F970F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C2B84DE7C6CC88A"
+				item: {
+					Count: 1
+					id: "superbwarfare:t_baton"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "5720EEEF722BCEED"
+			rewards: [{
+				id: "646AC6107C09B119"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "34358DFE77A34373"
+				item: {
+					Count: 1
+					id: "superbwarfare:netherite_hammer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			id: "57BA8EE71A3580BE"
+			rewards: [{
+				id: "6CFE936E4126E6E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38CC7F107EF3BF10"
+				item: {
+					Count: 1
+					id: "superbwarfare:cemented_carbide_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			id: "562711D40FACEAE3"
+			rewards: [{
+				id: "04DD8146D3EF784B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A5F2D2CE1EF7D8F"
+				item: {
+					Count: 1
+					id: "superbwarfare:diamond_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 28.5d
+			y: -3.5d
+		}
+		{
+			id: "307B2564075545A4"
+			rewards: [{
+				id: "17B445914DCF7BF0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "087B1CF35AFCB1AB"
+				item: {
+					Count: 1
+					id: "superbwarfare:steel_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 28.5d
+			y: -0.5d
+		}
+		{
+			id: "47C6674CB48858B0"
+			rewards: [{
+				id: "60D001B137910D9E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "743CDD9EDBDB2647"
+				item: {
+					Count: 1
+					id: "superbwarfare:golden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "08396A346F6B1920"
+			rewards: [{
+				id: "733444941E013F81"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32E5EAC7B8D4DA4D"
+				item: {
+					Count: 1
+					id: "superbwarfare:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			id: "4D3F7DE93AB22FB2"
+			rewards: [{
+				id: "152A210E87750F60"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "17E2F25E51E5B94F"
+				item: {
+					Count: 1
+					id: "superbwarfare:knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.5d
+		}
+		{
+			id: "1A0771A74315C7B8"
+			rewards: [{
+				id: "3A8B29ABBFACD9DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EDF246A56C73655"
+				item: {
+					Count: 1
+					id: "butchersdelight:cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -1.5d
+		}
+		{
+			id: "65A04965B24126AE"
+			rewards: [{
+				id: "5860B14A509CA2F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "495F1D152C492B74"
+				item: {
+					Count: 1
+					id: "survival_instinct:tactical_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			id: "2CD3A69F890262DF"
+			rewards: [{
+				id: "6FA47B8FF87173E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1CC4137228ED0EAD"
+				item: {
+					Count: 1
+					id: "survival_instinct:hunt_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			id: "318FF352AF1245B0"
+			rewards: [{
+				id: "0068DF77DC2BF2E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24326E7B93F3C92E"
+				item: {
+					Count: 1
+					id: "survival_instinct:lance_with_broken_bottle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.5d
+			y: 2.5d
+		}
+		{
+			id: "7D7081469092B9FE"
+			rewards: [{
+				id: "1BD1C7D0B264FB7D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7063E89376523B2B"
+				item: {
+					Count: 1
+					id: "survival_instinct:lance_wit_screwdriver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			id: "6DFA3390187E8E1E"
+			rewards: [{
+				id: "6FC1E30AC647486B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "607711228EF6FA13"
+				item: {
+					Count: 1
+					id: "survival_instinct:glaive_with_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			id: "46276B864AB3A4F2"
+			rewards: [{
+				id: "32BB6359504AA14D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48D3031D1A279412"
+				item: {
+					Count: 1
+					id: "survival_instinct:lance_with_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.5d
+		}
+		{
+			id: "4D1640CAF62467A2"
+			rewards: [{
+				id: "3292E60B9336C928"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E02434C9947E542"
+				item: {
+					Count: 1
+					id: "superbwarfare:steel_pipe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "489094F830009A88"
+			rewards: [{
+				id: "0EB4CD76A32627AF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1FA42944AA7ADD70"
+				item: {
+					Count: 1
+					id: "superbwarfare:electric_baton"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "66379A4DD1092F10"
+			rewards: [{
+				id: "1999E8A26541EBB3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2449D448B73358C0"
+				item: {
+					Count: 1
+					id: "survival_instinct:b_aseball_bat_with_nails_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			id: "70B5554A1EC80B8E"
+			rewards: [{
+				id: "31B20E3AD90C317D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2988B2AEC7BE737D"
+				item: {
+					Count: 1
+					id: "survival_instinct:baseball_bat_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: 0.5d
+		}
+		{
+			id: "7A7D540165A2A6B6"
+			rewards: [{
+				id: "3E120BF1F8374137"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "37C284F471D2B1A8"
+				item: {
+					Count: 1
+					id: "survival_instinct:metal_baseballbat_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			id: "78962DE4ACEA4EF9"
+			rewards: [{
+				id: "1C6FB3EEA04F0E73"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "07B4D5F12BE3700A"
+				item: {
+					Count: 1
+					id: "survival_instinct:american_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			id: "56E9BF5D923B57D3"
+			rewards: [{
+				id: "5AC44234606FDBF0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55E2A70F43F6C446"
+				item: {
+					Count: 1
+					id: "survival_instinct:saw_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "14BDD00808EA32B9"
+			rewards: [{
+				id: "4E73173AF1526E6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "61E3CBBDF8CAC36D"
+				item: {
+					Count: 1
+					id: "survival_instinct:greataxe_stop_sing_broken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "3F15E9927039FCED"
+			rewards: [{
+				id: "05EC288186ACA93C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "718D8F76430329AB"
+				item: {
+					Count: 1
+					id: "survival_instinct:greataxe_stop_sign"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			id: "2290A9DD42EE8A52"
+			rewards: [{
+				id: "6B447B4675276D0C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4BD84001DDF91DB8"
+				item: {
+					Count: 1
+					id: "survival_instinct:machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			id: "13456F8023014659"
+			rewards: [{
+				id: "756FD8D89E62B018"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "56539A9AFC56640A"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:sawblade_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "6D5013484AEE446C"
+			rewards: [{
+				id: "2353632C05B500AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "78A7B55BF424BD89"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:ashen_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "5B53983079A96888"
+			rewards: [{
+				id: "5FA3415EC1A5281C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B8C50BC4A43685C"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:iron_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "47814668946DA81D"
+			rewards: [{
+				id: "22FBECF8428AC604"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5BA906CA0CBD5027"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "2A67DC4C873421E4"
+			rewards: [{
+				id: "2D20698278DF4762"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7148E21D67CB00FB"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:kitchen_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: -3.5d
+		}
+		{
+			id: "76D80EC3B9102030"
+			rewards: [{
+				id: "61D7B579B9FA2509"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BE91C93C29CD6B5"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:tactical_tomahawk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "2B78FE44480B7EDF"
+			rewards: [{
+				id: "47F06B83216918BC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CE7576B4CB876D0"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:police_baton"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -3.5d
+		}
+		{
+			id: "4CF5E8E0CBE8841C"
+			rewards: [{
+				id: "1AB10F764B181DD5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "494E01DA4AB901F8"
+				item: {
+					Count: 1
+					id: "survival_instinct:hand_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "10D84ED298392413"
+			rewards: [{
+				id: "0F458265EBFD002D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A5D1C0242BB0463"
+				item: {
+					Count: 1
+					id: "survival_instinct:hand_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			id: "3A55235717015B7C"
+			rewards: [{
+				id: "5F1525BB6F0767F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C8AEAF6E6711D12"
+				item: {
+					Count: 1
+					id: "survival_instinct:pipe_wrench_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: 0.5d
+		}
+		{
+			id: "58873D4C47046D09"
+			rewards: [{
+				id: "07872B14C57C1E2E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6765DDDF30FEA453"
+				item: {
+					Count: 1
+					id: "survival_instinct:brick_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			id: "0FBD8FBB06441027"
+			rewards: [{
+				id: "440262F89896B432"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1993D680777680D7"
+				item: "survival_instinct:nailgun"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "4B0C0380140AA6EA"
+			rewards: [{
+				id: "5428B9550554EC0E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E12A68A965F9ED3"
+				item: {
+					Count: 1
+					id: "survival_instinct:sledge_great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			id: "6F08A6F45DCDEA50"
+			rewards: [{
+				id: "09379285C8DB8842"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2FDB03CBDF9998F3"
+				item: {
+					Count: 1
+					id: "survival_instinct:fire_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "6CE7F6387520B8DB"
+			rewards: [{
+				id: "0318FE41D8697448"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5318FA37C389ADC4"
+				item: {
+					Count: 1
+					id: "survival_instinct:lever_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			id: "722CF1EF77C67057"
+			rewards: [{
+				id: "3A9BEDC6C54C55EE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51BA6EB0F1290805"
+				item: {
+					Count: 1
+					id: "survival_instinct:steellium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			id: "04812EBBE2BC8BC7"
+			rewards: [{
+				id: "7048D50C4FDAFF5A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BC45D07C6DC6DE3"
+				item: {
+					Count: 1
+					id: "survival_instinct:aluminium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			id: "569C33CB12CC9769"
+			rewards: [{
+				id: "6144948C2F4CBFCF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F66BF5766ECF0C5"
+				item: {
+					Count: 1
+					id: "survival_instinct:katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "31E8A9535B590C40"
+			rewards: [{
+				id: "5A4BF43838A30E5B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E0100466541BAD6"
+				item: {
+					Count: 1
+					id: "survival_instinct:glaive_circular_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			id: "158688222E9BD6C4"
+			rewards: [{
+				id: "42EA0BE75D28AEA4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A58543088E6202F"
+				item: {
+					Count: 1
+					id: "survival_instinct:electric_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			id: "46D30D6AB7D6A4DB"
+			rewards: [{
+				id: "4D69D6F579679856"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0ED8CBBA823957B6"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:saw_baseball_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "6B2988FC2DBC726D"
+			rewards: [{
+				id: "11FE6DC1677C5452"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "683BB09A1FA3ECA6"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:electric_baseball_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "654782C41D7A1AA2"
+			rewards: [{
+				id: "6FC1054839DED145"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "34316B366C01404F"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:metal_baseball_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "018F3494B51A484F"
+			rewards: [{
+				id: "7638EAC3D055EA89"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44F6EB64D1F1B8EC"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:barbed_baseball_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			id: "1B515C2B0A5379AD"
+			rewards: [{
+				id: "04F56DF1273056A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "142D5446961854A2"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:baseball_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			id: "7053A96C90860B4B"
+			rewards: [{
+				id: "238475DC69DEFA2F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2510820A9BDE569C"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:chainsaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: -3.5d
+		}
+		{
+			id: "1F594CF1829B7E45"
+			rewards: [{
+				id: "1146FC450062BDC3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18D3C1B98FA23B64"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:sledgehammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			id: "69389539FD28924A"
+			rewards: [{
+				id: "09A3F7E3F30E377A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52F7DE120DDF3103"
+				item: {
+					Count: 1
+					id: "survival_instinct:electric_baton_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "49D7756CDEBDE76A"
+			rewards: [{
+				id: "1FCBA645F3C25BCC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EB6734BA23FBCA7"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:broken_glass_bottle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: -3.5d
+		}
+		{
+			id: "169A4AD908C5E428"
+			rewards: [{
+				id: "443D70733452B507"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06DAD9965B75302E"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "5675808ACF9466B2"
+			rewards: [{
+				id: "63151613DCF03BF0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F6871B4DC1B9491"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:scrap_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			id: "5CEF1D241FD07992"
+			rewards: [{
+				id: "3429C4C36468318A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A814F0B14DF216F"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:scrap_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: 0.5d
+		}
+		{
+			id: "083A3517F6217028"
+			rewards: [{
+				id: "2D9EAF4C9E620A46"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F2BF8560ED4646C"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:combat_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			id: "59391F8CA7F082D8"
+			rewards: [{
+				id: "41DDB8CEC2DCB7B8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "349BF5EB2DB93B8C"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:pipe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: 2.5d
+		}
+		{
+			id: "12A8AA25EDB9A122"
+			rewards: [{
+				id: "2F6C0483AB86C7F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D978B820247D7BF"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:golf_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: -3.5d
+		}
+		{
+			id: "02BFB13F8611992C"
+			rewards: [{
+				id: "2A5CCE78D19168BD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21C4489FA0E1A391"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			id: "4B50AE96512E0FFC"
+			rewards: [{
+				id: "2EE12280AEE34C55"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "628F6A819D568A76"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:scrap_knife_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			id: "722803D9E2297791"
+			rewards: [{
+				id: "03354A63BD5EE2E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "494DE9586627168F"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:wooden_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			id: "4659051EE550EE66"
+			rewards: [{
+				id: "2855C2E713D6F79A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69648F6C2224C07A"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:rake"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: 0.5d
+		}
+		{
+			id: "11162963CEC03C1B"
+			rewards: [{
+				id: "7D37AC0940539439"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "286C099D12B94281"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:broom"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: -1.5d
+		}
+		{
+			id: "1AC71D513035AFE7"
+			rewards: [{
+				id: "6EC006FB57EB3C75"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "23EE7F358EF77F99"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:plank"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -28.5d
+			y: -3.5d
+		}
+		{
+			id: "61352C257A9212A8"
+			rewards: [{
+				id: "0542822EE478483C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3AD8A113DA32C79C"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:rolling_pin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -1.5d
+		}
+		{
+			id: "2F5300B796484CFF"
+			rewards: [{
+				id: "32F2721DDFB65216"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0231110E427E442B"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:nailed_plank"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			id: "41453027B9BC7432"
+			rewards: [{
+				id: "6EA176DF2CB0CA6B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A5E9E5D6D2C06A3"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:screwdrive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.5d
+			y: -1.5d
+		}
+		{
+			id: "79C829ADC35FD3B7"
+			rewards: [{
+				id: "4332628BD8112123"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55D53C9A5B2C6175"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:pipe_wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: 4.0d
+		}
+		{
+			id: "77CB2A5CAC686541"
+			rewards: [{
+				id: "3D92A60D530685EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51D4542376B47A95"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:keytar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "1D5ED589B6C54C12"
+			rewards: [{
+				id: "7BE61C56A39D804B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DDE86AC0A805E5D"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:barbell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "1B34D9E264E9D2A3"
+			rewards: [{
+				id: "6B0E68233A93F1E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21AFD4F2BF3C6E05"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:acoustic_guitar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "1DEE29B659F8F667"
+			rewards: [{
+				id: "2BA5AFB043CB471A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2733A10D0ADBF7E7"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:electric_guitar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "17E7EB9271CC71FC"
+			rewards: [{
+				id: "43A34B4232D34926"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "417AB4709F3F1B8A"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:broken_glass_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.5d
+		}
+		{
+			id: "317BFED5BB7CEC46"
+			rewards: [{
+				id: "26E7495E02E5B67F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35923D9DDD120D4C"
+				item: {
+					Count: 1
+					id: "chovys_apocalypse_mod:militaryknife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			id: "3E775B7CBA159BC4"
+			rewards: [{
+				id: "6EE40BB4184984BD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0856CC00AC7055B1"
+				item: {
+					Count: 1
+					id: "survival_instinct:stop_sing_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "53D621F7F6C5B890"
+			rewards: [{
+				id: "58ED76961AB57497"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "07550B6F0503FC57"
+				item: {
+					Count: 1
+					id: "chovys_apocalypse_mod:riotshield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			id: "788BC982740FE786"
+			rewards: [{
+				id: "093A2F0C57B60C48"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B30C0638E05C1A3"
+				item: {
+					Count: 1
+					id: "survival_instinct:swat_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			id: "5CA95455C2E69C82"
+			rewards: [{
+				id: "1A2DB21466379FB6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4941BDBD32E15818"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						MeleeWeaponId: "lrtactical:hardened_katana"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.0d
+			y: -3.5d
+		}
+		{
+			id: "0370DC7F6CE3BF7D"
+			rewards: [{
+				id: "794FB6F1BE0D6A63"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3938111676C6EF85"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "lrtactical:baseball_bat"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "36ED5D52F992FCD0"
+			rewards: [{
+				id: "67BE81597356C6A5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AB6E71C9C753911"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "lrtactical:karambit"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			id: "1B0D2D121F68A459"
+			rewards: [{
+				id: "50A2527D631FF406"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06CD9FAED9CB8EC4"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						MeleeWeaponId: "lrtactical:fire_axe"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			id: "4E703A83782DD53A"
+			rewards: [{
+				id: "45BE9E764329D5DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "012F23259F71C75C"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						MeleeWeaponId: "lrtactical:wooden_baseball_bat"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			id: "0999BCCB3585854B"
+			rewards: [{
+				id: "30D2D3F0827789CF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6ED8E9AA141FCCD7"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "lrtactical:dagger"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			id: "466E27F3748B3926"
+			rewards: [{
+				id: "0CE78029BA5D691F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0B251CB4A70627EE"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "delta_wt:silencefd"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			id: "66D00E3CE951123A"
+			rewards: [{
+				id: "34578F88691E1F55"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C282E6B9F32A9ED"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "delta_wt:executor"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.0d
+			y: -0.5d
+		}
+		{
+			id: "23D105893A157AF0"
+			rewards: [{
+				id: "3EEA09E62533E166"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7D12F9DC34707410"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "delta_wt:quenching"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: -0.5d
+		}
+		{
+			id: "05FECFE82B87D710"
+			rewards: [{
+				id: "63950CF565BF1B35"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4097E4DCBEE7B7D9"
+				item: {
+					Count: 1
+					id: "lrtactical:flash_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			id: "731737ECA4849278"
+			rewards: [{
+				id: "52B5D93345F86EF3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "605EE70D7A838647"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "delta_wt:treasure_kn"
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			id: "6150E994F77FFBDB"
+			rewards: [{
+				id: "7F638A8283C543ED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "364F37D1C234D243"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "delta_wt:cobra_vanguard"
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			id: "5E1FBCDAB98F2AAC"
+			rewards: [{
+				id: "25D7908FDB284CFB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "463F317595D68A3E"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "delta_wt:thieve_sea"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: -2.0d
+		}
+		{
+			id: "5041359FE6BC9E8D"
+			rewards: [{
+				id: "23D2546881EA85C1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54A1978DE56E6D7F"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						MeleeWeaponId: "delta_wt:annihil"
+					}
+				}
+				type: "item"
+			}]
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			id: "16C8BD95A807A2AB"
+			rewards: [{
+				id: "3869D555B2E12917"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7645B16C581B7572"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "delta_wt:polaris"
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -3.5d
+		}
+		{
+			id: "187955208EBF9A1D"
+			rewards: [{
+				id: "190CD8F816B45692"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C2DF5DCB7EF408B"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "delta_wt:shadowkiller"
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: -2.0d
+		}
+		{
+			id: "492C69FF43FA03A5"
+			rewards: [{
+				id: "485A2A2A7B4E1F15"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0391E4B9A04C909B"
+				item: {
+					Count: 1
+					id: "lrtactical:melee"
+					tag: {
+						Damage: 0
+						MeleeWeaponId: "delta_wt:mercy"
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: -3.5d
+		}
+	]
+	title: "Weapons"
+}

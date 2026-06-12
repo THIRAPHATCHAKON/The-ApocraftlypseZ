@@ -1,0 +1,16 @@
+{
+	id: "3FC547E07BCFBB0C"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "create:large_cogwheel" }
+		{ item: "create:cogwheel" }
+		{ item: "create:shaft" }
+		{ item: "create:andesite_casing" }
+		{ item: "minecraft:iron_ingot" }
+		{ item: "minecraft:gold_ingot" }
+		{ item: "create:belt_connector" }
+		{ item: "create:brass_ingot" }
+	]
+	title: "Create_Quests"
+}

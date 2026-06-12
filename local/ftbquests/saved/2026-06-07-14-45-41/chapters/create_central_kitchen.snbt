@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_central_kitchen"
+	group: "6D4DC18BEBCCC304"
+	icon: "create:blaze_burner"
+	id: "7B95C21BBE2D4A40"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create: Central Kitchen"
+}

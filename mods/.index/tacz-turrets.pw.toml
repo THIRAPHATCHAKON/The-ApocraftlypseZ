@@ -1,0 +1,29 @@
+filename = 'tacz_turrets-1.1.2-all.jar'
+name = 'TACZ Turrets'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.2'
+
+[download]
+hash = 'e42f473cca69474511701616aef24aab1c96027dd521167dd1b0524c3fa1a4bca7657f9872bc0b8a7144dddf9a3ba4588333281d7802beb75e2b524950844939'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8k8SjeJB/versions/tFuhu3A1/tacz_turrets-1.1.2-all.jar'
+
+[update.modrinth]
+mod-id = '8k8SjeJB'
+version = 'tFuhu3A1'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SzzJttH8'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'PuyPazRT'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'EMBEDDED'

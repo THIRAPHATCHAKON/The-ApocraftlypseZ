@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_the_game"
+	group: "05C32418EEB9E39C"
+	icon: "minecraft:dirt_path"
+	id: "4563551B43074482"
+	images: [{
+		height: 7.0d
+		image: "kubejs:item/apocraftlypsez"
+		rotation: 0.0d
+		width: 13.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4C65EF8894A7A5F8"
+			rewards: [{
+				id: "014D686862EC0AC7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "You must survive in a collapsing world following the outbreak of a devastating virus that turns the infected into zombie-like creatures. You are among the few remaining survivors, and you must do whatever it takes to survive in this unforgiving wasteland."
+			tasks: [{
+				id: "68EAA98AF7760DDA"
+				title: "Welcome To ApocraftlypseZ"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C65EF8894A7A5F8"]
+			id: "1513BD73EB72796E"
+			rewards: [{
+				id: "6FA0E7D6A14D3C7A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The world features various cities scattered across the map. Each location offers different tiers of loot, unique structures, and varying levels of difficulty."
+			tasks: [{
+				id: "35D41F828906BB4D"
+				title: "Diverse Cities And Loot"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C65EF8894A7A5F8"]
+			id: "6A46307158CEE06B"
+			rewards: [{
+				id: "22D47D28C8315913"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "This modpack is heavily inspired by DeceasedCraft, Project Zomboid, and several other popular survival modpacks, combining intense survival mechanics with tactical looting."
+			tasks: [{
+				id: "5BCF08440158623B"
+				title: "Inspired by the Best"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4C65EF8894A7A5F8"]
+			id: "2DC88515C618DD7B"
+			rewards: [{
+				id: "74A0AB6DD8348ADF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The zombies will continuously grow stronger, faster, and more dangerous as days pass. There is no known limit to how powerful they can become—surviving gets harder every single day."
+			tasks: [{
+				id: "3EB89D162E4D7B5E"
+				title: "Evolving Zombie Threat"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+	]
+	title: "Welcome To ApocraftlypseZ"
+}

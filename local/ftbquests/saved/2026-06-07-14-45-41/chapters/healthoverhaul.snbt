@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "healthoverhaul"
+	group: "05C32418EEB9E39C"
+	icon: "legendarysurvivaloverhaul:bandage"
+	id: "7DCA2C53BC5C24DE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Health-Overhaul"
+}

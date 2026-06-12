@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "diet"
+	group: "05C32418EEB9E39C"
+	icon: "createfood:fried_egg_hash_brown_sandwich"
+	id: "62754BE4EF0CF652"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Diet"
+}

@@ -1,0 +1,21 @@
+filename = 'daffas_arsenal-3.5.0.jar'
+name = "[TACZ Addons] Daffa's Arsenal"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.5.0'
+
+[download]
+hash = 'ccc2a2ae8ca684b7fafa4556ab085555fade44ae01a641bffd95dc19f9e40ad9b0370d5d49ac4a6cd54d7c0d53a91fad8af70b1a0523b42e838145a41ad3fc85'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/11K9aTv9/versions/LcCW1gwL/daffas_arsenal-3.5.0.jar'
+
+[update.modrinth]
+mod-id = '11K9aTv9'
+version = 'LcCW1gwL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SzzJttH8'
+type = 'REQUIRED'

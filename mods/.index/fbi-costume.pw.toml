@@ -1,0 +1,41 @@
+filename = 'fbicostume-1-2fc4.noarch.fpm.jar'
+name = 'FBI Costume'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.12.2',
+    '1.13.2',
+    '1.14.4',
+    '1.15.2',
+    '1.16.4',
+    '1.16.5',
+    '1.17',
+    '1.17.1',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20-Snapshot',
+    '1.20',
+    '1.20.1',
+    '1.20.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fbicostume-1-2fc4.noarch.fpm'
+
+[download]
+hash = '41f49c96f5ef7b94a2c2181e4fbd63d78f7b5a0c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4378038
+project-id = 689359
+
+[[x-prismlauncher-dependencies]]
+addonId = '502654'
+type = 'REQUIRED'

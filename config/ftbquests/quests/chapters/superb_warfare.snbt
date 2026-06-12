@@ -1,0 +1,2222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "superb_warfare"
+	group: "6D4DC18BEBCCC304"
+	icon: "superbwarfare:small_container"
+	id: "4E9C65CA4B2763FB"
+	images: [
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 26.0d
+			y: 7.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 39.0d
+			y: 7.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 65.0d
+			y: 7.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 52.0d
+			y: 7.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 78.0d
+			y: 7.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 13.5d
+			x: 0.0d
+			y: 21.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "397BFCE9E632C2BF"
+			tasks: [{
+				id: "0324D4E6F8BB9FAC"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:zelensky"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			id: "300A7ECAC4EE0EE8"
+			tasks: [{
+				id: "4FE42A3CE2E06C36"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:yx_100"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			id: "2B7A3AA295EC58FA"
+			tasks: [{
+				id: "3607881D9A2591FF"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:lav_150"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 4.5d
+		}
+		{
+			id: "07580D54B147FA53"
+			tasks: [{
+				id: "127D4718FA26A901"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:plz_05"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 4.5d
+		}
+		{
+			id: "2F4DCB8ED29881F9"
+			tasks: [{
+				id: "17F88B1EE221495A"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:prism_tank"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			id: "46299BD230405275"
+			tasks: [{
+				id: "39409F94EC8DD4A7"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:tom_6"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			id: "4ADA5E19531F48E1"
+			tasks: [{
+				id: "61AF03C9385A9159"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:ah-64"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 3.0d
+		}
+		{
+			id: "4D5D64450D718CBE"
+			tasks: [{
+				id: "1E0D6FC0D2227745"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f-117"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			id: "56916534B95DD5E1"
+			tasks: [{
+				id: "11C0D9379B907570"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f-18"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: 3.0d
+		}
+		{
+			id: "19EDC3C1377BAF52"
+			tasks: [{
+				id: "08F5451D4EEE7268"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f14"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 3.0d
+		}
+		{
+			id: "582A3D58A4156621"
+			tasks: [{
+				id: "4ED7EF0E63B18411"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f_15"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: 6.0d
+		}
+		{
+			id: "7FA3E2B9CE11F890"
+			tasks: [{
+				id: "696AEC94AF8E582D"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f_16"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: 4.5d
+		}
+		{
+			id: "415E082528380210"
+			tasks: [{
+				id: "0E764824B7B019AC"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:su-25"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 3.0d
+		}
+		{
+			id: "25C14021E348F6BB"
+			tasks: [{
+				id: "5821B02DCE7B2147"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:su-27"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 4.5d
+		}
+		{
+			id: "4AFA5B4C8DBBB1A3"
+			tasks: [{
+				id: "10E693D3EB376B80"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:uh_60"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 4.5d
+		}
+		{
+			id: "6CB68C95574F6DE8"
+			tasks: [{
+				id: "6564D0B9BA1ED5C1"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:a_10a"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			id: "7247500FB68E4EE9"
+			tasks: [{
+				id: "30A13E931216AAEA"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:ah_6"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			id: "7D776255A32AF4FE"
+			tasks: [{
+				id: "053E6B14052FB3FC"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:mi_28"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 4.5d
+		}
+		{
+			id: "0CCDE1991631B07C"
+			tasks: [{
+				id: "799183C1387855C3"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:bmp_3"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 10.0d
+		}
+		{
+			id: "49A855CB8527FC38"
+			tasks: [{
+				id: "68DBC144E700E4CD"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:bmp_2"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 8.5d
+		}
+		{
+			id: "472806FB09D4C7C8"
+			tasks: [{
+				id: "78633B675B0C41D8"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:bmp_2"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 8.5d
+		}
+		{
+			id: "104E95FF3FD423A7"
+			tasks: [{
+				id: "1F8F5AA05802A28C"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:ural"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 8.5d
+		}
+		{
+			id: "4B6C94A849815AE0"
+			tasks: [{
+				id: "2AFCF7C34BA3F24C"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:fmtv"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 8.5d
+		}
+		{
+			id: "3FA31D1F347CE1AE"
+			tasks: [{
+				id: "4D7028F0237BBD24"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:leopard_2a4"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			id: "7D1E799252A0C376"
+			tasks: [{
+				id: "1EE23F114FAA7FE2"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:tos"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: 10.0d
+		}
+		{
+			id: "3EEB70FE076C7984"
+			tasks: [{
+				id: "20D0C21A15DC290C"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:gepard-1a2"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: 8.5d
+		}
+		{
+			id: "6756B50FAF462916"
+			tasks: [{
+				id: "4EC96D9223713513"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:su-33"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 39.0d
+			y: 4.5d
+		}
+		{
+			id: "6579F391495F41B5"
+			tasks: [{
+				id: "6D1AF15088A0D9C7"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:b-2"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 39.0d
+			y: 6.0d
+		}
+		{
+			id: "5FF34E77E4327A6A"
+			tasks: [{
+				id: "17CA7A8A77CDF50E"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:rah_66"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 41.0d
+			y: 4.5d
+		}
+		{
+			id: "2637C371D6EB3AA1"
+			tasks: [{
+				id: "476A490B31AFB2D0"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f_2"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.0d
+			y: 4.5d
+		}
+		{
+			id: "2814F33EFFF2CCBF"
+			tasks: [{
+				id: "086DD4C2BB8A1E35"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:t_90"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.0d
+			y: 8.5d
+		}
+		{
+			id: "415A2C60BBD3F4FC"
+			tasks: [{
+				id: "4FA3B87BE83DEDEE"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:bradley"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 41.0d
+			y: 8.5d
+		}
+		{
+			id: "1F71056B9BC517E7"
+			tasks: [{
+				id: "2B0A4F0A2DDB3CA0"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:brm"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 39.0d
+			y: 8.5d
+		}
+		{
+			id: "4C2BB35799EAA64F"
+			tasks: [{
+				id: "6DBACC3B94DCB885"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:eurofighter"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 48.0d
+			y: 4.5d
+		}
+		{
+			id: "37BDCC9631DC3CBC"
+			tasks: [{
+				id: "7224C749B1F92384"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f-22"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 56.0d
+			y: 4.5d
+		}
+		{
+			id: "600E3357A8F738D7"
+			tasks: [{
+				id: "60E822BAEC2F1C5D"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:mh_60m"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 54.0d
+			y: 4.5d
+		}
+		{
+			id: "1589795BF34E1535"
+			tasks: [{
+				id: "487795C57D6943EF"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:pa_pantsir"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 52.0d
+			y: 6.0d
+		}
+		{
+			id: "5877C79D2CB76CC0"
+			tasks: [{
+				id: "666541C4EA7B8B5A"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:su-34"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 50.0d
+			y: 4.5d
+		}
+		{
+			id: "31E2D8E4ECC6FCA1"
+			tasks: [{
+				id: "401E756BB47E9BFC"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:v-22"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 52.0d
+			y: 4.5d
+		}
+		{
+			id: "1A0EB2C46EB6CF8E"
+			tasks: [{
+				id: "75679D479F99EA3A"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:btr_3"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 50.0d
+			y: 9.5d
+		}
+		{
+			id: "7D8C8DB47BFBAE2A"
+			tasks: [{
+				id: "7CBC7915D8F38CD1"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:cobra"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 48.0d
+			y: 9.5d
+		}
+		{
+			id: "469DA891015F1A2D"
+			tasks: [{
+				id: "44E16E7AC411E125"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:mi_28"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 54.0d
+			y: 8.0d
+		}
+		{
+			id: "09497D1D11E80CC8"
+			tasks: [{
+				id: "364DD9DBE187D6D9"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:pantsir_s1"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 52.0d
+			y: 8.0d
+		}
+		{
+			id: "1FCCBAC8971B71D8"
+			tasks: [{
+				id: "586230505287122C"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:m1a2_sep"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 52.0d
+			y: 9.5d
+		}
+		{
+			id: "72F4F6420793DBC9"
+			tasks: [{
+				id: "7B56F39065BA448B"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:stryker_m1296"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 50.0d
+			y: 8.0d
+		}
+		{
+			id: "19989CAABFC52594"
+			tasks: [{
+				id: "411D38A08AEC8EAE"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:stryker"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 48.0d
+			y: 8.0d
+		}
+		{
+			id: "101ED66FC0DA9BB1"
+			tasks: [{
+				id: "6052D760EBF9B981"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:btr_4"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 54.0d
+			y: 9.5d
+		}
+		{
+			id: "7AA4EBD7D04712FC"
+			tasks: [{
+				id: "225B2FFED24940C2"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:oplot"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 56.0d
+			y: 8.0d
+		}
+		{
+			id: "0393172E9A6990B2"
+			tasks: [{
+				id: "3DA7FC4EED4B5772"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f-35a"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 63.0d
+			y: 4.5d
+		}
+		{
+			id: "3150E6071ACBB66C"
+			tasks: [{
+				id: "21CABA20D9373039"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f-35b"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 65.0d
+			y: 4.5d
+		}
+		{
+			id: "743F9F810F43422C"
+			tasks: [{
+				id: "2891A67646846987"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:sapsan-grim2"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 69.0d
+			y: 8.0d
+		}
+		{
+			id: "46478E3CD5CC7259"
+			tasks: [{
+				id: "2A27D50814446031"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:stryker_m1296"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 61.0d
+			y: 8.0d
+		}
+		{
+			id: "4E34046586934E22"
+			tasks: [{
+				id: "07B1803CB575A88A"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:centauro"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 63.0d
+			y: 8.0d
+		}
+		{
+			id: "64DB0C81DCBC1245"
+			tasks: [{
+				id: "6837A1D414A1B97A"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:puma"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 65.0d
+			y: 8.0d
+		}
+		{
+			id: "0FA3817B2F63E7B5"
+			tasks: [{
+				id: "17AF62C3A36607E0"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:ajax"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 67.0d
+			y: 8.0d
+		}
+		{
+			id: "6BE7339EE302EEEC"
+			tasks: [{
+				id: "0C1C51194971D6D9"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f-39e"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 78.0d
+			y: 4.5d
+		}
+		{
+			id: "34ACB848398C5E51"
+			tasks: [{
+				id: "7F257201DFF2704C"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:su-57"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 80.0d
+			y: 4.5d
+		}
+		{
+			id: "0FF8264CAAA16A5E"
+			tasks: [{
+				id: "6146DD9D1E4E5624"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:j-20"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 76.0d
+			y: 4.5d
+		}
+		{
+			id: "3C7B822517577FDB"
+			tasks: [{
+				id: "1F090774D7BAC7D4"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:t_90"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 78.0d
+			y: 9.5d
+		}
+		{
+			id: "1C7AA2D640BEA544"
+			tasks: [{
+				id: "11F1678C502D261E"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:bmp_2m"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 78.0d
+			y: 8.0d
+		}
+		{
+			id: "76A1B1F846BACB2A"
+			tasks: [{
+				id: "1C6539AE6AA5C085"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:t72_b3m"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 76.0d
+			y: 8.0d
+		}
+		{
+			id: "69B77D23DF262483"
+			tasks: [{
+				id: "422E6910D75A136D"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:leopard_2a7v"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 76.0d
+			y: 9.5d
+		}
+		{
+			id: "05D7201A08694803"
+			tasks: [{
+				id: "0353CAD9636F8ECE"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:varta_ptrk"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 82.0d
+			y: 8.0d
+		}
+		{
+			id: "08E6D4CB519C0523"
+			tasks: [{
+				id: "110048DBFDB32EA8"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:varta"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 74.0d
+			y: 8.0d
+		}
+		{
+			id: "1E98CA504FCBA3A7"
+			tasks: [{
+				id: "3991A5EA2B9D0861"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:bmp_2_bakhcha"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 80.0d
+			y: 8.0d
+		}
+		{
+			id: "031CD79ABBA9BE1A"
+			tasks: [{
+				id: "1C186AD33F1278EC"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "vvp:bmpt_3k"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 80.0d
+			y: 9.5d
+		}
+		{
+			id: "2633386600C6CAD3"
+			tasks: [{
+				id: "39258F804A1FE54E"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:laser_tower"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 8.5d
+		}
+		{
+			id: "464F679BC0E1502F"
+			tasks: [{
+				id: "700E6FCFCBA5AE3E"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:waveforce_tower"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 10.0d
+		}
+		{
+			id: "774AAE08E949E3F8"
+			tasks: [{
+				id: "52833332A76861AA"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:annihilator"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			id: "117EE29C18C4EAE2"
+			tasks: [{
+				id: "6AF2C609255AA2CD"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:type_63"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			id: "5CE0239E2124FC84"
+			tasks: [{
+				id: "2F144248085097DF"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:mk_42"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 8.5d
+		}
+		{
+			id: "60E4EDC954C6C0FB"
+			tasks: [{
+				id: "3ABF877086BE638A"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:mle_1934"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.5d
+		}
+		{
+			id: "7898865A9CEEE63E"
+			tasks: [{
+				id: "018DEE5E41371959"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:bl_132"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 10.0d
+		}
+		{
+			id: "7B02076F4A024815"
+			tasks: [{
+				id: "66696ED0AA515C42"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:hpj_11"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			id: "73C18ADBDDDDF3F3"
+			tasks: [{
+				id: "01DE69905A14E280"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:truck"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "7AF22972D596E80B"
+			tasks: [{
+				id: "6C24E3E7A9ED281B"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:speedboat"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "0F8783507F755DD2"
+			tasks: [{
+				id: "2C433EA840D07BCF"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:rubber_boat"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "4BE38F1BF98A37AE"
+			tasks: [{
+				id: "38E660F499855CC1"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:wheel_chair"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "7AD06FCB0292C226"
+			tasks: [{
+				id: "700EF3286C2A6C0F"
+				title: "ๅ"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "4E8FEA6B2DA3C4E4"
+			tasks: [{
+				id: "2D4F512AA6F609DC"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "ashvehicle:f-4"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			id: "3A51E6AFDBDE66BD"
+			tasks: [{
+				id: "4EF4EFD14612ADB4"
+				item: "superbwarfare:vehicle_assembling_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "2E8EED96CDE26F97"
+			tasks: [{
+				id: "7F9139AAB28E278A"
+				item: {
+					Count: 1
+					id: "superbwarfare:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "434D0A775D1F0276"
+			tasks: [{
+				id: "703AC3BA851F2990"
+				item: "superbwarfare:reforging_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "755F29BAEF5ED5DF"
+			tasks: [{
+				id: "77BFF8C7FBA877DA"
+				item: "ashvehicle:jetengineitem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "21BBE9DD9D1C4DC1"
+			tasks: [{
+				id: "6B9B7A106187EF5A"
+				item: "ashvehicle:enginefanitem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			id: "4BD2A7571AAB3142"
+			tasks: [{
+				id: "2D3BA5B109CBFE56"
+				item: "vvp:ags_30_item"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "166E473133B0D0E6"
+			tasks: [{
+				id: "42BCE058FDE9F38E"
+				item: "vvp:kornet_item"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "5562566933C82633"
+			tasks: [{
+				id: "5F8E3145658DE377"
+				item: "vvp:spray"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "48F7623FF067C010"
+			tasks: [{
+				id: "62AE65584B4D9E1F"
+				item: "vvp:item_30mm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			id: "10B1A65CB4821CBF"
+			tasks: [{
+				id: "025FA5A0AF7A954F"
+				item: "vvp:aam"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			id: "56C9098F93CE4C67"
+			tasks: [{
+				id: "158FB4B2253A2A8A"
+				item: "vvp:agm"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			id: "2CE89B0F5821AA78"
+			tasks: [{
+				id: "762A374AE346BAA2"
+				item: "vvp:he_shell"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			id: "7A05A9E7BE8C440E"
+			tasks: [{
+				id: "0AC3390EA8098DB8"
+				item: "vvp:ap_shell"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "058ED70546EE11D1"
+			tasks: [{
+				id: "683F91BBE91C7F67"
+				item: "vvp:item_12_7mm"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			id: "054069B16D9A2ECC"
+			tasks: [{
+				id: "5C0BF30579E61A30"
+				item: "vvp:item_7_62mm"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			id: "643951581E186817"
+			tasks: [{
+				id: "63CCB46A8036D70F"
+				item: "vvp:item_40_mm"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "4A85B553B673B47F"
+			tasks: [{
+				id: "4C4F9BD1A21A89D7"
+				item: "ashvehicle:agm158item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "5A615D6848A22389"
+			tasks: [{
+				id: "03D47B91EC58B080"
+				item: "ashvehicle:gbu57item"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "7B6FA2D8F1D3BC65"
+			tasks: [{
+				id: "368F5FD40752536F"
+				item: "ashvehicle:cbu87item"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "5AED90A84B1B3A23"
+			tasks: [{
+				id: "633B200948C7D4BC"
+				item: "ashvehicle:aim9item"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "20A4CCFCC60EA2E7"
+			tasks: [{
+				id: "388C1A002645B0EF"
+				item: "ashvehicle:aim120item"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "59DBF08FA27456BB"
+			tasks: [{
+				id: "3F4AF6704956DB3D"
+				item: "ashvehicle:aim54item"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			id: "32FFC98E992267F5"
+			tasks: [{
+				id: "02E5E1E0068D7C73"
+				item: "ashvehicle:r60item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "6486DBC4F51951BF"
+			tasks: [{
+				id: "7A163D29761CFDFC"
+				item: "ashvehicle:agm114item"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "7F47499B08D90C0C"
+			tasks: [{
+				id: "2506EA47370F5BCD"
+				item: "ashvehicle:nuclearbombitem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "4F1EE438D0B67083"
+			tasks: [{
+				id: "3718F89804935EFF"
+				item: "superbwarfare:empty_perk"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			id: "72553261A3BB2EA6"
+			tasks: [{
+				id: "1916922A3E0020A9"
+				item: "superbwarfare:head_seeker"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			id: "424F44997CAE6D0A"
+			tasks: [{
+				id: "39ACD41457500473"
+				item: "superbwarfare:monster_hunter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.5d
+		}
+		{
+			id: "0112DBD72574580E"
+			tasks: [{
+				id: "35FFB6DC2E47B797"
+				item: "superbwarfare:volt_overload"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			id: "78DF316C79741EDC"
+			tasks: [{
+				id: "52C41545BF76C1EF"
+				item: "superbwarfare:desperado"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			id: "09AF56B86ECA6B53"
+			tasks: [{
+				id: "6A6B340D134F7F42"
+				item: "superbwarfare:vorpal_weapon"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 18.5d
+		}
+		{
+			id: "24FA2C881B1CBCF3"
+			tasks: [{
+				id: "743AD30964F7BD26"
+				item: "superbwarfare:magnificent_howl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 18.5d
+		}
+		{
+			id: "77257A21C73EC621"
+			tasks: [{
+				id: "69AEDB07885021CE"
+				item: "superbwarfare:firefly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.5d
+		}
+		{
+			id: "3A39ECC090D4DE45"
+			tasks: [{
+				id: "7D8F27648D21B315"
+				item: "superbwarfare:fair_means"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			id: "43511216217BDB20"
+			tasks: [{
+				id: "51D53CBB4E1A62A0"
+				item: "superbwarfare:high_impact_reserves"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			id: "5557AB83EAA79C6D"
+			tasks: [{
+				id: "4FF161694F84C02D"
+				item: "superbwarfare:ap_bullet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 21.5d
+		}
+		{
+			id: "127BA7CCE7701FA9"
+			tasks: [{
+				id: "3C6BFA648219D3B6"
+				item: "superbwarfare:jhp_bullet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 21.5d
+		}
+		{
+			id: "645FDE57DBCBE8B4"
+			tasks: [{
+				id: "4098B44B01B63069"
+				item: "superbwarfare:he_bullet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 23.0d
+		}
+		{
+			id: "131AC86DB4101A8C"
+			tasks: [{
+				id: "6C46F445039AE17A"
+				item: "superbwarfare:silver_bullet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			id: "42ABC77966EDE729"
+			tasks: [{
+				id: "6A731E6FEB24F28A"
+				item: "superbwarfare:poisonous_bullet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 21.5d
+		}
+		{
+			id: "2F40D4E29516651F"
+			tasks: [{
+				id: "36B04FB38DA7633E"
+				item: "superbwarfare:beast_bullet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 21.5d
+		}
+		{
+			id: "17841F9FE2388187"
+			tasks: [{
+				id: "4F609AA40EFA8655"
+				item: "superbwarfare:longer_wire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			id: "4BF97478262FF58D"
+			tasks: [{
+				id: "00B0748FF0703DBA"
+				item: "superbwarfare:incendiary_bullet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			id: "0930D00869B71F18"
+			tasks: [{
+				id: "764E9D0580DDE04D"
+				item: "superbwarfare:micro_missile"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 24.5d
+		}
+		{
+			id: "1A3C15E51BFD8D3D"
+			tasks: [{
+				id: "7A895832BFC8C59E"
+				item: "superbwarfare:cupid_arrow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 24.5d
+		}
+		{
+			id: "7603D123BD489912"
+			tasks: [{
+				id: "107AECCA5E2A73B6"
+				item: "superbwarfare:riot_bullet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			id: "2FE0E9E511FD1481"
+			tasks: [{
+				id: "0E0F3E20AAB252F2"
+				item: "superbwarfare:phase_penetrating_bullet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 24.5d
+		}
+		{
+			id: "11CBDA8030C5BA93"
+			tasks: [{
+				id: "17E3384966117BD3"
+				item: "superbwarfare:blade_bullet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 23.0d
+		}
+		{
+			id: "02B0A573FCED68F6"
+			tasks: [{
+				id: "2FA9CC48C6270AE4"
+				item: "superbwarfare:heal_clip"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 23.0d
+		}
+		{
+			id: "06E974FE2FCB087B"
+			tasks: [{
+				id: "19DB8D4EC77CD59F"
+				item: "superbwarfare:fourth_times_charm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.5d
+		}
+		{
+			id: "7244FD08DC03D30F"
+			tasks: [{
+				id: "0CC96F15D6608339"
+				item: "superbwarfare:subsistence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 23.0d
+		}
+		{
+			id: "3D9BF1F9FF095C33"
+			tasks: [{
+				id: "2D485C9F076E662B"
+				item: "superbwarfare:field_doctor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 24.5d
+		}
+		{
+			id: "44AE63BFA1E2EE18"
+			tasks: [{
+				id: "1CBFFEC05A4293DD"
+				item: "superbwarfare:regeneration"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 26.0d
+		}
+		{
+			id: "0263908740A1955E"
+			tasks: [{
+				id: "29D140379846BA1E"
+				item: "superbwarfare:turbo_charger"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 26.0d
+		}
+		{
+			id: "0A0468BB3CA80ED1"
+			tasks: [{
+				id: "599B0AB9B3F62926"
+				item: "superbwarfare:powerful_attraction"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.0d
+		}
+		{
+			id: "4E676A56EEEFD48A"
+			tasks: [{
+				id: "48F0A3092AC18FFF"
+				item: "superbwarfare:intelligent_chip"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 26.0d
+		}
+		{
+			id: "57B9C3D5B171AFE5"
+			tasks: [{
+				id: "290A2B167582860D"
+				item: "superbwarfare:backpack_linked_magazine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			id: "0881750030A2A674"
+			tasks: [{
+				id: "30779FCA7C45402C"
+				item: "superbwarfare:powerful_cooler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			id: "7E1BF55E21C6CD2F"
+			tasks: [{
+				id: "313FE32C37CCE375"
+				item: "superbwarfare:kill_clip"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			id: "1CDA78F47BF566DC"
+			tasks: [{
+				id: "6FCAC74B06A8CF38"
+				item: "superbwarfare:gutshot_straight"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			id: "03A1B1E9BF537201"
+			tasks: [{
+				id: "27D862F755089DA2"
+				item: "superbwarfare:killing_tally"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 17.0d
+		}
+	]
+	title: "Superb Warfare"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_steam_n_rails"
+	group: "6D4DC18BEBCCC304"
+	icon: "railways:track_oak"
+	id: "2FEC356A041F853E"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create: Steam 'n' Rails"
+}

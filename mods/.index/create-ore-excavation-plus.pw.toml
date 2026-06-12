@@ -1,0 +1,25 @@
+filename = 'create_ore_excavation_plus-0.2.3-1.20.1.jar'
+name = 'Create Ore Excavation Plus'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.2.3'
+
+[download]
+hash = '13ab154934389054b64929666bd0353beeedec27201527c45d4af030831b0ad85d1f7b5a24536de708a5d95fccec1f9f8f260332c14a4fffbfeff9789db8067f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZHocuC06/versions/WHvecoEX/create_ore_excavation_plus-0.2.3-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'ZHocuC06'
+version = 'WHvecoEX'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ResbpANg'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

@@ -1,0 +1,25 @@
+filename = 'createarmsrace-1.0.0.jar'
+name = 'Create: Arms Race'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '5e4a54bc8e0c84dfda9d3512e00b711016f130e10b6b83df901763f26919c95131c2dd71a28fa2b9070f563a1f5a7bf927f3d0bd2d7e86320165730a523f6cb9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/X3UfPprl/versions/Mg3hSxRC/createarmsrace-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'X3UfPprl'
+version = 'Mg3hSxRC'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SzzJttH8'
+type = 'REQUIRED'

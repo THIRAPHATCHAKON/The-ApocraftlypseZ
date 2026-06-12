@@ -1,0 +1,876 @@
+
+#TACZ Curios 饰品配置
+[tcc_curios]
+
+	#天火圣裁饰品配置
+	[tcc_curios.heaven_fire_judgment]
+		#通用枪械伤害加成 (默认: 3.25 = 325%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 3.25
+		#触发时扣除的当前生命值比例 (默认: -0.3 = -30%)
+		#Range: -1.0 ~ 1.0
+		healthCost = -0.3
+		#伤害降低99%，并转换为虚数伤害
+		#Range: 0.0 ~ 1.0
+		damageConversionRatio = 0.01
+		#天火圣裁生效的枪械类型列表 (可选: pistol, rifle, shotgun, sniper, smg, mg, rpg)
+		gunTypes = ["pistol"]
+
+	#天火流血效果配置（两个饰品共用）
+	[tcc_curios.heaven_fire_bleeding]
+		#每级流血效果造成的最大生命值比例伤害 (默认: -0.1 = -10% maxHP/级)
+		#Range: -1.0 ~ 0.0
+		damagePerLevel = -0.1
+		#流血效果最大等级 (默认: 5)
+		#Range: 1 ~ 10
+		maxLevel = 5
+		#流血效果持续时间(秒) (默认: 5)
+		#Range: 1 ~ 60
+		duration = 5
+		#天火劫灭扣血后延迟施加流血的时长(秒) (默认: 3, 最小: 1)
+		#Range: 1 ~ 60
+		delayDuration = 3
+
+	#虚数侵染效果配置（纯标记，不再直接造成流血。流血由虚数崩解处理。增伤计算公式：最终伤害 = 伤害 × (1 + 层数 × ampPerLevel)）
+	[tcc_curios.imaginary_infection]
+		#每层虚数侵染的增伤比例 (默认: 0.1 = 10%/层)
+		#Range: 0.01 ~ 1.0
+		ampPerLevel = 0.1
+		#虚数侵染效果最大等级上限 (默认: 99)
+		#Range: 1 ~ 99
+		maxLevel = 99
+		#虚数侵染效果持续时间(秒) (默认: 15)
+		#Range: 1 ~ 300
+		duration = 15
+		#虚数侵染降低的虚数抗性值 (默认: 10)
+		#Range: 0.0 ~ 100.0
+		resistanceReduction = 10.0
+		#每点虚数抗性提高的伤害保留比例 (默认: 0.01 = 1%/点)
+		#Range: 0.0 ~ 1.0
+		damageResistanceBonusPerPoint = 0.01
+
+	#虚数崩解配置（虚数崩解基于虚数侵染层数和负面效果种数造成额外伤害）
+	[tcc_curios.imaginary_collapse]
+		#每层虚数侵染的崩解增伤比例 (默认: 0.05 = 5%/层)
+		#Range: 0.0 ~ 1.0
+		percentPerLevel = 0.05
+		#每种负面效果的崩解增伤比例 (默认: 0.1 = 10%/种)
+		#Range: 0.0 ~ 1.0
+		percentPerDebuff = 0.1
+		#崩解计入的负面效果种数上限 (默认: 5)
+		#Range: 1 ~ 20
+		maxDebuffCount = 5
+
+	#按饰品分级的虚数侵染上限（当攻击者携带对应饰品时，目标虚数侵染不会超过此等级）
+	[tcc_curios.imaginary_infection_per_curio]
+		#天火圣裁的虚数侵染上限 (默认: 3)
+		#Range: 1 ~ 99
+		judgmentMaxLevel = 3
+		#天火劫灭的虚数侵染上限 (默认: 6)
+		#Range: 1 ~ 99
+		apocalypseMaxLevel = 6
+		#劫灭无尽的虚数侵染上限 (默认: 9)
+		#Range: 1 ~ 99
+		endlessMaxLevel = 9
+
+	#天火劫灭饰品配置
+	[tcc_curios.heaven_fire_apocalypse]
+		#通用枪械伤害加成 (默认: 10.0 = 1000%)
+		#Range: -1.0 ~ 1000.0
+		damageBoost = 10.0
+		#爆炸范围加成 (默认: 10)
+		#Range: -1.0 ~ 100.0
+		explosionRadius = 10.0
+		#爆炸伤害加成 (默认: 10.0 = 1000%)
+		#Range: -1.0 ~ 100.0
+		explosionDamage = 10.0
+		#触发时扣除的当前生命值比例 (默认: -1.0 = -100%)
+		#Range: -1.0 ~ 1.0
+		healthCost = -1.0
+		#装备梵天百兽时天火劫灭扣血比例的减少值 (默认: 0.6 = 从扣100%变为扣40%，即保留60%血量)
+		#Range: 0.0 ~ 1.0
+		brahmaBeastsHealthCostReduction = 0.6
+		#附近玩家获得的 bullet_gundamage 每级伤害加成 (默认: 1.0 = 100%/级)
+		#Range: -1.0 ~ 100.0
+		nearbyPlayerDamageBoost = 1.0
+		#附近玩家获得的药水效果等级 (0=1级, 默认: 0)
+		#Range: 0 ~ 999
+		nearbyPlayerPotionAmplifier = 0
+		#附近玩家获得伤害加成的持续时间(秒) (默认: 15)
+		#Range: -1 ~ 300
+		nearbyPlayerDuration = 15
+		#影响附近玩家的范围 (默认: 32)
+		#Range: -1.0 ~ 100.0
+		nearbyPlayerRadius = 32.0
+		#伤害降低90%，并转换为虚数伤害
+		#Range: 0.0 ~ 1.0
+		damageConversionRatio = 0.01
+		#天火劫灭生效的枪械类型列表 (可选: pistol, rifle, shotgun, sniper, smg, mg, rpg)
+		gunTypes = ["pistol"]
+
+	#膛线饰品配置
+	[tcc_curios.rifling]
+		#特定枪械伤害加成 (默认: 1.65 = 165%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.65
+
+	#分裂膛室饰品配置
+	[tcc_curios.split_chamber]
+		#弹头数量加成 (默认: 0.9 = 90%)
+		#Range: -1.0 ~ 100.0
+		bulletCountBoost = 0.9
+
+	#卑劣加速饰品配置
+	[tcc_curios.despicable_acceleration]
+		#射击速度加成 (默认: +0.9 = +90%)
+		#Range: -1.0 ~ 100.0
+		fireRateBoost = 0.9
+		#伤害降低 (默认: -0.15 = -15%)
+		#Range: -1.0 ~ 0.0
+		damageReduction = -0.15
+
+	#并合膛线饰品配置
+	[tcc_curios.merged_rifling]
+		#特定枪械伤害加成 (默认: 1.55 = 155%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.55
+		#持枪移动速度加成 (默认: 0.25 = 25%)
+		#Range: -1.0 ~ 100.0
+		movementSpeedBoost = 0.25
+
+	#合金钻头饰品配置
+	[tcc_curios.alloy_drill]
+		#护甲穿透加成 (默认: 2.0 = 200%)
+		#Range: -1.0 ~ 100.0
+		armorPenetrationBoost = 2.0
+
+	#我小心海也绝非鳝类饰品配置
+	[tcc_curios.careful_heart]
+		#发射器伤害加成 (默认: 3.0 = 300%)
+		#Range: -1.0 ~ 100.0
+		launcherDamageBoost = 3.0
+		#爆炸伤害加成 (默认: 3.0 = 300%)
+		#Range: -1.0 ~ 100.0
+		explosionDamageBoost = 3.0
+		#爆炸范围加成 (默认: 3.0 = 300%)
+		#Range: -1.0 ~ 100.0
+		explosionRadiusBoost = 3.0
+		#爆炸启用属性 (默认: 2.0)
+		#Range: -1.0 ~ 100.0
+		explosionEnabled = 2.0
+
+	#关键延迟饰品配置
+	[tcc_curios.critical_delay]
+		#暴击几率加成 (默认: 2.0)
+		#Range: -1.0 ~ 100.0
+		critChanceBoost = 2.0
+		#射速降低 (默认: -0.2)
+		#Range: -1.0 ~ 0.0
+		fireRateReduction = -0.2
+
+	#致命一击饰品配置
+	[tcc_curios.lethal_crit]
+		#暴击几率加成 (默认: 1.5)
+		#Range: -1.0 ~ 100.0
+		critChance = 1.5
+
+	#弱点感应饰品配置
+	[tcc_curios.weakness_sense]
+		#暴击伤害加成 (默认: 1.2)
+		#Range: -1.0 ~ 100.0
+		critDamage = 1.2
+
+	#氩晶瞄具饰品配置
+	[tcc_curios.argon_scope]
+		#基础暴击几率 (默认: 1.35)
+		#Range: -1.0 ~ 100.0
+		baseCritChance = 1.35
+		#Buff每级暴击几率 (默认: 0.5)
+		#Range: -1.0 ~ 100.0
+		critChancePerLevel = 0.5
+		#Buff持续时间(秒) (默认: 9)
+		#Range: 1 ~ 300
+		duration = 9
+
+	#镀层氩晶瞄具饰品配置
+	[tcc_curios.gilded_argon_scope]
+		#基础暴击几率 (默认: 1.2)
+		#Range: -1.0 ~ 100.0
+		baseCritChance = 1.2
+		#Buff每级暴击几率 (默认: 0.4)
+		#Range: -1.0 ~ 100.0
+		critChancePerLevel = 0.4
+		#爆头击杀暴击率额外加成 (默认: 0.4)
+		#Range: -1.0 ~ 100.0
+		headshotKillExtra = 0.4
+		#Buff持续时间(秒) (默认: 12)
+		#Range: 1 ~ 300
+		duration = 12
+		#最大叠加层数 (默认: 5)
+		#Range: 1 ~ 20
+		maxStacks = 5
+
+	#尖刃弹头饰品配置
+	[tcc_curios.sharp_bullet]
+		#基础暴击伤害 (默认: 1.2)
+		#Range: -1.0 ~ 100.0
+		baseCritDamage = 1.2
+		#Buff每级暴击伤害 (默认: 0.6)
+		#Range: -1.0 ~ 100.0
+		critDamagePerLevel = 0.6
+		#Buff持续时间(秒) (默认: 9)
+		#Range: 1 ~ 300
+		duration = 9
+
+	#镀层步枪才能饰品配置
+	[tcc_curios.gilded_rifle_aptitude]
+		#每负面效果种数增伤比例 (默认: 0.4)
+		#Range: -1.0 ~ 100.0
+		perHarmful = 0.4
+		#Buff持续时间(秒) (默认: 20)
+		#Range: 1 ~ 300
+		duration = 20
+		#最大叠加层数 (默认: 2)
+		#Range: 1 ~ 20
+		maxStacks = 2
+
+	#镀层分裂膛室饰品配置
+	[tcc_curios.gilded_split_chamber]
+		#基础弹头数量加成 (默认: 0.8)
+		#Range: -1.0 ~ 100.0
+		bulletCountBase = 0.8
+		#Buff每级额外弹头数量 (默认: 0.3)
+		#Range: -1.0 ~ 100.0
+		bulletCountPerLevel = 0.3
+		#Buff持续时间(秒) (默认: 20)
+		#Range: 1 ~ 300
+		duration = 20
+		#最大叠加层数 (默认: 5)
+		#Range: 1 ~ 20
+		maxStacks = 5
+
+	#破灭饰品配置
+	[tcc_curios.destruction]
+		#暴击伤害加成 (默认: 0.6)
+		#Range: -1.0 ~ 100.0
+		critDamage = 0.6
+
+	#破灭Prime饰品配置
+	[tcc_curios.destruction_prime]
+		#暴击伤害加成 (默认: 1.1)
+		#Range: -1.0 ~ 100.0
+		critDamage = 1.1
+
+	#雷筒饰品配置
+	[tcc_curios.thunder_barrel]
+		#暴击几率加成 (默认: 0.9)
+		#Range: -1.0 ~ 100.0
+		critChance = 0.9
+
+	#雷筒Prime饰品配置
+	[tcc_curios.thunder_barrel_prime]
+		#暴击几率加成 (默认: 1.65)
+		#Range: -1.0 ~ 100.0
+		critChance = 1.65
+
+	#雷射瞄具饰品配置
+	[tcc_curios.laser_scope]
+		#基础暴击几率 (默认: 1.2)
+		#Range: -1.0 ~ 100.0
+		baseCritChance = 1.2
+		#Buff每级暴击几率 (默认: 0.4)
+		#Range: -1.0 ~ 100.0
+		critChancePerLevel = 0.4
+		#Buff持续时间(秒) (默认: 9)
+		#Range: 1 ~ 300
+		duration = 9
+
+	#破片射击饰品配置
+	[tcc_curios.fragment_shot]
+		#基础暴击伤害 (默认: 0.99)
+		#Range: -1.0 ~ 100.0
+		baseCritDamage = 0.99
+		#Buff每级暴击伤害 (默认: 0.3)
+		#Range: -1.0 ~ 100.0
+		critDamagePerLevel = 0.3
+		#Buff持续时间(秒) (默认: 9)
+		#Range: 1 ~ 300
+		duration = 9
+
+	#镀层通晓霰弹枪饰品配置
+	[tcc_curios.gilded_shotgun_savvy]
+		#每负面效果种数增伤比例 (默认: 0.4)
+		#Range: -1.0 ~ 100.0
+		perHarmful = 0.4
+		#Buff持续时间(秒) (默认: 20)
+		#Range: 1 ~ 300
+		duration = 20
+		#最大叠加层数 (默认: 2)
+		#Range: 1 ~ 20
+		maxStacks = 2
+
+	#镀层地狱弹膛饰品配置
+	[tcc_curios.gilded_infernal_chamber]
+		#基础弹头数量加成 (默认: 1.1)
+		#Range: -1.0 ~ 100.0
+		bulletCountBase = 1.1
+		#Buff每级额外弹头数量 (默认: 0.3)
+		#Range: -1.0 ~ 100.0
+		bulletCountPerLevel = 0.3
+		#Buff持续时间(秒) (默认: 20)
+		#Range: 1 ~ 300
+		duration = 20
+		#最大叠加层数 (默认: 5)
+		#Range: 1 ~ 20
+		maxStacks = 5
+
+	#弱点专精饰品配置
+	[tcc_curios.weakness_mastery]
+		#暴击伤害加成 (默认: 0.6)
+		#Range: -1.0 ~ 100.0
+		critDamage = 0.6
+
+	#弱点专精Prime饰品配置
+	[tcc_curios.weakness_mastery_prime]
+		#暴击伤害加成 (默认: 1.1)
+		#Range: -1.0 ~ 100.0
+		critDamage = 1.1
+
+	#空尖弹饰品配置
+	[tcc_curios.hollow_point]
+		#暴击伤害加成 (默认: 0.6)
+		#Range: -1.0 ~ 100.0
+		critDamage = 0.6
+		#手枪伤害降低 (默认: -0.15)
+		#Range: -1.0 ~ 0.0
+		pistolDamageReduction = -0.15
+
+	#手枪精通饰品配置
+	[tcc_curios.pistol_mastery]
+		#暴击几率加成 (默认: 1.2)
+		#Range: -1.0 ~ 100.0
+		critChance = 1.2
+
+	#手枪精通Prime饰品配置
+	[tcc_curios.pistol_mastery_prime]
+		#暴击几率加成 (默认: 1.87)
+		#Range: -1.0 ~ 100.0
+		critChance = 1.87
+
+	#液压准心饰品配置
+	[tcc_curios.hydraulic_crosshair]
+		#基础暴击几率 (默认: 1.35)
+		#Range: -1.0 ~ 100.0
+		baseCritChance = 1.35
+		#Buff每级暴击几率 (默认: 0.45)
+		#Range: -1.0 ~ 100.0
+		critChancePerLevel = 0.45
+		#Buff持续时间(秒) (默认: 9)
+		#Range: 1 ~ 300
+		duration = 9
+
+	#镀层液压准心饰品配置
+	[tcc_curios.gilded_hydraulic_crosshair]
+		#基础暴击几率 (默认: 1.2)
+		#Range: -1.0 ~ 100.0
+		baseCritChance = 1.2
+		#Buff每级暴击几率 (默认: 0.4)
+		#Range: -1.0 ~ 100.0
+		critChancePerLevel = 0.4
+		#爆头击杀暴击率额外加成 (默认: 0.4)
+		#Range: -1.0 ~ 100.0
+		headshotKillExtra = 0.4
+		#Buff持续时间(秒) (默认: 12)
+		#Range: 1 ~ 300
+		duration = 12
+		#最大叠加层数 (默认: 5)
+		#Range: 1 ~ 20
+		maxStacks = 5
+
+	#尖锐子弹饰品配置
+	[tcc_curios.sharp_ammo]
+		#基础暴击伤害 (默认: 0.75)
+		#Range: -1.0 ~ 100.0
+		baseCritDamage = 0.75
+		#Buff每级暴击伤害 (默认: 0.25)
+		#Range: -1.0 ~ 100.0
+		critDamagePerLevel = 0.25
+		#Buff持续时间(秒) (默认: 9)
+		#Range: 1 ~ 300
+		duration = 9
+
+	#镀层准确射手饰品配置
+	[tcc_curios.gilded_marksman]
+		#每负面效果种数增伤比例 (默认: 0.4)
+		#Range: -1.0 ~ 100.0
+		perHarmful = 0.4
+		#Buff持续时间(秒) (默认: 20)
+		#Range: 1 ~ 300
+		duration = 20
+		#最大叠加层数 (默认: 3)
+		#Range: 1 ~ 20
+		maxStacks = 3
+
+	#镀层弹头扩散饰品配置
+	[tcc_curios.gilded_bullet_spread]
+		#基础弹头数量加成 (默认: 1.1)
+		#Range: -1.0 ~ 100.0
+		bulletCountBase = 1.1
+		#Buff每级额外弹头数量 (默认: 0.3)
+		#Range: -1.0 ~ 100.0
+		bulletCountPerLevel = 0.3
+		#Buff持续时间(秒) (默认: 20)
+		#Range: 1 ~ 300
+		duration = 20
+		#最大叠加层数 (默认: 4)
+		#Range: 1 ~ 20
+		maxStacks = 4
+
+	#斩铁饰品配置
+	[tcc_curios.steel_slash]
+		#暴击几率加成 (默认: 1.2)
+		#Range: -1.0 ~ 100.0
+		critChance = 1.2
+
+	#肢解饰品配置
+	[tcc_curios.dismemberment]
+		#暴击伤害加成 (默认: 0.9)
+		#Range: -1.0 ~ 100.0
+		critDamage = 0.9
+
+	#牺牲压迫点饰品配置
+	[tcc_curios.sacrifice_oppression]
+		#近战伤害加成 (默认: 1.1)
+		#Range: -1.0 ~ 100.0
+		meleeDamage = 1.1
+
+	#牺牲斩铁饰品配置
+	[tcc_curios.sacrifice_steel]
+		#暴击几率加成 (默认: 2.2)
+		#Range: -1.0 ~ 100.0
+		critChance = 2.2
+
+	#镀层斩铁饰品配置
+	[tcc_curios.gilded_steel_slash]
+		#基础暴击几率 (默认: 1.1)
+		#Range: -1.0 ~ 100.0
+		critChanceBase = 1.1
+		#Buff每级暴击伤害 (默认: 0.3)
+		#Range: -1.0 ~ 100.0
+		critDamagePerLevel = 0.3
+		#Buff持续时间(秒) (默认: 20)
+		#Range: 1 ~ 300
+		duration = 20
+		#最大叠加层数 (默认: 4)
+		#Range: 1 ~ 20
+		maxStacks = 4
+
+	#异况超量饰品配置
+	[tcc_curios.condition_overload]
+		#每负面效果种数增伤比例 (默认: 0.8)
+		#Range: -1.0 ~ 100.0
+		perHarmful = 0.8
+
+	#牺牲套装组合配置
+	[tcc_curios.sacrifice_set]
+		#套装加成倍率 (默认: 1.25)
+		#Range: -1.0 ~ 100.0
+		setBonus = 1.25
+
+	#烈焰风暴饰品配置
+	[tcc_curios.blaze_storm]
+		#爆炸范围加成 (默认: 0.24 = 24%)
+		#Range: -1.0 ~ 100.0
+		explosionRadiusBoost = 0.24
+		#爆炸伤害加成 (默认: 0.24 = 24%)
+		#Range: -1.0 ~ 100.0
+		explosionDamageBoost = 0.24
+		#爆炸启用属性 (默认: 2.0)
+		#Range: -1.0 ~ 100.0
+		explosionEnabled = 2.0
+
+	#烈焰风暴Prime饰品配置
+	[tcc_curios.blaze_storm_prime]
+		#爆炸范围加成 (默认: 0.66 = 66%)
+		#Range: -1.0 ~ 100.0
+		explosionRadiusBoost = 0.66
+		#爆炸伤害加成 (默认: 0.66 = 66%)
+		#Range: -1.0 ~ 100.0
+		explosionDamageBoost = 0.66
+		#爆炸启用属性 (默认: 2.0)
+		#Range: -1.0 ~ 100.0
+		explosionEnabled = 2.0
+
+	#撕裂Prime饰品配置
+	[tcc_curios.ripping_prime]
+		#射速加成 (默认: 0.55 = 55%)
+		#Range: -1.0 ~ 100.0
+		fireRateBoost = 0.55
+		#穿透加成 (默认: 2.2)
+		#Range: -1.0 ~ 100.0
+		penetrationBoost = 2.2
+
+	#抵近射击Prime饰品配置
+	[tcc_curios.close_combat_prime]
+		#霰弹枪伤害加成 (默认: 1.65 = 165%)
+		#Range: -1.0 ~ 100.0
+		shotgunDamageBoost = 1.65
+
+	#极恶精准饰品配置
+	[tcc_curios.evil_accuracy]
+		#后坐力降低 (默认: -0.9 = -90%)
+		#Range: -1.0 ~ 1.0
+		recoilReduction = -0.9
+		#射速降低 (默认: -0.36 = -36%)
+		#Range: -1.0 ~ 0.0
+		fireRateReduction = -0.36
+
+	#极限速度饰品配置
+	[tcc_curios.limit_speed]
+		#弹药速度加成 (默认: 0.6 = 60%)
+		#Range: -1.0 ~ 100.0
+		bulletSpeedBoost = 0.6
+
+	#凶恶延伸饰品配置
+	[tcc_curios.ferocious_extension]
+		#子弹射程加成 (默认: 1.2 = 120%)
+		#Range: -1.0 ~ 100.0
+		rangeBoost = 1.2
+
+	#抵近射击饰品配置
+	[tcc_curios.close_range_shot]
+		#霰弹枪伤害加成 (默认: 0.9 = 90%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 0.9
+
+	#重装火力饰品配置
+	[tcc_curios.heavy_firepower]
+		#手枪伤害加成 (默认: +1.65 = +165%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.65
+		#扩散程度增加 (默认: +0.55 = +55%)
+		#Range: -1.0 ~ 1.0
+		accuracyReduction = 0.55
+
+	#黄蜂蜇刺饰品配置
+	[tcc_curios.wasp_stinger]
+		#手枪伤害加成 (默认: 2.2 = 220%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 2.2
+
+	#预言契约饰品配置
+	[tcc_curios.prophecy_pact]
+		#手枪伤害加成 (默认: 0.9 = 90%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 0.9
+
+	#恶性扩散饰品配置
+	[tcc_curios.malignant_spread]
+		#霰弹枪伤害加成 (默认: +1.65 = +165%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.65
+		#扩散程度增加 (默认: +0.55 = +55%)
+		#Range: -1.0 ~ 1.0
+		accuracyReduction = 0.55
+
+	#膛室饰品配置
+	[tcc_curios.chamber]
+		#狙击枪伤害加成 (默认: 0.4 = 40%)
+		#Range: -1.0 ~ 100.0
+		sniperDamageBoost = 0.4
+
+	#膛室Prime饰品配置
+	[tcc_curios.chamber_prime]
+		#狙击枪伤害加成 (默认: 1.0 = 100%)
+		#Range: -1.0 ~ 100.0
+		sniperDamageBoost = 1.0
+
+	#战术上膛饰品配置
+	[tcc_curios.tactical_reload]
+		#霰弹枪装填时间加成 (默认: -0.6 = -60%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.6
+
+	#过载弹匣饰品配置
+	[tcc_curios.overloaded_magazine]
+		#霰弹枪弹匣容量加成 (默认: +0.6 = +60%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.6
+		#装填时间增加 (默认: +0.18 = +18%)
+		#Range: -1.0 ~ 1.0
+		reloadSpeedReduction = 0.18
+
+	#地狱弹膛饰品配置
+	[tcc_curios.infernal_chamber]
+		#霰弹枪弹头数量加成 (默认: 1.2 = 120%)
+		#Range: -1.0 ~ 100.0
+		bulletCountBoost = 1.2
+
+	#持续火力饰品配置
+	[tcc_curios.sustained_fire]
+		#手枪装填时间加成 (默认: -0.48 = -48%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.48
+
+	#感染弹匣饰品配置
+	[tcc_curios.infected_magazine]
+		#手枪弹匣容量加成 (默认: +0.6 = +60%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.6
+		#装填时间增加 (默认: +0.3 = +30%)
+		#Range: -1.0 ~ 1.0
+		reloadSpeedReduction = 0.3
+
+	#致命洪流饰品配置
+	[tcc_curios.deadly_surge]
+		#手枪射速加成 (默认: 0.6 = 60%)
+		#Range: -1.0 ~ 100.0
+		fireRateBoost = 0.6
+		#弹头数量加成 (默认: 0.6 = 60%)
+		#Range: -1.0 ~ 100.0
+		bulletCountBoost = 0.6
+
+	#弹头扩散饰品配置
+	[tcc_curios.bullet_spread]
+		#手枪弹头数量加成 (默认: 1.2 = 120%)
+		#Range: -1.0 ~ 100.0
+		bulletCountBoost = 1.2
+
+	#压迫点饰品配置
+	[tcc_curios.oppression_point]
+		#近战伤害加成 (默认: 1.2 = 120%)
+		#Range: -1.0 ~ 100.0
+		meleeDamageBoost = 1.2
+
+	#压迫点Prime饰品配置
+	[tcc_curios.oppression_point_prime]
+		#近战伤害加成 (默认: 1.65 = 165%)
+		#Range: -1.0 ~ 100.0
+		meleeDamageBoost = 1.65
+
+	#爆发装填饰品配置
+	[tcc_curios.burst_reload]
+		#装填时间加成 (默认: -0.3 = -30%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.3
+
+	#剑风饰品配置
+	[tcc_curios.sword_wind]
+		#近战距离加成 (默认: 1.1)
+		#Range: -1.0 ~ 100.0
+		meleeRangeBoost = 1.1
+
+	#剑风Prime饰品配置
+	[tcc_curios.sword_wind_prime]
+		#近战距离加成 (默认: 3)
+		#Range: -1.0 ~ 100.0
+		meleeRangeBoost = 3.0
+
+	#腐败弹匣饰品配置
+	[tcc_curios.corrupt_magazine]
+		#弹匣容量加成 (默认: +0.66 = +66%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.66
+		#装填时间增加 (默认: +0.33 = +33%)
+		#Range: -1.0 ~ 1.0
+		reloadSpeedReduction = 0.33
+
+	#重口径饰品配置
+	[tcc_curios.heavy_caliber_tag]
+		#特定枪械伤害加成 (默认: +1.65 = +165%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 1.65
+		#扩散程度加成 (默认: +0.55 = +55%)
+		#Range: -1.0 ~ 100.0
+		inaccuracyBoost = 0.55
+
+	#红-有-三饰品配置
+	[tcc_curios.red_movement_tag]
+		#移动速度加成 (默认: 1.5 = 150%)
+		#Range: -1.0 ~ 100.0
+		speedBoost = 1.5
+
+	#夏日沙滩饰品配置
+	[tcc_curios.summer_beach]
+		#夏日沙滩对第四诅咒效果的削弱比例 (默认: 0.25 = 抵消25%的诅咒效果)
+		#Range: 0.0 ~ 1.0
+		elCurseReduction = 0.25
+		#夏日沙滩饰品获取（被谁击杀） (默认: minecraft:wither)
+		#支持NBT条件格式: "minecraft:wither[apoth.boss=true]"
+		obtainEntity = "minecraft:wither"
+		#夏日沙滩进化需求列表，格式: [[实体, 击杀数, NBT条件(可选)], ...]，击杀所有列表中的实体并达到要求数量后触发进化
+		#实体格式: 例如 "minecraft:ender_dragon" 匹配所有末影龙
+		#添加第3个元素可指定NBT条件，如 ["minecraft:ender_dragon", "1", "apoth.boss=true"] 仅匹配Apotheosis Boss末影龙
+		#NBT条件支持多条件逗号分隔: "apoth.boss=true,apoth.rarity=apotheosis:mythic"
+		#默认: [[minecraft:ender_dragon, 1]]
+		evolutionRequirements = [["minecraft:ender_dragon", "1"]]
+		#夏日沙滩虚数抗性提升实体列表，格式: [[实体, 每只抗性值, NBT条件(可选)], ...]，击杀实体获得对应抗性
+		#添加第3个元素可指定NBT条件，如 ["minecraft:wither", "1", "apoth.boss=true"]
+		#默认: [[minecraft:wither, 1]]，最多20点来自击杀
+		resistanceEntities = [["minecraft:wither", "1"]]
+		#夏日沙滩虚数抗性基础值 (默认: 20)
+		#Range: 0 ~ 1000
+		baseResistance = 20
+		#夏日沙滩虚数抗性来自击杀的上限 (默认: 20)
+		#Range: 0 ~ 1000
+		maxKillResistance = 20
+
+	#梵天百兽饰品配置
+	[tcc_curios.brahma_beasts]
+		#梵天百兽对第四诅咒效果的削弱比例 (默认: 0.5 = 抵消50%的诅咒效果)
+		#Range: 0.0 ~ 1.0
+		elCurseReduction = 0.5
+		#梵天百兽进化需求列表，格式: [[实体, 击杀数, NBT条件(可选)], ...]，击杀所有列表中的实体并达到要求数量后触发进化
+		#添加第3个元素可指定NBT条件，如 ["minecraft:ender_dragon", "1", "apoth.boss=true"]
+		#默认: [[minecraft:ender_dragon, 1]]
+		evolutionRequirements = [["minecraft:ender_dragon", "2"]]
+		#梵天百兽虚数抗性提升实体列表，格式: [[实体, 每只抗性值, NBT条件(可选)], ...]，击杀实体获得对应抗性
+		#添加第3个元素可指定NBT条件，如 ["minecraft:wither", "1", "apoth.boss=true"]
+		#默认: [[minecraft:wither, 1]]，最多20点来自击杀
+		resistanceEntities = [["minecraft:ender_dragon", "20"]]
+		#梵天百兽虚数抗性来自击杀的上限 (默认: 20)
+		#Range: 0 ~ 1000
+		maxKillResistance = 20
+
+	#救世饰品配置
+	[tcc_curios.salvation]
+		#救世对第四诅咒效果的削弱比例 (默认: 1.0 = 完全免疫第四诅咒)
+		#Range: 0.0 ~ 1.0
+		elCurseReduction = 1.0
+		#救世伤害降低比例 (默认: 0.3 = 30%)
+		#Range: 0.0 ~ 1.0
+		damageReduction = 0.3
+		#救世抗性提升等级 (默认: 2 = 抗性III)
+		#Range: 0 ~ 10
+		resistanceLevel = 2
+
+	#无烬终焉饰品配置
+	[tcc_curios.endless]
+		#无烬终焉通用枪械伤害加成 (默认: 10.0 = 1000%，与天火劫灭一致)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 10.0
+		#无烬终焉爆炸伤害加成 (默认: 10.0 = 1000%，与天火劫灭一致)
+		#Range: -1.0 ~ 100.0
+		explosionDamage = 10.0
+		#附近玩家获得的 bullet_gundamage 每级伤害加成 (默认: 1.0 = 100%/级)
+		#Range: -1.0 ~ 100.0
+		nearbyPlayerDamageBoost = 1.0
+		#附近玩家获得的药水效果等级 (0=1级, 默认: 2 = 3级 = 3×100%% = 300%%)
+		#Range: 0 ~ 999
+		nearbyPlayerPotionAmplifier = 2
+		#附近玩家获得伤害加成的持续时间(秒) (默认: 15)
+		#Range: -1 ~ 300
+		nearbyPlayerDuration = 15
+		#影响附近玩家的范围 (默认: 32)
+		#Range: -1.0 ~ 100.0
+		nearbyPlayerRadius = 32.0
+		#无烬终焉生效的枪械类型列表 (可选: pistol, rifle, shotgun, sniper, smg, mg, rpg)
+		gunTypes = ["pistol"]
+		#无烬终焉伤害转换比例：受到的伤害乘以此值后转为虚数伤害 (默认: 0.01 = 1%)
+		#Range: 0.0 ~ 1.0
+		damageConversionRatio = 0.01
+
+	#士兵基础挂牌饰品配置
+	[tcc_curios.soldier_basic_tag]
+		#通用枪械伤害加成 (默认: 0.3 = 30%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 0.3
+
+	#弹匣增幅饰品配置
+	[tcc_curios.magazine_boost]
+		#装填时间加成 (默认: -0.3 = -30%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.3
+		#弹匣容量加成 (默认: 0.3 = 30%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.3
+
+	#士兵特定挂牌饰品配置
+	[tcc_curios.soldier_specific_tag]
+		#通用枪械伤害加成 (默认: 0.55 = 55%)
+		#Range: -1.0 ~ 100.0
+		damageBoost = 0.55
+
+	#乌拉尔银狼饰品配置
+	[tcc_curios.ural_wolf_tag]
+		#爆头倍率加成 (默认: 1.5 = 150%)
+		#Range: -1.0 ~ 100.0
+		headshotMultiplierBoost = 1.5
+
+	#耗竭装填饰品配置
+	[tcc_curios.depleted_reload]
+		#弹匣容量减少 (默认: -0.6 = -60%)
+		#Range: -1.0 ~ 0.0
+		magazineCapacityPenalty = -0.6
+		#装填时间加成 (默认: -0.48 = -48%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.48
+
+	#爆发装填Prime饰品配置
+	[tcc_curios.burst_reload_prime]
+		#装填时间加成 (默认: -0.55 = -55%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.55
+
+	#战术上膛Prime饰品配置
+	[tcc_curios.tactical_reload_prime]
+		#装填时间加成 (默认: -0.99 = -100%)
+		#Range: -1.0 ~ 100.0
+		reloadSpeedBoost = -0.99
+
+	#霰弹扩充Prime饰品配置
+	[tcc_curios.shotgun_expansion_prime]
+		#弹匣容量加成 (默认: 1.1 = 110%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 1.1
+
+	#弹匣增幅Prime饰品配置
+	[tcc_curios.magazine_boost_prime]
+		#弹匣容量加成 (默认: 0.55 = 55%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.55
+
+	#串联弹匣Prime饰品配置
+	[tcc_curios.tandem_magazine_prime]
+		#弹匣容量加成 (默认: 0.55 = 55%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.55
+
+	#霰弹扩充饰品配置
+	[tcc_curios.shotgun_expansion]
+		#弹匣容量加成 (默认: 0.6 = 60%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.6
+
+	#串联弹匣饰品配置
+	[tcc_curios.tandem_magazine]
+		#弹匣容量加成 (默认: 0.3 = 30%)
+		#Range: -1.0 ~ 100.0
+		capacityBoost = 0.3
+
+	#裂隙碎银配置
+	[tcc_curios.rift_silver]
+		#裂隙碎银在箱子中的生成几率 (默认: 0.05 = 5%)
+		#Range: -1.0 ~ 1.0
+		chestSpawnChance = 0.05
+
+	#掎角一阵饰品配置
+	[tcc_curios.kikaku_ichijin]
+		#伤害倍率，基于祭品总血量的比例 (默认: 0.2 = 20%，范围: 0.2-1.0)
+		#Range: 0.2 ~ 1.0
+		healthMultiplier = 0.2
+		#是否破坏不可破坏方块（如基岩） (默认: false)
+		destroyUnbreakableBlocks = false
+		#是否破坏普通方块 (默认: false)
+		destroyNormalBlocks = false
+
+	#Apotheosis神化属性集成配置
+	[tcc_curios.apotheosis_integration]
+		#是否启用TCC饰品的Apotheosis神化属性支持 (默认: false)
+		enableApotheosisIntegration = false
+
+	#饰品互斥配置（格式：物品1,物品2 表示互斥）
+	[tcc_curios.curio_conflicts]
+		#互斥饰品组列表，每组用逗号分隔的物品注册名表示互斥关系
+		conflictGroups = ["tcc:heaven_fire_judgment,tcc:heaven_fire_apocalypse", "tcc:soldier_basic_tag,tcc:soldier_specific_tag", "tcc:tactical_reload,tcc:tactical_reload_prime", "tcc:burst_reload,tcc:burst_reload_prime", "tcc:tandem_magazine,tcc:tandem_magazine_prime", "tcc:shotgun_expansion,tcc:shotgun_expansion_prime", "tcc:magazine_boost,tcc:magazine_boost_prime", "tcc:rifling,tcc:merged_rifling", "tcc:sword_wind,tcc:sword_wind_prime", "tcc:blaze_storm,tcc:blaze_storm_prime", "tcc:oppression_point,tcc:oppression_point_prime", "tcc:chamber,tcc:chamber_prime", "tcc:close_range_shot,tcc:close_combat_prime", "tcc:lethal_crit,tcc:critical_delay", "tcc:thunder_barrel,tcc:thunder_barrel_prime,tcc:critical_delay", "tcc:pistol_mastery,tcc:pistol_mastery_prime,tcc:critical_delay", "tcc:argon_scope,tcc:gilded_argon_scope", "tcc:destruction,tcc:destruction_prime", "tcc:weakness_mastery,tcc:weakness_mastery_prime", "tcc:hydraulic_crosshair,tcc:gilded_hydraulic_crosshair", "tcc:steel_slash,tcc:sacrifice_steel,tcc:gilded_steel_slash", "tcc:gilded_split_chamber,tcc:split_chamber", "tcc:gilded_infernal_chamber,tcc:infernal_chamber", "tcc:gilded_bullet_spread,tcc:bullet_spread"]
+

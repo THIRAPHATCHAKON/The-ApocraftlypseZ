@@ -1,0 +1,37 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            },
+            "PROFILE_SELECTOR": {
+                "horizontalOffset": -1,
+                "bottom": 20
+            },
+            "SHOW_EDITOR": {
+                "top": 70
+            },
+            "SETTINGS": {
+                "top": 73
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -12,
+                "bottom": 17
+            },
+            "SORT_ROWS": {
+                "bottom": 4
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "top": 80
+            },
+            "SETTINGS": {
+                "top": 50
+            }
+        }
+    }
+}

@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "temperature"
+	group: "05C32418EEB9E39C"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				temperature: 9.7f
+			}
+		}
+		id: "legendarysurvivaloverhaul:thermometer"
+	}
+	id: "5153B041F05DEF63"
+	images: [
+		{
+			height: 10.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 8.4d
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			height: 10.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 8.4d
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			height: 10.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 8.4d
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			alpha: 200
+			height: 1.0d
+			image: "kubejs:item/sewingtable"
+			rotation: 0.0d
+			width: 4.214953271028038d
+			x: 9.5d
+			y: 8.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "0713CB72AB61A314"
+			size: 2.0d
+			subtitle: "Welcome to the Temperature Simulation System of Legendary Survival Overhaul. From now on, surviving in Minecraft is no longer just about managing hunger and health—maintaining your Body Temperature is now critical to your survival."
+			tasks: [{
+				id: "2825073BE0379C50"
+				title: "Temperature"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0713CB72AB61A314"]
+			id: "54E8A09357D3D4AB"
+			rewards: [{
+				id: "04BC5BA5F3B39D6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1DC30EFEAF92B617"
+				item: "legendarysurvivaloverhaul:sewing_table"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0CB79D6F6616DEAF"]
+			id: "102BE1AD52E849F2"
+			rewards: [{
+				id: "74EB14EDCEACE732"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "099EE398EB298247"
+					item: "legendarysurvivaloverhaul:heating_coat_1"
+					type: "item"
+				}
+				{
+					id: "1D8C3F853B69E958"
+					item: "legendarysurvivaloverhaul:cooling_coat_1"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0713CB72AB61A314"]
+			id: "7930058E25C7F253"
+			size: 1.5d
+			tasks: [{
+				id: "65B6073E44282B39"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							temperature: 14.7f
+						}
+					}
+					id: "legendarysurvivaloverhaul:thermometer"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0713CB72AB61A314"]
+			id: "362C0E1C8C77FB3E"
+			size: 1.5d
+			tasks: [{
+				id: "31D63124279E21DB"
+				item: "legendarysurvivaloverhaul:seasonal_calendar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["54E8A09357D3D4AB"]
+			id: "79AC4D30E5708A32"
+			rewards: [{
+				id: "43055B8908F5B924"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5FB912A81BBC4220"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "713BD10448171DF1"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AC54CBF2F1BC0F0"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29FD91AEE017A137"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aDesert Armor"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54E8A09357D3D4AB"]
+			id: "563DCEB34A9ED97B"
+			tasks: [
+				{
+					id: "1D631F164B1DFC63"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20FE1A469FA960E5"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D7A903AB5A52362"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63A5D245B2DD59AF"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aSnow Armor"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0713CB72AB61A314"]
+			id: "056E7BC627A982A4"
+			tasks: [{
+				id: "7E205587DCDCBFD4"
+				title: "Thirst"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["056E7BC627A982A4"]
+			id: "6A0D439F82854247"
+			tasks: [{
+				id: "291192783D37441D"
+				item: "legendarysurvivaloverhaul:canteen"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6A0D439F82854247"]
+			id: "2B063FBE944795E5"
+			tasks: [{
+				id: "36B22E461A26CF15"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:canteen"
+					tag: {
+						"legendarysurvivaloverhaul:HydrationCapacity": 10
+						"legendarysurvivaloverhaul:HydrationPurity": "purified"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54E8A09357D3D4AB"]
+			id: "0CB79D6F6616DEAF"
+			tasks: [
+				{
+					id: "33BAAC21E957FE33"
+					item: "legendarysurvivaloverhaul:cold_string"
+					type: "item"
+				}
+				{
+					id: "1575580693A4CDD1"
+					item: "legendarysurvivaloverhaul:warm_string"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 6.5d
+		}
+	]
+	title: "Temperature"
+}

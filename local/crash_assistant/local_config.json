@@ -1,0 +1,8 @@
+{
+	"shown_reasons": {
+		"MissingUnsupportedDependencies": true,
+		"UsedByAnotherProcess": true,
+		"MixinApply": true,
+		"WasClosedByWindows": true
+	}
+}

@@ -1,0 +1,18 @@
+filename = 'cbc_at_Forge_1.20.1_0.1.4b.jar'
+name = 'Create Big Cannons: Advanced Technologies'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.1.4b-1.20.1'
+
+[download]
+hash = '4dc3222808fd4a39fe9afe35c272d15e0876d34ba29b1427a6ef83cdd27b8e654ad7c467fb328a333317b360b72025a4cb7fa472b932efb9512a9af8e93ae7e9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pTfszyXD/versions/OE2cfAso/cbc_at_Forge_1.20.1_0.1.4b.jar'
+
+[update.modrinth]
+mod-id = 'pTfszyXD'
+version = 'OE2cfAso'

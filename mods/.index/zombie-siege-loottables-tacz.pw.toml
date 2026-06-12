@@ -1,0 +1,21 @@
+filename = 'zombie_siege_tacz-1.1.2.jar'
+name = 'Zombie Siege (LootTables) TacZ'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'zombie_siege_tacz-1.1.2.jar'
+
+[download]
+hash = '019ed3f01e58f7e1ffa16dc73ee994c1bca1dbe2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7746966
+project-id = 1204093
+
+[[x-prismlauncher-dependencies]]
+addonId = '1028108'
+type = 'REQUIRED'

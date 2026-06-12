@@ -1,0 +1,266 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "healthoverhaul"
+	group: "05C32418EEB9E39C"
+	icon: "legendarysurvivaloverhaul:bandage"
+	id: "7DCA2C53BC5C24DE"
+	images: [
+		{
+			height: 10.0d
+			image: "kubejs:item/player"
+			rotation: 0.0d
+			width: 9.6d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:item/effect"
+			rotation: 0.0d
+			width: 12.24d
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5B57997AF95F475B"
+			rewards: [{
+				id: "1DBD39C6789B85AC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Inspired by the Fallout series, this mechanic splits your health into specific limbs instead of just a single health bar."
+			tasks: [{
+				id: "08C318F8C19319BB"
+				title: "The localized body damage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5B57997AF95F475B"]
+			id: "74009948F5506088"
+			rewards: [{
+				id: "55D0EA4506B5C59D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A basic bandage used to treat minor scratches and stop light bleeding on specific limbs."
+			tasks: [{
+				id: "3BAFCBE7D6E37092"
+				item: "legendarysurvivaloverhaul:plaster"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5B57997AF95F475B"]
+			id: "3E01F3338B4298D2"
+			rewards: [{
+				id: "0B45F0B849A5372C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Natural remedies used to slowly patch up damaged limbs and alleviate minor pain without advanced medical gear."
+			tasks: [{
+				id: "46FA84C516925057"
+				item: "legendarysurvivaloverhaul:healing_herbs"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5B57997AF95F475B"]
+			id: "11F949AF750937D4"
+			rewards: [{
+				id: "4F762260F096AD1D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A rare shard containing vital energy. Gather and combine them to create a source of permanent life force expansion."
+			tasks: [{
+				id: "7DD4C27E6A9018F8"
+				item: "legendarysurvivaloverhaul:heart_fragment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["11F949AF750937D4"]
+			id: "0A95B63235C3BC0A"
+			rewards: [{
+				id: "5E89C01A3CD34452"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A powerful artifact that, when consumed, permanently increases your maximum health capacity, allowing you to survive heavier trauma."
+			tasks: [{
+				id: "571D9136DFB083EC"
+				item: "legendarysurvivaloverhaul:heart_container"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E01F3338B4298D2"]
+			id: "58C8D07839C8CB16"
+			rewards: [{
+				id: "38F68B3AB4D3C272"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A liquid remedy that boosts natural recovery, gradually restoring limb health and stabilizing your condition."
+			tasks: [{
+				id: "3489B2F98D0F12C5"
+				item: "legendarysurvivaloverhaul:tonic"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["58C8D07839C8CB16"]
+			id: "549FD507D3279E7D"
+			rewards: [{
+				id: "381B36B62F2BE228"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A powerful painkiller that instantly eliminates severe movement and combat debuffs caused by broken or crippled limbs."
+			tasks: [{
+				id: "6C03B2AF21DAE48C"
+				item: "legendarysurvivaloverhaul:morphine"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"74009948F5506088"
+				"3E01F3338B4298D2"
+			]
+			id: "06A561CF3D53D88F"
+			rewards: [{
+				id: "4816F866D0BE7EC4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A standard medical cloth essential for stopping active bleeding, protecting open wounds, and stabilizing damaged limbs."
+			tasks: [{
+				id: "6256370F4A39F9FE"
+				item: "legendarysurvivaloverhaul:bandage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["06A561CF3D53D88F"]
+			id: "48D5331280040FF8"
+			rewards: [{
+				id: "12D759046314C4D3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "An advanced, all-in-one medical kit capable of treating severe trauma, stopping heavy bleeding, and restoring major limb health."
+			tasks: [{
+				id: "42B5D5A72CC7EE36"
+				item: "legendarysurvivaloverhaul:medkit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			id: "60F5FB0BFEB02EA1"
+			rewards: [{
+				id: "2DE761FCDECA1DCA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The most critical zone. Severe injuries cause blurred vision and dizziness (Nausea/Blindness). If your head health reaches zero, it often results in Instant Death."
+			tasks: [{
+				id: "5A45A25539E4FEFD"
+				title: "Head"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "252BE4699797744E"
+			rewards: [{
+				id: "06D5632E4B5FD79C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The core of your body. Severe torso damage drains your hunger and thirst bars much faster, weakens your overall resistance, and directly impacts your main health."
+			tasks: [{
+				id: "69DF9BFC4D7D3DCD"
+				title: "Body"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7875D11B3C3EC4DE"
+			rewards: [{
+				id: "7B13E507C91BB2AA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Affects combat and work. When your arms are damaged or broken, your mining speed plummets (Mining Fatigue), and your melee attack damage/speed is heavily reduced."
+			tasks: [{
+				id: "19B85F2BFC070F81"
+				title: "Arms"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "2C6B3A1B61BCD462"
+			rewards: [{
+				id: "03D54C2C8DCDFA1B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Affects movement. Injured or crippled legs trigger severe Slowness, disable your ability to sprint, and make you take significantly increased fall damage."
+			tasks: [{
+				id: "3D1A6CDEAF833F2C"
+				title: "Legs"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "7A929802B06F3340"
+			rewards: [{
+				id: "6BEF78B210CF1968"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The base of your movement. Damaged feet further reduce walking speed, and even short drops or jumps will cause intense pain and extra health loss."
+			tasks: [{
+				id: "5880235BBFDF839E"
+				title: "Feet"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	title: "Health-Overhaul"
+}

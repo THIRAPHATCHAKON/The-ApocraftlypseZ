@@ -1,0 +1,2176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor"
+	group: "6D4DC18BEBCCC304"
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "422D259D2DC80094"
+	images: [
+		{
+			height: 13.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 10.92d
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 12.6d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			height: 13.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 10.92d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 13.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 10.92d
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			height: 13.0d
+			image: "kubejs:item/book_page-removebg-preview"
+			rotation: 0.0d
+			width: 10.92d
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_1"
+			rotation: 0.0d
+			width: 2.380952380952381d
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_2"
+			rotation: 0.0d
+			width: 2.7222222222222223d
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_3"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_4"
+			rotation: 0.0d
+			width: 2.8823529411764706d
+			x: 24.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/tier_5"
+			rotation: 0.0d
+			width: 2.6842105263157894d
+			x: 35.5d
+			y: -6.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "07F0A46227C7DA4B"
+			tasks: [{
+				id: "180317062A2E5943"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			title: "&bTier 3"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "58D7E5019EE2791C"
+			tasks: [{
+				id: "1FED52EE8C8E4BA3"
+				item: "mcore:titanium_ingot"
+				type: "item"
+			}]
+			title: "&bTier 4"
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			id: "6E85F907BD2C41F6"
+			tasks: [{
+				id: "65918E06D4CDB2BF"
+				item: "minecraft:chain"
+				type: "item"
+			}]
+			title: "&bTier 2"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7E242629E5AFC560"
+			rewards: [{
+				id: "0BD29CB338AFFEB0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6E8B05A46588C12D"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "&bTier 1"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			id: "7D483D851DCCA75B"
+			tasks: [{
+				id: "34FB57BC3B5909F7"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "&4Tier 5"
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			id: "5C53478AC5251987"
+			tasks: [
+				{
+					id: "20201FC5C643D8A5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:recluit_armor_helmet"
+						}
+					}
+					title: "Any #kubejs:recluit_armor_helmet"
+					type: "item"
+				}
+				{
+					id: "2759796188A2D4BD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:recluit_armor_chestplate"
+						}
+					}
+					title: "Any #kubejs:recluit_armor_chestplate"
+					type: "item"
+				}
+				{
+					id: "514439E793B95603"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:recluit_armor_leggings"
+						}
+					}
+					title: "Any #kubejs:recluit_armor_leggings"
+					type: "item"
+				}
+				{
+					id: "5798896640314F04"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:recluit_armor_boots"
+						}
+					}
+					title: "Any #kubejs:recluit_armor_boots"
+					type: "item"
+				}
+			]
+			title: "&bRecluit Armor"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "0D4E4493DEE96B5C"
+			tasks: [
+				{
+					id: "40B5CED2AB05DE2A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:rockie_armor_helmet"
+						}
+					}
+					title: "Any #kubejs:rockie_armor_helmet"
+					type: "item"
+				}
+				{
+					id: "2F682CF95F7FDEC4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:rockie_armor_chestplate"
+						}
+					}
+					title: "Any #kubejs:rockie_armor_chestplate"
+					type: "item"
+				}
+				{
+					id: "5045C5C287568A56"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:rockie_armor_leggings"
+						}
+					}
+					title: "Any #kubejs:rockie_armor_leggings"
+					type: "item"
+				}
+				{
+					id: "4E9A32E045C55F87"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:rockie_armor_boots"
+						}
+					}
+					title: "Any #kubejs:rockie_armor_boots"
+					type: "item"
+				}
+			]
+			title: "&bRockie Armor"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fracturepoint:plate_holder": { }
+				}
+				id: "survival_instinct:police_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18AA3EE8BC2C03E9"
+			tasks: [
+				{
+					id: "1E3D7A7899B814CE"
+					item: {
+						Count: 1
+						id: "survival_instinct:police_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B6AE2ADF86841CC"
+					item: {
+						Count: 1
+						id: "survival_instinct:police_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "098A28F6370D67A3"
+					item: {
+						Count: 1
+						id: "survival_instinct:police_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D2D55138C11760C"
+					item: {
+						Count: 1
+						id: "survival_instinct:police_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bPolice"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "7102694F460C25C6"
+			tasks: [
+				{
+					id: "4ECFFD6A65466925"
+					item: {
+						Count: 1
+						id: "survival_instinct:military_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E3885EDDB3BCE75"
+					item: {
+						Count: 1
+						id: "survival_instinct:military_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44FDB2986494400F"
+					item: {
+						Count: 1
+						id: "survival_instinct:military_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1666959433BD618A"
+					item: {
+						Count: 1
+						id: "survival_instinct:military_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7Military Suit"
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			id: "227041A52D490E66"
+			tasks: [
+				{
+					id: "30F66E743E6AD061"
+					item: {
+						Count: 1
+						id: "survival_instinct:fire_fighter_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04056392E33B8BA9"
+					item: {
+						Count: 1
+						id: "survival_instinct:fire_fighter_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50648E956CB43C84"
+					item: {
+						Count: 1
+						id: "survival_instinct:fire_fighter_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53F79E29FDF853B6"
+					item: {
+						Count: 1
+						id: "survival_instinct:fire_fighter_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7Fire Fighter"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			id: "5F9D80A2FABD7001"
+			tasks: [
+				{
+					id: "170BEA29B0BE9579"
+					item: {
+						Count: 1
+						id: "survival_instinct:hazmat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D4AEA7A9CBD551C"
+					item: {
+						Count: 1
+						id: "survival_instinct:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74601C84A4950B35"
+					item: {
+						Count: 1
+						id: "survival_instinct:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "706E69CA4659401B"
+					item: {
+						Count: 1
+						id: "survival_instinct:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7Hazmat Suit"
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			id: "3BC5044591D1382B"
+			tasks: [
+				{
+					id: "5944E90D7B757DA3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:guillie_armor_helmet"
+						}
+					}
+					title: "Any #kubejs:guillie_armor_helmet"
+					type: "item"
+				}
+				{
+					id: "51F3C671A91484D7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:guillie_armor_chestplate"
+						}
+					}
+					title: "Any #kubejs:guillie_armor_chestplate"
+					type: "item"
+				}
+				{
+					id: "4B49D2363AE19AB1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:guillie_armor_leggings"
+						}
+					}
+					title: "Any #kubejs:guillie_armor_leggings"
+					type: "item"
+				}
+				{
+					id: "7CA1D5768C9C4CB1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:guillie_armor_boots"
+						}
+					}
+					title: "Any #kubejs:guillie_armor_boots"
+					type: "item"
+				}
+			]
+			title: "&8Guillie"
+			x: 25.5d
+			y: 3.5d
+		}
+		{
+			id: "739AD7C2BA70D0F1"
+			tasks: [
+				{
+					id: "5DFC9E6810AC676E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:juggernaut_armor_helmet"
+						}
+					}
+					title: "Juggernaut Helmet"
+					type: "item"
+				}
+				{
+					id: "5069472491792873"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:juggernaut_armor_chestplate"
+						}
+					}
+					title: "Juggernaut Chestplate"
+					type: "item"
+				}
+				{
+					id: "13FAFB39530FE342"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:juggernaut_armor_leggings"
+						}
+					}
+					title: "Juggernaut Leggings"
+					type: "item"
+				}
+				{
+					id: "490220A19015EBAE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:juggernaut_armor_boots"
+						}
+					}
+					title: "Juggernaut Boots"
+					type: "item"
+				}
+			]
+			title: "&8Juggernaut"
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			id: "5D4DB22E1CB8D38B"
+			tasks: [
+				{
+					id: "55ECBB1621F84873"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BC84D99BDA40B83"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3065EE331C09279C"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C663F5CB55750B9"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4Exoskeleton"
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			id: "3AF68FA353ABF913"
+			tasks: [
+				{
+					id: "0B4E2801D63F273C"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_green_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57DF3EE4EC9D1C58"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_green_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04A884E4221CE75F"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_green_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "780DBE57089103D2"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_green_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4Exo Heavy"
+			x: 35.0d
+			y: -1.5d
+		}
+		{
+			id: "45A67821137512AE"
+			tasks: [
+				{
+					id: "183C6B50555380C0"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_desert_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62282E18CA061EDE"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_desert_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1994640325679E1C"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_desert_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5038F93825477495"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_desert_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4Exo Heavy"
+			x: 37.0d
+			y: 0.0d
+		}
+		{
+			id: "2E957EFC4947D0EE"
+			tasks: [
+				{
+					id: "13CFE313ED94B08F"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_black_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A95274627346557"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_black_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BC20F04061FFD55"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_black_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "070F45737D76B219"
+					item: {
+						Count: 1
+						id: "survival_instinct:exo_heavy_black_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4Exo Heavy"
+			x: 35.0d
+			y: 1.5d
+		}
+		{
+			id: "5DE206F5CD583306"
+			tasks: [
+				{
+					id: "73CC252564D114FE"
+					item: {
+						Count: 1
+						id: "survivorsarsenal:scrap_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4083CCFF4D636308"
+					item: {
+						Count: 1
+						id: "survivorsarsenal:scrap_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EC152DACBF83AD2"
+					item: {
+						Count: 1
+						id: "survivorsarsenal:scrap_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD762FA9E2B4899"
+					item: {
+						Count: 1
+						id: "survivorsarsenal:scrap_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bScrap"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "0D3998DFE56A1FB8"
+			tasks: [{
+				id: "51A0A88D8AC9E660"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:yellow_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bYellow Helmet Motorcycle"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "survival_instinct:black_hunter_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E8BD7BD93CD8C4B"
+			tasks: [{
+				id: "1375F519C9110A81"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:hunter_armor_helmet"
+					}
+				}
+				title: "Any #kubejs:hunter_armor_helmet"
+				type: "item"
+			}]
+			title: "&7Hunter Helmet"
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			id: "36B66A23B2EE3994"
+			tasks: [{
+				id: "312AA675899316B0"
+				item: {
+					Count: 1
+					id: "survivorsarsenal:gas_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&7Gas Mask"
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			id: "0996D7D090E2D027"
+			rewards: [{
+				id: "79769DF9398002B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "421CB62044BAF6BE"
+					item: "faz_roleplay_plus:plumber_cosplay_helmet"
+					type: "item"
+				}
+				{
+					id: "63DA03C2697FFAF6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "faz_roleplay_plus:plumber_cosplay_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "7BDB33B37FDCCB5F"
+					item: "faz_roleplay_plus:plumber_cosplay_leggings"
+					type: "item"
+				}
+			]
+			title: "&aPlumber"
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			id: "36A5B850FF7B58D3"
+			rewards: [{
+				id: "431FD5ACE767836E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2F27E033D000BC2D"
+					item: "faz_roleplay_plus:astronaut_suit_helmet"
+					type: "item"
+				}
+				{
+					id: "05FB9787619BBE17"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "faz_roleplay_plus:astronaut_suit_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "2F0C3E4BCBC096AF"
+					item: "faz_roleplay_plus:astronaut_suit_leggings"
+					type: "item"
+				}
+			]
+			title: "&aAstronaut"
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "2800EC68F462805B"
+			rewards: [{
+				id: "617807D06151B9E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "22576EF18BE7219A"
+					item: "faz_roleplay_plus:chef_suit_helmet"
+					type: "item"
+				}
+				{
+					id: "5FFC6566D30A246D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "faz_roleplay_plus:chef_suit_chestplate"
+						tag: {
+							PlateData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "207F39B1D3CF0734"
+					item: "faz_roleplay_plus:chef_suit_leggings"
+					type: "item"
+				}
+			]
+			title: "&aChef"
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			id: "67966C6BDF1EEC37"
+			rewards: [{
+				id: "62C53A56A21C1913"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "54117CBA6EAFA212"
+					item: "faz_roleplay_plus:firefighter_suit_helmet"
+					type: "item"
+				}
+				{
+					id: "4ED0A0A310F0123C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "faz_roleplay_plus:firefighter_suit_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "70049C91F3DB6C9B"
+					item: "faz_roleplay_plus:firefighter_suit_leggings"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "40310A821C238997"
+			rewards: [{
+				id: "41D2C3FF7FF8D5CB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "54EEB1E836336FBE"
+					item: {
+						Count: 1
+						id: "clothes_and_more:thawb_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "024582DF749734B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "clothes_and_more:thawb_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69047D8137AA799C"
+					item: {
+						Count: 1
+						id: "clothes_and_more:thawb_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aKeffiyeh"
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			id: "12B4043DF468AD7F"
+			rewards: [{
+				id: "575DBA360D291101"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5ABD181B50226EEC"
+					item: {
+						Count: 1
+						id: "clothes_and_more:mac_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EF6841D72746D50"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "clothes_and_more:mac_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78FB3EC1E0531676"
+					item: {
+						Count: 1
+						id: "clothes_and_more:mac_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aFastfood Service"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "005E19D0DD94F0C0"
+			rewards: [{
+				id: "637B06DA74962285"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "642C2D88264D8A9B"
+					item: {
+						Count: 1
+						id: "clothes_and_more:obrero_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15AB05A197E0C96E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "clothes_and_more:obrero_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7873A6AFB725B29E"
+					item: {
+						Count: 1
+						id: "clothes_and_more:obrero_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			id: "5BB76A2125BE2D25"
+			rewards: [{
+				id: "47F45F7A1F975B86"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "612BCA7C5A751720"
+					item: {
+						Count: 1
+						id: "clothes_and_more:medico_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "600AE15BC6A400D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "clothes_and_more:medico_chestplate"
+						tag: {
+							Damage: 0
+							PlateData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "409F6CD1BE3F5286"
+					item: {
+						Count: 1
+						id: "clothes_and_more:medico_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aMedic Suit"
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			id: "4FD10A2F97DE5095"
+			rewards: [{
+				id: "779B779F10DAFB62"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1AED6AB79828F67D"
+					item: "faz_roleplay_plus:mummy_costume_helmet"
+					type: "item"
+				}
+				{
+					id: "7CA11C4AC616FDDC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "faz_roleplay_plus:mummy_costume_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "603DAED152E2CC6B"
+					item: "faz_roleplay_plus:mummy_costume_leggings"
+					type: "item"
+				}
+			]
+			title: "&aMummy"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "1A875F55D7F8A9FF"
+			tasks: [
+				{
+					id: "3EB6F70ACC6BAF06"
+					item: {
+						Count: 1
+						id: "lrarmor:sniper_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7965C007AB609254"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:sniper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B84B106A08E4CE4"
+					item: {
+						Count: 1
+						id: "lrarmor:sniper_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F015D3B76F2932E"
+					item: {
+						Count: 1
+						id: "lrarmor:sniper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&8SNIPER"
+			x: 25.5d
+			y: -4.0d
+		}
+		{
+			id: "15B0B4E6ADAD6F70"
+			tasks: [
+				{
+					id: "4701E2C74A2E4D7E"
+					item: {
+						Count: 1
+						id: "lrarmor:medical_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "447A9C4E30A7F966"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:medical_chestplate"
+						tag: {
+							Damage: 0
+							PlateData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C65D17721140C7E"
+					item: {
+						Count: 1
+						id: "lrarmor:medical_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78A3FBE5EAD1B1A8"
+					item: {
+						Count: 1
+						id: "lrarmor:medical_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&8MEDICAL"
+			x: 25.5d
+			y: 0.5d
+		}
+		{
+			id: "201B4283C121697D"
+			tasks: [
+				{
+					id: "1F3060A7B2681A1C"
+					item: {
+						Count: 1
+						id: "lrarmor:attacker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76FFE6D621F0E06A"
+					item: {
+						Count: 1
+						id: "lrarmor:attacker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B9AA53108DCABF9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:attacker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6617C206CBFD5EDE"
+					item: {
+						Count: 1
+						id: "lrarmor:attacker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&8ATTACKER"
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			id: "460874A01A0D479D"
+			tasks: [
+				{
+					id: "5AD1C0E0E6CDA979"
+					item: {
+						Count: 1
+						id: "lrarmor:defender_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C0CBD88741301D4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:defender_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5467E20B672B7B64"
+					item: {
+						Count: 1
+						id: "lrarmor:defender_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77637C5DF69CF40A"
+					item: {
+						Count: 1
+						id: "lrarmor:defender_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&8DEFENDER"
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			id: "11E3A8A37452B841"
+			tasks: [
+				{
+					id: "4141748EA25364C1"
+					item: {
+						Count: 1
+						id: "lrarmor:joker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3739FF1C64C30BE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:joker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75C91009609EDAA1"
+					item: {
+						Count: 1
+						id: "lrarmor:joker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FB741CAE187865A"
+					item: {
+						Count: 1
+						id: "lrarmor:joker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7Joker Suit"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "1BD0537FDF45F993"
+			tasks: [
+				{
+					id: "1DE02E3A95BC4316"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72CC039DBEAC1F79"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:armored_chemical_chestplate"
+						tag: {
+							Damage: 0
+							PlateData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "114672E7979EF0F7"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "331AAA6BB5351E1F"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7Armored Chemical Suit"
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			id: "4E3FBA0E066F3FF0"
+			tasks: [
+				{
+					id: "45F34CD4EB616F01"
+					item: {
+						Count: 1
+						id: "lrarmor:chemical_protective_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EE41BD3C55426B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:chemical_protective_chestplate"
+						tag: {
+							Damage: 0
+							PlateData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "466B84E2606B5AEA"
+					item: {
+						Count: 1
+						id: "lrarmor:chemical_protective_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "762F6F7CEAF51B84"
+					item: {
+						Count: 1
+						id: "lrarmor:chemical_protective_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7Chemical Protective"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "3941D3B06AFE710C"
+			tasks: [
+				{
+					id: "3CACCEB2E2AD7362"
+					item: {
+						Count: 1
+						id: "lrarmor:scout_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0106F4F237BC5D94"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:scout_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "339958420FA72D2F"
+					item: {
+						Count: 1
+						id: "lrarmor:scout_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "594DF31A6D98F97A"
+					item: {
+						Count: 1
+						id: "lrarmor:scout_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&8SCOUT"
+			x: 25.5d
+			y: -2.5d
+		}
+		{
+			id: "2D7523BAF61AB93B"
+			tasks: [
+				{
+					id: "5E1FF28FE36E8DCE"
+					item: {
+						Count: 1
+						id: "lrarmor:fbi_armed_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E5EC35D0C4F92D7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:fbi_armed_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1398EDE01BE79E97"
+					item: {
+						Count: 1
+						id: "lrarmor:fbi_armed_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33B12E240FDE03FF"
+					item: {
+						Count: 1
+						id: "lrarmor:fbi_armed_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7FBI Tactical Suit"
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			id: "228E4BEBE1F74423"
+			tasks: [
+				{
+					id: "644427FA94E4FFBD"
+					item: {
+						Count: 1
+						id: "lrarmor:dea_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2295465B7B156440"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:dea_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A7AD7EF5263CDD1"
+					item: {
+						Count: 1
+						id: "lrarmor:dea_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C846945F948E0E5"
+					item: {
+						Count: 1
+						id: "lrarmor:dea_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7DEA Suit"
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "30D6C150BF4F1A7E"
+			tasks: [
+				{
+					id: "0CEB17333731C6D5"
+					item: {
+						Count: 1
+						id: "lrarmor:atf_vest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B1918C329A02925"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:atf_vest_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11219722C2E1A476"
+					item: {
+						Count: 1
+						id: "lrarmor:atf_vest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38DED77444CA3192"
+					item: {
+						Count: 1
+						id: "lrarmor:atf_vest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7ATF Heavy Suit"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			id: "791CED1494B8CF83"
+			tasks: [
+				{
+					id: "428A5C0095340087"
+					item: {
+						Count: 1
+						id: "lrarmor:atf_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14B359D285CD8CF0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:atf_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36F7BDDF3C99FF68"
+					item: {
+						Count: 1
+						id: "lrarmor:atf_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C9651D60049F34D"
+					item: {
+						Count: 1
+						id: "lrarmor:atf_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7ATF Suit"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			id: "253A2440C74C66DA"
+			tasks: [
+				{
+					id: "17766907284554A0"
+					item: {
+						Count: 1
+						id: "lrarmor:irs_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "794FC0391CEC1EC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:irs_chestplate"
+						tag: {
+							Damage: 0
+							PlateData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BF6991DD9E0D8A1"
+					item: {
+						Count: 1
+						id: "lrarmor:irs_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A3B2289147A16A8"
+					item: {
+						Count: 1
+						id: "lrarmor:irs_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7IRS Tactical Suit"
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			id: "28F0BAE6220CBB0C"
+			tasks: [
+				{
+					id: "36CEB385D440285E"
+					item: {
+						Count: 1
+						id: "lrarmor:dea_armed_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E6277775D4270AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:dea_armed_chestplate"
+						tag: {
+							Damage: 0
+							PlateData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71ADE58D502CD0CE"
+					item: {
+						Count: 1
+						id: "lrarmor:dea_armed_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07F42F785EACE833"
+					item: {
+						Count: 1
+						id: "lrarmor:dea_armed_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7DEA Tactical Suit"
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			id: "02324622E12BDFEE"
+			tasks: [
+				{
+					id: "4B8454B0C2B24093"
+					item: {
+						Count: 1
+						id: "lrarmor:fbi_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4981E5D07F378CE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "lrarmor:fbi_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1ACA66C046F30031"
+					item: {
+						Count: 1
+						id: "lrarmor:fbi_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F3625B94DA1C8BD"
+					item: {
+						Count: 1
+						id: "lrarmor:fbi_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7FBI Suit"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "3C239CF8B231F2E1"
+			tasks: [
+				{
+					id: "4463C13602AD963A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:recon_armor_helmet"
+						}
+					}
+					title: "Recon Helmet"
+					type: "item"
+				}
+				{
+					id: "09B4123FF47D59B1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:recon_armor_chestplate"
+						}
+					}
+					title: "Recon Chestplate"
+					type: "item"
+				}
+				{
+					id: "212E4928F205DE89"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:recon_armor_leggings"
+						}
+					}
+					title: "Recon Leggings"
+					type: "item"
+				}
+				{
+					id: "3D2E6850B33B73F0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:recon_armor_boots"
+						}
+					}
+					title: "Recon Boots"
+					type: "item"
+				}
+			]
+			title: "&8Recon"
+			x: 23.5d
+			y: -4.0d
+		}
+	]
+	title: "Armor"
+}
