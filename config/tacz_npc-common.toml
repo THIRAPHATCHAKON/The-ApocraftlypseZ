@@ -11,10 +11,10 @@ dropitems = true
 despawntime = 2000
 #Minimum patrol members to spawn
 #Range: > 1
-min = 3
+min = 2
 #Maximum patrol members to spawn
 #Range: > 1
-max = 8
+max = 5
 #The lowest durability value for guns to spawn with from TACZ Durability
 #Range: > 0
 from = 200

@@ -18,7 +18,7 @@
 	#NORMAL: More static soldiers, slower combat pacing.
 	#ADVANCED: More dynamic and aggressive soldiers.
 	#Allowed Values: NORMAL, ADVANCED
-	difficulty = "NORMAL"
+	difficulty = "ADVANCED"
 
 [unit_attributes]
 	#Max Health for All Units
@@ -70,11 +70,11 @@
 	eventGlobalCooldownTicks = 800
 	#Base spawn chance for Patrol Event (per minute)
 	#Range: 0.01 ~ 1.0
-	patrolBaseChance = 0.1
+	patrolBaseChance = 0.01
 	#--------------------------------------------------
 	#Chance accumulation rate on failure for Patrol Event
 	#Range: 0.01 ~ 0.5
-	patrolFailureMultiplier = 0.15
+	patrolFailureMultiplier = 0.01
 	#--------------------------------------------------
 	#Minimum squad size for Patrol Event
 	#Range: 1 ~ 10
@@ -84,7 +84,7 @@
 	patrolMaxSize = 4
 	#Base spawn chance for Combat Event (per minute)
 	#Range: 0.01 ~ 1.0
-	combatBaseChance = 0.06
+	combatBaseChance = 0.01
 	#--------------------------------------------------
 	#Chance accumulation rate on failure for Combat Event
 	#Range: 0.01 ~ 0.5
@@ -98,11 +98,11 @@
 	combatMaxSize = 5
 	#Base spawn chance for Cave Extraction Event (per minute)
 	#Range: 0.01 ~ 1.0
-	caveBaseChance = 0.02
+	caveBaseChance = 0.01
 	#--------------------------------------------------
 	#Chance accumulation rate on failure for Cave Extraction Event
 	#Range: 0.01 ~ 0.5
-	caveFailureMultiplier = 0.2
+	caveFailureMultiplier = 0.01
 	#--------------------------------------------------
 	#Minimum squad size for Cave Extraction Event
 	#Range: 1 ~ 10

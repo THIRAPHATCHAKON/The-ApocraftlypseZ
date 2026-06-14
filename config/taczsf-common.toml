@@ -4,12 +4,12 @@
 	#in ticks (20 ticks = 1 second)
 	#Default: 24000
 	#Range: > 1
-	tickCooldown = 24000
+	tickCooldown = 2000000000
 	#How many squads (mission commanders) can exist at the same time.
 	#I wouldn't recommend setting this all the way to the max...
 	#Default: 3
 	#Range: 1 ~ 128
-	squadCount = 3
+	squadCount = 1
 	#List of blocks that swat will take note of when player interacts with them.
 	#Will be used in missions such as raid
 	#Example: `minecraft:chest`, `minecraft:furnace`

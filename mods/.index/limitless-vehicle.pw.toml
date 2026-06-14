@@ -1,0 +1,18 @@
+filename = 'ywzj_vehicle-1.20.1-0.5.4.2-all.jar'
+name = 'Limitless Vehicle'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ywzj_vehicle-1.20.1-0.5.4.2-all.jar'
+
+[download]
+hash = '500acd29135390a1481be102ee3587b41347f262'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8068642
+project-id = 1446269

@@ -1,0 +1,26 @@
+[
+    {
+        "phase": "after0",
+        "mob": "simpleenemymod:ruunit",
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+            "minimum": 2,
+            "maximum": 5,
+            "groupdistance": 3
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 5,
+            "maxdist": 50,
+            "minheight": 0,
+            "maxheight": 250,
+            "maxthis": 100,
+            "and": {
+                "structure": ["survival_instinct:military_camp", "survival_instinct:facility"]
+            },
+            "not": {
+            }
+        }
+    }
+]

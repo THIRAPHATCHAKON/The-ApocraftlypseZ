@@ -165,22 +165,6 @@
     "curseForgeHash": 667370559,
     "modrinthHash": "7dc2266ee020d827cb1eae265befc54b8f59c684"
   },
-  "chaoszpack v.1.4.0 TacZ.jar": {
-    "jarName": "chaoszpack v.1.4.0 TacZ.jar",
-    "modId": "chaoszpack",
-    "name": "ChaosZPack",
-    "version": "1.4.0",
-    "curseForgeHash": 1882830030,
-    "modrinthHash": "c1a2f7468355c386cd5a905d8592de28591a539f"
-  },
-  "chaoszpack_structures-1.0.2-1.20.1.jar": {
-    "jarName": "chaoszpack_structures-1.0.2-1.20.1.jar",
-    "modId": "chaoszpack_structures",
-    "name": "ChaosZPack Structures",
-    "version": "1.0.2",
-    "curseForgeHash": 561781474,
-    "modrinthHash": "5a9035e37afbd5901b10839a3b73e4395a97c0c5"
-  },
   "chat_heads-0.15.1-forge-1.20.jar": {
     "jarName": "chat_heads-0.15.1-forge-1.20.jar",
     "modId": "chat_heads",
@@ -767,6 +751,14 @@
     "curseForgeHash": 3505711881,
     "modrinthHash": "e24ff44724300d441b2d615c2c7bf010bc8436f5"
   },
+  "incontrol-1.20-9.4.6.jar": {
+    "jarName": "incontrol-1.20-9.4.6.jar",
+    "modId": "incontrol",
+    "name": "InControl",
+    "version": "1.20-9.4.6",
+    "curseForgeHash": 438981801,
+    "modrinthHash": "0d324b97af98938f28f58f696e0b992c42eb8f31"
+  },
   "insanelib-1.23.4.4.jar": {
     "jarName": "insanelib-1.23.4.4.jar",
     "modId": "insanelib",
@@ -822,14 +814,6 @@
     "version": "1.1.1",
     "curseForgeHash": 2794999045,
     "modrinthHash": "ebe5e511a5d319c1b4733a9d87f22258584f2c0e"
-  },
-  "Keerdm Zombie Apocalypse Essentials (TACZ) 1.42.jar": {
-    "jarName": "Keerdm Zombie Apocalypse Essentials (TACZ) 1.42.jar",
-    "modId": "keerdm_zombie_essentials",
-    "name": "Keerdm\u0027s Zombie Apocalypse Essentials",
-    "version": "1.42",
-    "curseForgeHash": 2330381489,
-    "modrinthHash": "0bbdc50e6eee9991ac453767e0bb73796417939e"
   },
   "Knifes pack from cs2.jar": {
     "jarName": "Knifes pack from cs2.jar",
@@ -899,14 +883,6 @@
     "version": "1.20.1-2.13.1",
     "curseForgeHash": 1389353380,
     "modrinthHash": "804deb0bd34d69cad873170642b9d7e47fa0d6ad"
-  },
-  "lostcities-1.20-7.4.13.jar": {
-    "jarName": "lostcities-1.20-7.4.13.jar",
-    "modId": "lostcities",
-    "name": "LostCities",
-    "version": "1.20-7.4.13",
-    "curseForgeHash": 514034696,
-    "modrinthHash": "cdb4790307aa74d50013a47702f7a0a1a3e35279"
   },
   "lradd-1.20.1-0.3.0.jar": {
     "jarName": "lradd-1.20.1-0.3.0.jar",
@@ -1284,14 +1260,6 @@
     "curseForgeHash": 951170648,
     "modrinthHash": "7c2af544d05989e2f9d4e5fe569de438180f52de"
   },
-  "tacz_npc-1.2.0.jar": {
-    "jarName": "tacz_npc-1.2.0.jar",
-    "modId": "tacz_npc",
-    "name": "[Tacz] NPCs",
-    "version": "1.0.0",
-    "curseForgeHash": 482336399,
-    "modrinthHash": "a78f2999f3baa01512aeb5a94405ddff7999a6cd"
-  },
   "tacz_turrets-1.1.2-all.jar": {
     "jarName": "tacz_turrets-1.1.2-all.jar",
     "modId": "tacz_turrets",
@@ -1331,14 +1299,6 @@
     "version": "1.0.0",
     "curseForgeHash": 4118481799,
     "modrinthHash": "2dc5d3fa8cf2f45bda940e9299148b696c867611"
-  },
-  "taczsf-1.20.1-1.1.1.jar": {
-    "jarName": "taczsf-1.20.1-1.1.1.jar",
-    "modId": "taczsf",
-    "name": "[TaCZ] Special Forces",
-    "version": "1.20.1-1.1.1",
-    "curseForgeHash": 1993535821,
-    "modrinthHash": "0f3c115ff85854da3f8485528f9f4c687c3a972b"
   },
   "tcc-1.1.9.jar": {
     "jarName": "tcc-1.1.9.jar",
@@ -1475,6 +1435,14 @@
     "version": "3.6.6+1.20.1-forge",
     "curseForgeHash": 2226879195,
     "modrinthHash": "644731e321c53a35a0b3177a3cc6347fe38002f4"
+  },
+  "ywzj_vehicle-1.20.1-0.5.4.2-all.jar": {
+    "jarName": "ywzj_vehicle-1.20.1-0.5.4.2-all.jar",
+    "modId": "ywzj_vehicle",
+    "name": "Limitless Vehicle",
+    "version": "0.5.4.2",
+    "curseForgeHash": 2212586728,
+    "modrinthHash": "500acd29135390a1481be102ee3587b41347f262"
   },
   "zombie_siege_tacz-1.1.2.jar": {
     "jarName": "zombie_siege_tacz-1.1.2.jar",
