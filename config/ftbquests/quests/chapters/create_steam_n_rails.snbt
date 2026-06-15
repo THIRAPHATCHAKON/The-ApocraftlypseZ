@@ -5,7 +5,7 @@
 	group: "6D4DC18BEBCCC304"
 	icon: "railways:track_oak"
 	id: "2FEC356A041F853E"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [ ]
 	title: "Create: Steam 'n' Rails"

@@ -69,14 +69,6 @@
     "curseForgeHash": 98480002,
     "modrinthHash": "a52918a500ff421180a1cbd1a0cabee712134ec4"
   },
-  "ashvehicle-1.20.1-4.5-8.8.jar": {
-    "jarName": "ashvehicle-1.20.1-4.5-8.8.jar",
-    "modId": "ashvehicle",
-    "name": "ashvehicle",
-    "version": "1.20.1-4.5-8.8",
-    "curseForgeHash": 1098765073,
-    "modrinthHash": "1124537fbe79f856d104e8d3c8280b978cdfe18a"
-  },
   "Atlas Lib-1.20.1-1.1.12.jar": {
     "jarName": "Atlas Lib-1.20.1-1.1.12.jar",
     "modId": "atlaslib",
@@ -1204,14 +1196,6 @@
     "curseForgeHash": 315474361,
     "modrinthHash": "c2f2d42c987a611c6a14769ec02099e3439dc0f3"
   },
-  "superbwarfare-1.20.1-0.8.8-final-6a6b54795.jar": {
-    "jarName": "superbwarfare-1.20.1-0.8.8-final-6a6b54795.jar",
-    "modId": "superbwarfare",
-    "name": "Superb Warfare",
-    "version": "0.8.8",
-    "curseForgeHash": 1498538175,
-    "modrinthHash": "93e14d39c3328b88eb54e6018e5f2f88f32cdb73"
-  },
   "survival_instinct-1.0.2-forge-1.20.1.jar": {
     "jarName": "survival_instinct-1.0.2-forge-1.20.1.jar",
     "modId": "survival_instinct",
@@ -1299,6 +1283,14 @@
     "version": "1.0.0",
     "curseForgeHash": 4118481799,
     "modrinthHash": "2dc5d3fa8cf2f45bda940e9299148b696c867611"
+  },
+  "taczsf-1.20.1-1.1.1.jar": {
+    "jarName": "taczsf-1.20.1-1.1.1.jar",
+    "modId": "taczsf",
+    "name": "[TaCZ] Special Forces",
+    "version": "1.20.1-1.1.1",
+    "curseForgeHash": 1993535821,
+    "modrinthHash": "0f3c115ff85854da3f8485528f9f4c687c3a972b"
   },
   "tcc-1.1.9.jar": {
     "jarName": "tcc-1.1.9.jar",
@@ -1395,14 +1387,6 @@
     "version": "1.0.0",
     "curseForgeHash": 2310551780,
     "modrinthHash": "a1d1c2d761a999f9fc3cd74d5c5f0e65d7eef7aa"
-  },
-  "vvp-beta-1.20.1-0.2.0.jar": {
-    "jarName": "vvp-beta-1.20.1-0.2.0.jar",
-    "modId": "vvp",
-    "name": "Vintage Vehicle Pack",
-    "version": "0.2.0",
-    "curseForgeHash": 2213793479,
-    "modrinthHash": "0c7af7a1b4cf3e06ab90b7eea8d1ac3bb324686f"
   },
   "watut-forge-1.20.1-1.2.3.jar": {
     "jarName": "watut-forge-1.20.1-1.2.3.jar",

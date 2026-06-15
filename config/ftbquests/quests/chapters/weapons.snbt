@@ -244,172 +244,6 @@
 			y: 0.5d
 		}
 		{
-			id: "0B9F8F76538D90EE"
-			rewards: [{
-				id: "03EE90F625F970F5"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6C2B84DE7C6CC88A"
-				item: {
-					Count: 1
-					id: "superbwarfare:t_baton"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.5d
-		}
-		{
-			id: "5720EEEF722BCEED"
-			rewards: [{
-				id: "646AC6107C09B119"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "34358DFE77A34373"
-				item: {
-					Count: 1
-					id: "superbwarfare:netherite_hammer"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 22.5d
-			y: -0.5d
-		}
-		{
-			id: "57BA8EE71A3580BE"
-			rewards: [{
-				id: "6CFE936E4126E6E5"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "38CC7F107EF3BF10"
-				item: {
-					Count: 1
-					id: "superbwarfare:cemented_carbide_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 22.0d
-			y: -2.0d
-		}
-		{
-			id: "562711D40FACEAE3"
-			rewards: [{
-				id: "04DD8146D3EF784B"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0A5F2D2CE1EF7D8F"
-				item: {
-					Count: 1
-					id: "superbwarfare:diamond_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 28.5d
-			y: -3.5d
-		}
-		{
-			id: "307B2564075545A4"
-			rewards: [{
-				id: "17B445914DCF7BF0"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "087B1CF35AFCB1AB"
-				item: {
-					Count: 1
-					id: "superbwarfare:steel_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 28.5d
-			y: -0.5d
-		}
-		{
-			id: "47C6674CB48858B0"
-			rewards: [{
-				id: "60D001B137910D9E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "743CDD9EDBDB2647"
-				item: {
-					Count: 1
-					id: "superbwarfare:golden_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 11.0d
-			y: -2.0d
-		}
-		{
-			id: "08396A346F6B1920"
-			rewards: [{
-				id: "733444941E013F81"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "32E5EAC7B8D4DA4D"
-				item: {
-					Count: 1
-					id: "superbwarfare:hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: -2.0d
-		}
-		{
-			id: "4D3F7DE93AB22FB2"
-			rewards: [{
-				id: "152A210E87750F60"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "17E2F25E51E5B94F"
-				item: {
-					Count: 1
-					id: "superbwarfare:knife"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -16.0d
-			y: 0.5d
-		}
-		{
 			id: "1A0771A74315C7B8"
 			rewards: [{
 				id: "3A8B29ABBFACD9DC"
@@ -557,48 +391,6 @@
 			y: 2.5d
 		}
 		{
-			id: "4D1640CAF62467A2"
-			rewards: [{
-				id: "3292E60B9336C928"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3E02434C9947E542"
-				item: {
-					Count: 1
-					id: "superbwarfare:steel_pipe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.0d
-		}
-		{
-			id: "489094F830009A88"
-			rewards: [{
-				id: "0EB4CD76A32627AF"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "1FA42944AA7ADD70"
-				item: {
-					Count: 1
-					id: "superbwarfare:electric_baton"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: -0.5d
-		}
-		{
 			id: "66379A4DD1092F10"
 			rewards: [{
 				id: "1999E8A26541EBB3"
@@ -616,8 +408,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 4.5d
+			x: -16.0d
+			y: 0.5d
 		}
 		{
 			id: "70B5554A1EC80B8E"
@@ -847,8 +639,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			id: "2A67DC4C873421E4"
@@ -1219,8 +1011,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
 			id: "654782C41D7A1AA2"
@@ -1765,8 +1557,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			id: "1DEE29B659F8F667"
@@ -1870,8 +1662,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.0d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			id: "788BC982740FE786"
@@ -2064,8 +1856,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.0d
-			y: -0.5d
+			x: 28.5d
+			y: -3.5d
 		}
 		{
 			id: "23D105893A157AF0"
@@ -2086,8 +1878,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.5d
-			y: -0.5d
+			x: 22.0d
+			y: -2.0d
 		}
 		{
 			id: "05FECFE82B87D710"
@@ -2129,7 +1921,7 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
+			x: 22.5d
 			y: -0.5d
 		}
 		{

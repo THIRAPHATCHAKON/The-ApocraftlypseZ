@@ -1,1 +1,75 @@
-[]
+[
+  { "mob": "taczsf:swat_entity", "incontrol": true, "dimension": "minecraft:overworld", "phase": "after0", "random": 0.111, "result": "allow", "nbt": { "Specialty": "scout" } },
+  { "mob": "taczsf:swat_entity", "incontrol": true, "dimension": "minecraft:overworld", "phase": "after0", "random": 0.125, "result": "allow", "nbt": { "Specialty": "engineer" } },
+  { "mob": "taczsf:swat_entity", "incontrol": true, "dimension": "minecraft:overworld", "phase": "after0", "random": 0.143, "result": "allow", "nbt": { "Specialty": "bulldozer" } },
+  { "mob": "taczsf:swat_entity", "incontrol": true, "dimension": "minecraft:overworld", "phase": "after0", "random": 0.167, "result": "allow", "nbt": { "Specialty": "grenadier" } },
+  { "mob": "taczsf:swat_entity", "incontrol": true, "dimension": "minecraft:overworld", "phase": "after0", "random": 0.2,   "result": "allow", "nbt": { "Specialty": "assaulter" } },
+  { "mob": "taczsf:swat_entity", "incontrol": true, "dimension": "minecraft:overworld", "phase": "after0", "random": 0.25,  "result": "allow", "nbt": { "Specialty": "commander" } },
+  { "mob": "taczsf:swat_entity", "incontrol": true, "dimension": "minecraft:overworld", "phase": "after0", "random": 0.333, "result": "allow", "nbt": { "Specialty": "spy" } },
+  { "mob": "taczsf:swat_entity", "incontrol": true, "dimension": "minecraft:overworld", "phase": "after0", "random": 0.5,   "result": "allow", "nbt": { "Specialty": "medic" } },
+  { "mob": "taczsf:swat_entity", "incontrol": true, "dimension": "minecraft:overworld", "phase": "after0", "result": "allow", "nbt": { "Specialty": "sniper" } },
+  { "mob": "taczsf:swat_entity", "incontrol": true, "result": "deny" },
+    {
+        "mob": "minecraft:zombie",
+        "when": "finalize",
+        "mintime": 13000,
+        "maxtime": 23000,
+        "healthadd": 15,
+        "continue": true
+    },
+    {
+        "mob": "minecraft:zombie",
+        "phase": "day_00_09",
+        "when": "finalize",
+        "result": "allow",
+        "armorhelmet": [
+            "minecraft:iron_helmet",
+            "minecraft:golden_helmet"
+        ]
+    },
+    {
+        "mob": "minecraft:zombie",
+        "phase": "day_00_19",
+        "when": "finalize",
+        "result": "allow",
+        "armorhelmet": []
+    },
+        {
+        "mob": "minecraft:zombie",
+        "phase": "day_20_39",
+        "when": "finalize",
+        "result": "allow",
+        "armorhelmet": [
+            "minecraft:iron_helmet",
+            "minecraft:golden_helmet"
+        ]
+    },
+    {
+        "mob": "minecraft:zombie",
+        "phase": "day_40_59",
+        "when": "finalize",
+        "result": "allow",
+        "armorhelmet": []
+    },
+    {
+        "mob": "minecraft:zombie",
+        "phase": "day_60_79",
+        "when": "finalize",
+        "result": "allow",
+        "armorhelmet": []
+    },
+    {
+        "mob": "minecraft:zombie",
+        "phase": "day_80_99",
+        "when": "finalize",
+        "result": "allow",
+        "armorhelmet": []
+    },
+    {
+        "mob": "minecraft:zombie",
+        "phase": "day_100_plus",
+        "when": "finalize",
+        "result": "allow",
+        "armorhelmet": []
+    }
+]
